@@ -1,16 +1,14 @@
-# hello
-
-## 개요
-
-Hello World 출력하기
+# springboot sample 만들기
 
 ## 개발환경
+* Spring Tool Suite 4 (4.22.0)
+* SpringBoot 3.2.3
+* JDK17
+* Maven (nexus gradle 서버에 springboot 3.2.3 이 없어서 maven 사용)
 
-- Spring Tool Suite 4 (4.22.0)
-- SpringBoot 3.2.3
-- JDK17
-- Maven
+## 프로젝트 목록
 
-## 설명
-
-- [SpringBoot 개발환경 설정후 Hello World 출력](https://blog.naver.com/hi-happyj/223385354383)
+|프로젝트명|개요|작성일|
+|---|:---|:---:|
+|**hello**    |Hello World 찍기|24.03.18|
+|**hello-jsp**|Hello JSP 찍기  |24.03.18|
