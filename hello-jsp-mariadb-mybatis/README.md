@@ -15,3 +15,4 @@ mariadb mybatis select 해서 JSP 출력하기
 
 - mariadb mybatis 연동
 - select -> JSP 출력
+- [설정](https://velog.io/@isbe/STS4-Mariadb-Mybatis-JSP-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
