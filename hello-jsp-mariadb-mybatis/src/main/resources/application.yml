@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: jsp-mariadb-mybatis
+
+  # JSP 설정  
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+      
+  # DB 연결정보 설정          
+  datasource:
+    url: jdbc:mariadb://localhost:3306/mydb?serverTimezone=UTC&characterEncoding=UTF-8
+    username: user1
+    password: 1234
+    driver-class-name: org.mariadb.jdbc.Driver
+
+# mybatis 설정
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: mappers/**/*.xml
+    
