@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.spring.boot.mapper.BoardMapper">
+
+<select id="selectBoardListCount" parameterType="hashMap" resultType="int">
+    SELECT IFNULL(COUNT(*),0) 
+      FROM BOARD
+     WHERE ${searchKey} LIKE CONCAT('%',#{searchValue},'%')
+</select>
+
+<select id="selectBoardList" parameterType="map" resultType="com.spring.boot.model.BoardDTO">
+    SELECT *
+      FROM ( 
+            SELECT @ROWNUM:=@ROWNUM+1 RNUM,
+                   A.*
+              FROM (
+                       SELECT NUM,
+                           NAME,
+                           SUBJECT,
+                           HIT_COUNT,
+                           DATE_FORMAT(CREATED, '%Y-%m-%d') CREATED
+                      FROM BOARD
+                     WHERE ${searchKey} LIKE CONCAT('%', #{searchValue}, '%')
+                   ) A, (SELECT @ROWNUM:=0) AS R
+             ORDER BY NUM DESC                            
+           ) B
+<![CDATA[
+	WHERE RNUM >= #{start} AND RNUM <= #{end}
+]]>
+</select>
+
+<select id="selectBoard" parameterType="int" resultType="com.spring.boot.model.BoardDTO">
+    SELECT NUM, NAME, PWD, EMAIL, SUBJECT, CONTENT, IP_ADDR, HIT_COUNT, CREATED 
+      FROM BOARD 
+     WHERE NUM=#{num}
+</select>
+
+<select id="maxNum" resultType="int">
+    SELECT IFNULL(MAX(NUM),0) FROM BOARD
+</select>
+
+<insert id="insertBoard" parameterType="com.spring.boot.model.BoardDTO">
+    INSERT INTO BOARD (NUM, NAME, PWD, EMAIL, SUBJECT, CONTENT, IP_ADDR, HIT_COUNT, CREATED) 
+    VALUES (#{num}, #{name}, #{pwd}, #{email}, #{subject}, #{content}, #{ipAddr}, 0, sysdate())
+</insert>
+
+<update id="updateBoardHitCount" parameterType="int">
+    UPDATE BOARD SET HIT_COUNT = HIT_COUNT + 1 WHERE NUM = #{num}
+</update>
+
+<update id="updateBoard" parameterType="com.spring.boot.model.BoardDTO">
+    UPDATE BOARD 
+       SET NAME=#{name}
+         , PWD=#{pwd}
+         , EMAIL=#{email}
+         , SUBJECT=#{subject}
+         , CONTENT=#{content} 
+     WHERE NUM=#{num}
+</update>
+
+<delete id="deleteBoard" parameterType="int">
+    DELETE FROM BOARD WHERE NUM = #{num}
+</delete>
+
+</mapper>
