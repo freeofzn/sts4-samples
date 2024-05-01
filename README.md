@@ -10,8 +10,9 @@
 ## 프로젝트 목록
 
 | 프로젝트명                         | 개요                                     |  작성일  |
-| -----------------------------      | :--------------------------------------- | :------: |
+| ---------------------------------- | :--------------------------------------- | :------: |
 | **hello**                          | Hello World 찍기                         | 24.03.18 |
 | **hello-jsp**                      | Hello JSP 찍기                           | 24.03.18 |
 | **hello-jsp-mariadb-mybatis**      | mariadb mybatis select 해서 JSP 출력하기 | 24.03.19 |
 | **hello-jsp-mariadb-mybatis-crud** | mariadb mybatis JSP crud 샘플            | 24.03.26 |
+| **hello-security**                 | spring security(session) JPA thymeleaf   | 24.05.01 |

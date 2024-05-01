@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>List</title>
+    <th:block th:replace="~{fragments/head :: head}"></th:block>
+  </head>
+  <body>
+    <th:block th:replace="~{fragments/nav.html :: navbar}"></th:block>
+    <h4>로그인 사용자 페이지</h4>
+    <h5>로그인한 모든유저가 볼 수 있는 페이지 입니다.</h5>
+
+    <div><span>아이디: </span><span sec:authentication="principal.username"></span></div>
+    <div><span>이름: </span><span sec:authentication="principal.displayName"></span></div>
+    <div><span>권한목록:</span> 
+    <span th:each="authority : ${#authentication.principal.authorities}">
+      <span th:text="${authority}"></span>
+    </span>
+  </body>
+</html>

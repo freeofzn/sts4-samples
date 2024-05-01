@@ -1,0 +1,25 @@
+<div class="nav" th:fragment="navbar">
+  <a class="logo">Hello Security</a>
+  <a href="/allUser">모든유저</a>
+  <a href="/loginUser">로그인유저</a>
+  <a href="/acct">재무</a>
+  <a href="/sale">영업</a>
+  <a href="/admin">관리자</a>
+
+  <!-- 비로그인 일때만 보여주기-->
+  <div sec:authorize="!isAuthenticated()">
+    <a href="/login">로그인</a>
+  </div>
+
+  <!-- 로그인 일때만 보여주기-->
+  <div sec:authorize="isAuthenticated()">
+    <span sec:authentication="name"></span>
+    <th:block sec:authentication="principal.authorities">
+      <span th:each="authority : ${principal.authorities}" th:text="${authority.authority}"></span>
+    </th:block>
+    <form action="/logout" method="POST">
+      <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+      <button type="submit">로그아웃</button>
+    </form>
+  </div>
+</div>
