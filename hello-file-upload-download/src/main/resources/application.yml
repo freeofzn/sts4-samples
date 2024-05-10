@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: hellofileupload
+    
+  # fileupoad 최대용량 설정(디폴트는 1MB)
+  servlet:
+    multipart:
+      maxFileSize: 50MB
+      maxRequestSize : 50MB     
+      
+# 파일업로드 디렉토리 설정      
+file:
+  upload-directory: D:/dev/workspace/sts4-samples/hello-file-upload-download/src/main/resources/static/uploads 

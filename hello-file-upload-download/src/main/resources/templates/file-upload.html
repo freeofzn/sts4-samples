@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Write</title>
+    <link href="/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input name="title" placeholder="상품" />
+      <input name="price" placeholder="가격" />
+      <input type="file" name="photo" />
+      <button type="submit">파일업로드</button>
+    </form>
+
+    <input name="downloadFilename" placeholder="파일명" />
+    <button onclick="downloadFile()">다운로드</button>
+    <button onclick="previewImage()">미리보기</button>
+    <p>
+      <img id="previewImage" src="#" alt="미리보기 이미지" style="max-width: 300px; max-height: 300px;" />
+    </p>
+
+    <script th:inline="javascript">
+      // 다운로드
+      async function downloadFile() {
+        let downloadFilename = document.querySelector("input[name='downloadFilename']").value;
+        try {
+          const response = await fetch("/download/" + downloadFilename);
+          if (!response.ok) {
+            throw new Error("File not found");
+          }
+          // 파일 다운로드를 위한 Blob 생성
+          const blob = await response.blob();
+          const url = window.URL.createObjectURL(blob);
+
+          // 다운로드 링크 생성
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = downloadFilename;
+          document.body.appendChild(a);
+          a.click();
+          window.URL.revokeObjectURL(url);
+        } catch (error) {
+          alert(error.message);
+        }
+      }
+
+      // 미리보기
+      async function previewImage() {
+        let downloadFilename = document.querySelector("input[name='downloadFilename']").value;
+        try {
+          const response = await fetch("/download/" + downloadFilename);
+          if (!response.ok) {
+            throw new Error("File not found");
+          }
+          // 파일 다운로드를 위한 Blob 생성
+          const blob = await response.blob();
+          const url = window.URL.createObjectURL(blob);
+
+          // 미리보기 생성
+          var previewImage = document.getElementById("previewImage");
+          previewImage.src = url;
+        } catch (error) {
+          alert(error.message);
+        }
+      }
+    </script>
+  </body>
+</html>
