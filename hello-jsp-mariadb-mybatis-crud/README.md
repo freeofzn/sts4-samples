@@ -1,4 +1,4 @@
-# hello-jsp
+# hello-jsp-mariadb-mybatis-crud
 
 ## 개요
 
