@@ -1,4 +1,4 @@
-# hello-jsp
+# hello-jsp-mariadb-mybati
 
 ## 개요
 
