@@ -26,7 +26,7 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Transactional
     public UserDetails loadUserByUsername(String userId) throws UsernameNotFoundException {    
         Optional<Member> memberOptional = memberRepository.findById(userId);
-        
+       
         Member member = memberOptional.orElseThrow(() -> new UsernameNotFoundException("아이디 없음")); // 에러 어디서 받음 ??? -> 학습필요 
 
         List<GrantedAuthority> authorities = member.getRoles().stream()

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: securityjwt
+    
+  # DB 연결정보 설정          
+  datasource:
+    url: jdbc:mysql://localhost:3306/sts4_samples?serverTimezone=UTC&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: user1
+    password: 1234     
+
+  # JPA 설정    
+  jpa:
+    hibernate:
+      ddl-auto: none # 엔티티 기반으로 테이블 생성(create, update)후 반드시 none 으로 바꿔주기  
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl 
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: false
+      
+  # 임의의 jwt secret 변수 설정      
+  jwt:
+    secret: abcdefgasdfsadfsadfasdfasdfsadfsafdasdfadfasdfsadfsadfasdfasdfsafdsafdsadfsdf        
