@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.springjwt.mapper.RefreshTokenMapper">
+	<select id="existsByRefreshToken" parameterType="String" resultType="boolean">
+	    SELECT CASE WHEN COUNT(1) > 0 THEN TRUE ELSE FALSE END
+	      FROM EPL_REFRESH_TOKEN
+	     WHERE REFRESH_TOKEN = #{refreshToken}
+	</select>	
+        
+    <insert id="insertRefreshToken" parameterType="com.example.springjwt.model.RefreshTokenDTO">
+	    INSERT INTO EPL_REFRESH_TOKEN (USERNAME, REFRESH_TOKEN, EXPIRATION)
+	    VALUES (#{username}, #{refreshToken}, #{expiration})
+    </insert>
+
+    <delete id="deleteRefreshToken">
+        DELETE FROM EPL_REFRESH_TOKEN WHERE REFRESH_TOKEN = #{refreshToken}
+    </delete>    
+    
+</mapper>

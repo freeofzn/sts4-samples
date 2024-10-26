@@ -1,0 +1,1392 @@
+2024-10-07 14:39:06.917  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 14:39:07.231  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 14:39:07.309  INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-07 14:39:07.312  INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-07 14:39:09.710  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 14:39:09.724  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:39:09.729  INFO - Starting service [Tomcat]
+2024-10-07 14:39:09.730  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 14:39:09.853  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 14:39:09.854  INFO - Root WebApplicationContext: initialization completed in 2541 ms
+2024-10-07 14:39:10.510  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-07 14:39:11.040  INFO - LiveReload server is running on port 35729
+2024-10-07 14:39:11.066  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:39:11.128  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 14:39:11.142  INFO - Started SecurityApplication in 5.249 seconds (process running for 8.639)
+2024-10-07 14:43:06.385  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 14:43:06.385  INFO - Initializing Servlet 'dispatcherServlet'
+2024-10-07 14:43:06.386  INFO - Completed initialization in 1 ms
+2024-10-07 14:43:06.505  INFO - HikariPool-1 - Starting...
+2024-10-07 14:43:06.754  INFO - 1. Connection opened. {executed in 208ms} 
+2024-10-07 14:43:06.755  INFO - 1. Connection.new Connection returned 
+2024-10-07 14:43:06.756  INFO - 1. Connection.getNetworkTimeout() returned 0
+2024-10-07 14:43:06.756  INFO - 1. Connection.isReadOnly() returned false
+2024-10-07 14:43:06.756  INFO - 1. Connection.getAutoCommit() returned true
+2024-10-07 14:43:06.798  INFO - 1. Connection.isValid(1) returned true
+2024-10-07 14:43:06.835  INFO - 1. Connection.getTransactionIsolation() returned 4
+2024-10-07 14:43:06.836  INFO - HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@333b0c7c
+2024-10-07 14:43:06.838  INFO - HikariPool-1 - Start completed.
+2024-10-07 14:43:06.840  INFO - 1. Connection.getAutoCommit() returned true
+2024-10-07 14:43:06.855  INFO - 1. PreparedStatement.new PreparedStatement returned 
+2024-10-07 14:43:06.855  INFO - 1. Connection.prepareStatement(SELECT ID, USERNAME, PASSWORD, ROLE FROM USER) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6404821f
+2024-10-07 14:43:06.888  INFO - 1. SELECT ID, USERNAME, PASSWORD, ROLE FROM USER  {executed in 31 ms}
+2024-10-07 14:43:06.889  INFO - 1. PreparedStatement.execute() returned true
+2024-10-07 14:43:06.892  INFO - 1. ResultSet.new ResultSet returned 
+2024-10-07 14:43:06.892  INFO - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@28dc1973
+2024-10-07 14:43:06.896  INFO - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@6c490534 - Field level information: 
+	com.mysql.cj.result.Field@ea38a04[dbName=poglog,tableName=USER,originalTableName=user,columnName=ID,originalColumnName=ID,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@3ce37e08[dbName=poglog,tableName=USER,originalTableName=user,columnName=USERNAME,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@4607a807[dbName=poglog,tableName=USER,originalTableName=user,columnName=PASSWORD,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@62437556[dbName=poglog,tableName=USER,originalTableName=user,columnName=ROLE,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+2024-10-07 14:43:06.898  INFO - 1. ResultSet.getType() returned 1003
+2024-10-07 14:43:06.898  INFO - 1. ResultSet.isClosed() returned false
+2024-10-07 14:43:06.898  INFO - 1. ResultSet.next() returned true
+2024-10-07 14:43:06.900  INFO - 1. ResultSet.getString(ID) returned 10
+2024-10-07 14:43:06.900  INFO - 1. ResultSet.getString(USERNAME) returned njlee
+2024-10-07 14:43:06.900  INFO - 1. ResultSet.getString(PASSWORD) returned $2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi
+2024-10-07 14:43:06.900  INFO - 1. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-07 14:43:06.900  INFO - 1. ResultSet.isClosed() returned false
+2024-10-07 14:43:06.901  INFO - 1. ResultSet.next() returned true
+2024-10-07 14:43:06.901  INFO - 1. ResultSet.getString(ID) returned 11
+2024-10-07 14:43:06.901  INFO - 1. ResultSet.getString(USERNAME) returned njlee2
+2024-10-07 14:43:06.901  INFO - 1. ResultSet.getString(PASSWORD) returned $2a$10$r07XhddKSd2Y7NtySLniR.lYWkV46PqTDXgSRsL1SjrgMsDTXInq2
+2024-10-07 14:43:06.901  INFO - 1. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-07 14:43:06.901  INFO - 1. ResultSet.isClosed() returned false
+2024-10-07 14:43:06.901  INFO - 1. ResultSet.next() returned true
+2024-10-07 14:43:07.022  INFO - 2. Connection opened. {executed in 29ms} 
+2024-10-07 14:43:08.941  INFO - 2. Connection.new Connection returned 
+2024-10-07 14:43:08.941  INFO - 1. ResultSet.getString(ID) returned 12
+2024-10-07 14:43:08.941  INFO - 2. Connection.isReadOnly() returned false
+2024-10-07 14:43:08.942  INFO - 2. Connection.getAutoCommit() returned true
+2024-10-07 14:43:08.942  INFO - 1. ResultSet.getString(USERNAME) returned njlee3
+2024-10-07 14:43:08.942  INFO - 1. ResultSet.getString(PASSWORD) returned $2a$10$RRvgbB02H35hnkrxeZXEIezOu/lojfN/W4.a6DlFxGTj.r60dqvEi
+2024-10-07 14:43:08.942  INFO - 1. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-07 14:43:08.942  INFO - 1. ResultSet.isClosed() returned false
+2024-10-07 14:43:08.944  INFO - 
+|---|---------|-------------------------------------------------------------|-----------|
+|id |username |password                                                     |role       |
+|---|---------|-------------------------------------------------------------|-----------|
+|10 |njlee    |$2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi |ROLE_ADMIN |
+|11 |njlee2   |$2a$10$r07XhddKSd2Y7NtySLniR.lYWkV46PqTDXgSRsL1SjrgMsDTXInq2 |ROLE_ADMIN |
+|12 |njlee3   |$2a$10$RRvgbB02H35hnkrxeZXEIezOu/lojfN/W4.a6DlFxGTj.r60dqvEi |ROLE_ADMIN |
+|---|---------|-------------------------------------------------------------|-----------|
+
+2024-10-07 14:43:08.944  INFO - 1. ResultSet.next() returned false
+2024-10-07 14:43:08.944  INFO - 1. ResultSet.close() returned void
+2024-10-07 14:43:08.944  INFO - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@396c3a93
+2024-10-07 14:43:08.947  INFO - 1. PreparedStatement.getMoreResults() returned false
+2024-10-07 14:43:08.947  INFO - 1. PreparedStatement.getUpdateCount() returned -1
+2024-10-07 14:43:08.947  INFO - 1. PreparedStatement.close() returned 
+2024-10-07 14:43:08.952  INFO - 1. Connection.clearWarnings() returned 
+2024-10-07 14:43:09.008  INFO - 3. Connection opened. {executed in 28ms} 
+2024-10-07 14:43:09.008  INFO - 3. Connection.new Connection returned 
+2024-10-07 14:43:09.008  INFO - 3. Connection.isReadOnly() returned false
+2024-10-07 14:43:09.008  INFO - 3. Connection.getAutoCommit() returned true
+2024-10-07 14:43:09.051  INFO - 4. Connection opened. {executed in 10ms} 
+2024-10-07 14:43:09.052  INFO - 4. Connection.new Connection returned 
+2024-10-07 14:43:09.052  INFO - 4. Connection.isReadOnly() returned false
+2024-10-07 14:43:09.052  INFO - 4. Connection.getAutoCommit() returned true
+2024-10-07 14:43:09.091  INFO - 5. Connection opened. {executed in 8ms} 
+2024-10-07 14:43:09.091  INFO - 5. Connection.new Connection returned 
+2024-10-07 14:43:09.092  INFO - 5. Connection.isReadOnly() returned false
+2024-10-07 14:43:09.092  INFO - 5. Connection.getAutoCommit() returned true
+2024-10-07 14:43:09.140  INFO - 6. Connection opened. {executed in 16ms} 
+2024-10-07 14:43:09.140  INFO - 6. Connection.new Connection returned 
+2024-10-07 14:43:09.140  INFO - 6. Connection.isReadOnly() returned false
+2024-10-07 14:43:09.140  INFO - 6. Connection.getAutoCommit() returned true
+2024-10-07 14:43:09.185  INFO - 7. Connection opened. {executed in 12ms} 
+2024-10-07 14:43:09.185  INFO - 7. Connection.new Connection returned 
+2024-10-07 14:43:09.185  INFO - 7. Connection.isReadOnly() returned false
+2024-10-07 14:43:09.185  INFO - 7. Connection.getAutoCommit() returned true
+2024-10-07 14:43:09.229  INFO - 8. Connection opened. {executed in 12ms} 
+2024-10-07 14:43:09.230  INFO - 8. Connection.new Connection returned 
+2024-10-07 14:43:09.230  INFO - 8. Connection.isReadOnly() returned false
+2024-10-07 14:43:09.600  INFO - 8. Connection.getAutoCommit() returned true
+2024-10-07 14:43:09.634  INFO - 9. Connection opened. {executed in 3ms} 
+2024-10-07 14:43:09.634  INFO - 9. Connection.new Connection returned 
+2024-10-07 14:43:09.634  INFO - 9. Connection.isReadOnly() returned false
+2024-10-07 14:43:09.634  INFO - 9. Connection.getAutoCommit() returned true
+2024-10-07 14:43:09.675  INFO - 10. Connection opened. {executed in 9ms} 
+2024-10-07 14:43:09.675  INFO - 10. Connection.new Connection returned 
+2024-10-07 14:43:09.675  INFO - 10. Connection.isReadOnly() returned false
+2024-10-07 14:43:09.676  INFO - 10. Connection.getAutoCommit() returned true
+2024-10-07 14:44:57.484  INFO - 로그인 실패
+2024-10-07 14:45:45.813  INFO - 1. Connection.isValid(5) returned true
+2024-10-07 14:45:45.813  INFO - 1. Connection.getAutoCommit() returned true
+2024-10-07 14:45:45.814  INFO - 1. PreparedStatement.new PreparedStatement returned 
+2024-10-07 14:45:45.814  INFO - 1. Connection.prepareStatement(SELECT ID, USERNAME, PASSWORD, ROLE FROM USER WHERE USERNAME = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6770f842
+2024-10-07 14:45:45.814  INFO - 1. PreparedStatement.setString(1, "njlee") returned 
+2024-10-07 14:45:45.826  INFO - 1. SELECT ID, USERNAME, PASSWORD, ROLE FROM USER WHERE USERNAME = 'njlee'  {executed in 12 ms}
+2024-10-07 14:45:45.826  INFO - 1. PreparedStatement.execute() returned true
+2024-10-07 14:45:45.826  INFO - 1. ResultSet.new ResultSet returned 
+2024-10-07 14:45:45.826  INFO - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4f990514
+2024-10-07 14:45:45.827  INFO - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@7831fc2e - Field level information: 
+	com.mysql.cj.result.Field@4114851[dbName=poglog,tableName=USER,originalTableName=user,columnName=ID,originalColumnName=ID,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@717db3e6[dbName=poglog,tableName=USER,originalTableName=user,columnName=USERNAME,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@764ba978[dbName=poglog,tableName=USER,originalTableName=user,columnName=PASSWORD,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@1eceb13[dbName=poglog,tableName=USER,originalTableName=user,columnName=ROLE,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+2024-10-07 14:45:45.827  INFO - 1. ResultSet.getType() returned 1003
+2024-10-07 14:45:45.827  INFO - 1. ResultSet.isClosed() returned false
+2024-10-07 14:45:45.827  INFO - 1. ResultSet.next() returned true
+2024-10-07 14:45:45.828  INFO - 1. ResultSet.getString(ID) returned 10
+2024-10-07 14:45:45.828  INFO - 1. ResultSet.getString(USERNAME) returned njlee
+2024-10-07 14:45:45.828  INFO - 1. ResultSet.getString(PASSWORD) returned $2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi
+2024-10-07 14:45:45.828  INFO - 1. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-07 14:45:45.829  INFO - 1. ResultSet.isClosed() returned false
+2024-10-07 14:45:45.829  INFO - 
+|---|---------|-------------------------------------------------------------|-----------|
+|id |username |password                                                     |role       |
+|---|---------|-------------------------------------------------------------|-----------|
+|10 |njlee    |$2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi |ROLE_ADMIN |
+|---|---------|-------------------------------------------------------------|-----------|
+
+2024-10-07 14:45:45.830  INFO - 1. ResultSet.next() returned false
+2024-10-07 14:45:45.830  INFO - 1. ResultSet.close() returned void
+2024-10-07 14:45:45.830  INFO - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@13cf182c
+2024-10-07 14:45:45.830  INFO - 1. PreparedStatement.getMoreResults() returned false
+2024-10-07 14:45:45.830  INFO - 1. PreparedStatement.getUpdateCount() returned -1
+2024-10-07 14:45:45.830  INFO - 1. PreparedStatement.close() returned 
+2024-10-07 14:45:45.830  INFO - 1. Connection.clearWarnings() returned 
+2024-10-07 14:45:45.979  INFO - 로그인 성공 null
+2024-10-07 14:46:41.111  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-07 14:46:41.119  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:46:41.313  INFO - HikariPool-1 - Shutdown initiated...
+2024-10-07 14:46:41.316  INFO - 1. Connection.isClosed() returned false
+2024-10-07 14:46:41.323  INFO - 1. Connection closed. {executed in 6ms} 
+2024-10-07 14:46:41.323  INFO - 1. Connection.close() returned 
+2024-10-07 14:46:41.323  INFO - 1. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.324  INFO - 1. Connection.close() returned 
+2024-10-07 14:46:41.324  INFO - 2. Connection.isClosed() returned false
+2024-10-07 14:46:41.324  INFO - 2. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.324  INFO - 2. Connection.close() returned 
+2024-10-07 14:46:41.324  INFO - 2. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.324  INFO - 2. Connection.close() returned 
+2024-10-07 14:46:41.324  INFO - 3. Connection.isClosed() returned false
+2024-10-07 14:46:41.325  INFO - 3. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.325  INFO - 3. Connection.close() returned 
+2024-10-07 14:46:41.325  INFO - 3. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.325  INFO - 3. Connection.close() returned 
+2024-10-07 14:46:41.325  INFO - 4. Connection.isClosed() returned false
+2024-10-07 14:46:41.326  INFO - 4. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.326  INFO - 4. Connection.close() returned 
+2024-10-07 14:46:41.326  INFO - 4. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.326  INFO - 4. Connection.close() returned 
+2024-10-07 14:46:41.326  INFO - 5. Connection.isClosed() returned false
+2024-10-07 14:46:41.327  INFO - 5. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.327  INFO - 5. Connection.close() returned 
+2024-10-07 14:46:41.327  INFO - 5. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.327  INFO - 5. Connection.close() returned 
+2024-10-07 14:46:41.327  INFO - 6. Connection.isClosed() returned false
+2024-10-07 14:46:41.328  INFO - 6. Connection closed. {executed in 1ms} 
+2024-10-07 14:46:41.328  INFO - 6. Connection.close() returned 
+2024-10-07 14:46:41.328  INFO - 6. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.328  INFO - 6. Connection.close() returned 
+2024-10-07 14:46:41.328  INFO - 7. Connection.isClosed() returned false
+2024-10-07 14:46:41.328  INFO - 7. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.328  INFO - 7. Connection.close() returned 
+2024-10-07 14:46:41.328  INFO - 7. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.328  INFO - 7. Connection.close() returned 
+2024-10-07 14:46:41.329  INFO - 8. Connection.isClosed() returned false
+2024-10-07 14:46:41.329  INFO - 8. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.329  INFO - 8. Connection.close() returned 
+2024-10-07 14:46:41.329  INFO - 8. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.330  INFO - 8. Connection.close() returned 
+2024-10-07 14:46:41.330  INFO - 9. Connection.isClosed() returned false
+2024-10-07 14:46:41.330  INFO - 9. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.330  INFO - 9. Connection.close() returned 
+2024-10-07 14:46:41.330  INFO - 9. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.330  INFO - 9. Connection.close() returned 
+2024-10-07 14:46:41.330  INFO - 10. Connection.isClosed() returned false
+2024-10-07 14:46:41.331  INFO - 10. Connection closed. {executed in 1ms} 
+2024-10-07 14:46:41.331  INFO - 10. Connection.close() returned 
+2024-10-07 14:46:41.331  INFO - 10. Connection closed. {executed in 0ms} 
+2024-10-07 14:46:41.331  INFO - 10. Connection.close() returned 
+2024-10-07 14:46:41.331  INFO - HikariPool-1 - Shutdown completed.
+2024-10-07 14:46:41.490  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 14:46:41.490  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 14:46:41.994  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 14:46:41.995  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:46:41.996  INFO - Starting service [Tomcat]
+2024-10-07 14:46:41.996  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 14:46:42.048  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 14:46:42.048  INFO - Root WebApplicationContext: initialization completed in 554 ms
+2024-10-07 14:46:42.213  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-07 14:46:42.344  INFO - LiveReload server is running on port 35729
+2024-10-07 14:46:42.355  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:46:42.365  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 14:46:42.373  INFO - Started SecurityApplication in 0.964 seconds (process running for 459.868)
+2024-10-07 14:46:42.376  INFO - Condition evaluation unchanged
+2024-10-07 14:46:45.750  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 14:46:45.750  INFO - Initializing Servlet 'dispatcherServlet'
+2024-10-07 14:46:45.751  INFO - Completed initialization in 1 ms
+2024-10-07 14:46:45.912  INFO - HikariPool-2 - Starting...
+2024-10-07 14:46:45.928  INFO - 11. Connection opened. {executed in 15ms} 
+2024-10-07 14:46:45.928  INFO - 11. Connection.new Connection returned 
+2024-10-07 14:46:45.928  INFO - 11. Connection.getNetworkTimeout() returned 0
+2024-10-07 14:46:45.928  INFO - 11. Connection.isReadOnly() returned false
+2024-10-07 14:46:45.928  INFO - 11. Connection.getAutoCommit() returned true
+2024-10-07 14:46:45.928  INFO - 11. Connection.isValid(1) returned true
+2024-10-07 14:46:45.929  INFO - 11. Connection.getTransactionIsolation() returned 4
+2024-10-07 14:46:45.930  INFO - HikariPool-2 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@5ae1f2d5
+2024-10-07 14:46:45.930  INFO - HikariPool-2 - Start completed.
+2024-10-07 14:46:45.930  INFO - 11. Connection.getAutoCommit() returned true
+2024-10-07 14:46:45.930  INFO - 11. PreparedStatement.new PreparedStatement returned 
+2024-10-07 14:46:45.930  INFO - 11. Connection.prepareStatement(SELECT ID, USERNAME, PASSWORD, ROLE FROM USER WHERE USERNAME = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2598b97f
+2024-10-07 14:46:45.930  INFO - 11. PreparedStatement.setString(1, "njlee") returned 
+2024-10-07 14:46:45.932  INFO - 11. SELECT ID, USERNAME, PASSWORD, ROLE FROM USER WHERE USERNAME = 'njlee'  {executed in 1 ms}
+2024-10-07 14:46:45.932  INFO - 11. PreparedStatement.execute() returned true
+2024-10-07 14:46:45.932  INFO - 11. ResultSet.new ResultSet returned 
+2024-10-07 14:46:45.932  INFO - 11. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2653f45a
+2024-10-07 14:46:45.932  INFO - 11. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@14c7554b - Field level information: 
+	com.mysql.cj.result.Field@41e57a5c[dbName=poglog,tableName=USER,originalTableName=user,columnName=ID,originalColumnName=ID,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@21d6605e[dbName=poglog,tableName=USER,originalTableName=user,columnName=USERNAME,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@189eb11a[dbName=poglog,tableName=USER,originalTableName=user,columnName=PASSWORD,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@36ddc24f[dbName=poglog,tableName=USER,originalTableName=user,columnName=ROLE,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+2024-10-07 14:46:45.932  INFO - 11. ResultSet.getType() returned 1003
+2024-10-07 14:46:45.932  INFO - 11. ResultSet.isClosed() returned false
+2024-10-07 14:46:45.932  INFO - 11. ResultSet.next() returned true
+2024-10-07 14:46:45.932  INFO - 11. ResultSet.getString(ID) returned 10
+2024-10-07 14:46:45.932  INFO - 11. ResultSet.getString(USERNAME) returned njlee
+2024-10-07 14:46:45.933  INFO - 11. ResultSet.getString(PASSWORD) returned $2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi
+2024-10-07 14:46:45.933  INFO - 11. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-07 14:46:45.933  INFO - 11. ResultSet.isClosed() returned false
+2024-10-07 14:46:45.933  INFO - 
+|---|---------|-------------------------------------------------------------|-----------|
+|id |username |password                                                     |role       |
+|---|---------|-------------------------------------------------------------|-----------|
+|10 |njlee    |$2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi |ROLE_ADMIN |
+|---|---------|-------------------------------------------------------------|-----------|
+
+2024-10-07 14:46:46.033  INFO - 11. ResultSet.next() returned false
+2024-10-07 14:46:46.034  INFO - 11. ResultSet.close() returned void
+2024-10-07 14:46:46.034  INFO - 11. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@4ec6260c
+2024-10-07 14:46:46.034  INFO - 11. PreparedStatement.getMoreResults() returned false
+2024-10-07 14:46:46.034  INFO - 11. PreparedStatement.getUpdateCount() returned -1
+2024-10-07 14:46:46.034  INFO - 11. PreparedStatement.close() returned 
+2024-10-07 14:46:46.034  INFO - 11. Connection.clearWarnings() returned 
+2024-10-07 14:46:46.088  INFO - 12. Connection opened. {executed in 11ms} 
+2024-10-07 14:46:46.088  INFO - 12. Connection.new Connection returned 
+2024-10-07 14:46:46.088  INFO - 12. Connection.isReadOnly() returned false
+2024-10-07 14:46:46.089  INFO - 12. Connection.getAutoCommit() returned true
+2024-10-07 14:46:46.135  INFO - 13. Connection opened. {executed in 14ms} 
+2024-10-07 14:46:46.135  INFO - 13. Connection.new Connection returned 
+2024-10-07 14:46:46.135  INFO - 13. Connection.isReadOnly() returned false
+2024-10-07 14:46:46.135  INFO - 13. Connection.getAutoCommit() returned true
+2024-10-07 14:46:46.145  INFO - 로그인 성공 WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null]
+2024-10-07 14:46:46.180  INFO - 14. Connection opened. {executed in 12ms} 
+2024-10-07 14:46:46.180  INFO - 14. Connection.new Connection returned 
+2024-10-07 14:46:46.180  INFO - 14. Connection.isReadOnly() returned false
+2024-10-07 14:46:46.180  INFO - 14. Connection.getAutoCommit() returned true
+2024-10-07 14:46:46.247  INFO - 15. Connection opened. {executed in 18ms} 
+2024-10-07 14:46:46.276  INFO - 15. Connection.new Connection returned 
+2024-10-07 14:46:46.276  INFO - 15. Connection.isReadOnly() returned false
+2024-10-07 14:46:46.276  INFO - 15. Connection.getAutoCommit() returned true
+2024-10-07 14:46:46.339  INFO - 16. Connection opened. {executed in 14ms} 
+2024-10-07 14:46:46.339  INFO - 16. Connection.new Connection returned 
+2024-10-07 14:46:46.339  INFO - 16. Connection.isReadOnly() returned false
+2024-10-07 14:46:46.340  INFO - 16. Connection.getAutoCommit() returned true
+2024-10-07 14:46:46.391  INFO - 17. Connection opened. {executed in 17ms} 
+2024-10-07 14:46:46.392  INFO - 17. Connection.new Connection returned 
+2024-10-07 14:46:46.392  INFO - 17. Connection.isReadOnly() returned false
+2024-10-07 14:46:46.392  INFO - 17. Connection.getAutoCommit() returned true
+2024-10-07 14:46:46.446  INFO - 18. Connection opened. {executed in 11ms} 
+2024-10-07 14:46:46.446  INFO - 18. Connection.new Connection returned 
+2024-10-07 14:46:46.446  INFO - 18. Connection.isReadOnly() returned false
+2024-10-07 14:46:46.446  INFO - 18. Connection.getAutoCommit() returned true
+2024-10-07 14:46:46.486  INFO - 19. Connection opened. {executed in 7ms} 
+2024-10-07 14:46:46.487  INFO - 19. Connection.new Connection returned 
+2024-10-07 14:46:46.487  INFO - 19. Connection.isReadOnly() returned false
+2024-10-07 14:46:46.487  INFO - 19. Connection.getAutoCommit() returned true
+2024-10-07 14:46:46.529  INFO - 20. Connection opened. {executed in 3ms} 
+2024-10-07 14:46:46.529  INFO - 20. Connection.new Connection returned 
+2024-10-07 14:46:46.529  INFO - 20. Connection.isReadOnly() returned false
+2024-10-07 14:46:46.529  INFO - 20. Connection.getAutoCommit() returned true
+2024-10-07 14:47:00.485  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-07 14:47:00.488  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:47:00.624  INFO - HikariPool-2 - Shutdown initiated...
+2024-10-07 14:47:00.627  INFO - 11. Connection.isClosed() returned false
+2024-10-07 14:47:00.628  INFO - 11. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.628  INFO - 11. Connection.close() returned 
+2024-10-07 14:47:00.628  INFO - 11. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.628  INFO - 11. Connection.close() returned 
+2024-10-07 14:47:00.628  INFO - 12. Connection.isClosed() returned false
+2024-10-07 14:47:00.629  INFO - 12. Connection closed. {executed in 1ms} 
+2024-10-07 14:47:00.630  INFO - 12. Connection.close() returned 
+2024-10-07 14:47:00.631  INFO - 12. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.631  INFO - 12. Connection.close() returned 
+2024-10-07 14:47:00.631  INFO - 13. Connection.isClosed() returned false
+2024-10-07 14:47:00.631  INFO - 13. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.631  INFO - 13. Connection.close() returned 
+2024-10-07 14:47:00.631  INFO - 13. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.631  INFO - 13. Connection.close() returned 
+2024-10-07 14:47:00.631  INFO - 14. Connection.isClosed() returned false
+2024-10-07 14:47:00.632  INFO - 14. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.632  INFO - 14. Connection.close() returned 
+2024-10-07 14:47:00.632  INFO - 14. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.632  INFO - 14. Connection.close() returned 
+2024-10-07 14:47:00.632  INFO - 15. Connection.isClosed() returned false
+2024-10-07 14:47:00.632  INFO - 15. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.632  INFO - 15. Connection.close() returned 
+2024-10-07 14:47:00.632  INFO - 15. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.632  INFO - 15. Connection.close() returned 
+2024-10-07 14:47:00.632  INFO - 16. Connection.isClosed() returned false
+2024-10-07 14:47:00.632  INFO - 16. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.632  INFO - 16. Connection.close() returned 
+2024-10-07 14:47:00.632  INFO - 16. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.632  INFO - 16. Connection.close() returned 
+2024-10-07 14:47:00.632  INFO - 17. Connection.isClosed() returned false
+2024-10-07 14:47:00.633  INFO - 17. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.633  INFO - 17. Connection.close() returned 
+2024-10-07 14:47:00.633  INFO - 17. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.633  INFO - 17. Connection.close() returned 
+2024-10-07 14:47:00.633  INFO - 18. Connection.isClosed() returned false
+2024-10-07 14:47:00.633  INFO - 18. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.633  INFO - 18. Connection.close() returned 
+2024-10-07 14:47:00.633  INFO - 18. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.633  INFO - 18. Connection.close() returned 
+2024-10-07 14:47:00.633  INFO - 19. Connection.isClosed() returned false
+2024-10-07 14:47:00.633  INFO - 19. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.633  INFO - 19. Connection.close() returned 
+2024-10-07 14:47:00.633  INFO - 19. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.634  INFO - 19. Connection.close() returned 
+2024-10-07 14:47:00.634  INFO - 20. Connection.isClosed() returned false
+2024-10-07 14:47:00.634  INFO - 20. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.634  INFO - 20. Connection.close() returned 
+2024-10-07 14:47:00.634  INFO - 20. Connection closed. {executed in 0ms} 
+2024-10-07 14:47:00.634  INFO - 20. Connection.close() returned 
+2024-10-07 14:47:00.634  INFO - HikariPool-2 - Shutdown completed.
+2024-10-07 14:47:00.730  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 14:47:00.731  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 14:47:01.039  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 14:47:01.040  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:47:01.040  INFO - Starting service [Tomcat]
+2024-10-07 14:47:01.041  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 14:47:01.094  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 14:47:01.094  INFO - Root WebApplicationContext: initialization completed in 360 ms
+2024-10-07 14:47:01.188  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-07 14:47:01.325  INFO - LiveReload server is running on port 35729
+2024-10-07 14:47:01.334  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:47:01.344  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 14:47:01.360  INFO - Started SecurityApplication in 0.676 seconds (process running for 478.854)
+2024-10-07 14:47:01.362  INFO - Condition evaluation unchanged
+2024-10-07 14:56:05.134  INFO - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-10-07 14:56:05.142  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:56:05.545  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 14:56:05.545  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 14:56:06.381  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 14:56:06.382  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:56:06.383  INFO - Starting service [Tomcat]
+2024-10-07 14:56:06.383  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 14:56:06.453  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 14:56:06.453  INFO - Root WebApplicationContext: initialization completed in 906 ms
+2024-10-07 14:56:07.072  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-07 14:56:07.365  INFO - LiveReload server is running on port 35729
+2024-10-07 14:56:07.385  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:56:07.394  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 14:56:07.420  INFO - Started SecurityApplication in 1.929 seconds (process running for 1024.916)
+2024-10-07 14:56:07.423  INFO - Condition evaluation unchanged
+2024-10-07 14:56:42.895  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-07 14:56:42.899  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:56:43.075  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 14:56:43.075  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 14:56:43.409  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 14:56:43.410  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:56:43.411  INFO - Starting service [Tomcat]
+2024-10-07 14:56:43.411  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 14:56:43.459  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 14:56:43.459  INFO - Root WebApplicationContext: initialization completed in 380 ms
+2024-10-07 14:56:43.549  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-07 14:56:43.658  INFO - LiveReload server is running on port 35729
+2024-10-07 14:56:43.668  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:56:43.676  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 14:56:43.682  INFO - Started SecurityApplication in 0.649 seconds (process running for 1061.178)
+2024-10-07 14:56:43.685  INFO - Condition evaluation unchanged
+2024-10-07 14:57:34.280  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-07 14:57:34.290  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:57:34.902  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 14:57:34.903  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 14:57:35.404  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 14:57:35.404  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:57:35.404  INFO - Starting service [Tomcat]
+2024-10-07 14:57:35.405  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 14:57:35.463  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 14:57:35.464  INFO - Root WebApplicationContext: initialization completed in 559 ms
+2024-10-07 14:57:35.598  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+2024-10-07 14:57:35.598  INFO - Stopping service [Tomcat]
+2024-10-07 14:57:35.608  INFO - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-07 14:57:35.680 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.springjwt.SecurityApplication.main(SecurityApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.jwt.secret' in value "${spring.jwt.secret}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 19 common frames omitted
+2024-10-07 14:57:45.592  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 14:57:45.592  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 14:57:45.896  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 14:57:45.899  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:57:45.899  INFO - Starting service [Tomcat]
+2024-10-07 14:57:45.899  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 14:57:45.952  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 14:57:45.952  INFO - Root WebApplicationContext: initialization completed in 358 ms
+2024-10-07 14:57:46.134  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+2024-10-07 14:57:46.135  INFO - Stopping service [Tomcat]
+2024-10-07 14:57:46.142  INFO - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-07 14:57:46.145 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.springjwt.SecurityApplication.main(SecurityApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.jwt.secret' in value "${spring.jwt.secret}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 19 common frames omitted
+2024-10-07 14:57:49.775  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 14:57:49.775  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 14:57:50.033  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 14:57:50.034  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:57:50.034  INFO - Starting service [Tomcat]
+2024-10-07 14:57:50.034  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 14:57:50.143  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 14:57:50.143  INFO - Root WebApplicationContext: initialization completed in 366 ms
+2024-10-07 14:57:50.200  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+2024-10-07 14:57:50.200  INFO - Stopping service [Tomcat]
+2024-10-07 14:57:50.207  INFO - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-07 14:57:50.211 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.springjwt.SecurityApplication.main(SecurityApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.jwt.secret' in value "${spring.jwt.secret}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 19 common frames omitted
+2024-10-07 14:58:00.009  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 14:58:00.009  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 14:58:00.619  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 14:58:00.620  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 14:58:00.621  INFO - Starting service [Tomcat]
+2024-10-07 14:58:00.621  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 14:58:00.681  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 14:58:00.681  INFO - Root WebApplicationContext: initialization completed in 666 ms
+2024-10-07 14:58:00.769  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+2024-10-07 14:58:00.770  INFO - Stopping service [Tomcat]
+2024-10-07 14:58:00.778  INFO - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-07 14:58:00.782 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.springjwt.SecurityApplication.main(SecurityApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'my.jwt.secret' in value "${my.jwt.secret}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 19 common frames omitted
+2024-10-07 15:01:22.683  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 15:01:22.684  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:01:22.993  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 15:01:22.993  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:01:22.993  INFO - Starting service [Tomcat]
+2024-10-07 15:01:22.993  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:01:23.035  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:01:23.035  INFO - Root WebApplicationContext: initialization completed in 350 ms
+2024-10-07 15:01:23.112  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+2024-10-07 15:01:23.112  INFO - Stopping service [Tomcat]
+2024-10-07 15:01:23.122  INFO - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-07 15:01:23.126 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.springjwt.SecurityApplication.main(SecurityApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'my.jwt.secret' in value "${my.jwt.secret}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 19 common frames omitted
+2024-10-07 15:01:25.740  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 15:01:25.740  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:01:26.162  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 15:01:26.162  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:01:26.162  INFO - Starting service [Tomcat]
+2024-10-07 15:01:26.162  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:01:26.230  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:01:26.230  INFO - Root WebApplicationContext: initialization completed in 488 ms
+2024-10-07 15:01:26.303  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+2024-10-07 15:01:26.304  INFO - Stopping service [Tomcat]
+2024-10-07 15:01:26.309  INFO - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-07 15:01:26.311 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.springjwt.SecurityApplication.main(SecurityApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'my.jwt.secret' in value "${my.jwt.secret}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 19 common frames omitted
+2024-10-07 15:01:35.236  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 15:01:35.236  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:01:35.539  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 15:01:35.540  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:01:35.541  INFO - Starting service [Tomcat]
+2024-10-07 15:01:35.541  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:01:35.587  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:01:35.587  INFO - Root WebApplicationContext: initialization completed in 349 ms
+2024-10-07 15:01:35.661  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+2024-10-07 15:01:35.661  INFO - Stopping service [Tomcat]
+2024-10-07 15:01:35.668  INFO - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-07 15:01:35.671 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.springjwt.SecurityApplication.main(SecurityApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'my.jwt.secret' in value "${my.jwt.secret}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 19 common frames omitted
+2024-10-07 15:01:40.298  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 15:01:40.298  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:01:40.622  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 15:01:40.622  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:01:40.623  INFO - Starting service [Tomcat]
+2024-10-07 15:01:40.635  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:01:40.691  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:01:40.691  INFO - Root WebApplicationContext: initialization completed in 391 ms
+2024-10-07 15:01:40.828  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+2024-10-07 15:01:40.828  INFO - Stopping service [Tomcat]
+2024-10-07 15:01:40.835  INFO - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-07 15:01:40.838 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.springjwt.SecurityApplication.main(SecurityApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'my.jwt.secret' in value "${my.jwt.secret}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 19 common frames omitted
+2024-10-07 15:01:44.825  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 15:01:44.825  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:01:45.125  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 15:01:45.125  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:01:45.126  INFO - Starting service [Tomcat]
+2024-10-07 15:01:45.126  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:01:45.173  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:01:45.173  INFO - Root WebApplicationContext: initialization completed in 346 ms
+2024-10-07 15:01:45.250  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+2024-10-07 15:01:45.250  INFO - Stopping service [Tomcat]
+2024-10-07 15:01:45.261  INFO - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-07 15:01:45.267 ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTUtil' defined in file [D:\dev\workspace\elespoglog\SpringJWT\target\classes\com\example\springjwt\jwt\JWTUtil.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.springjwt.SecurityApplication.main(SecurityApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'my.jwt.secret' in value "${my.jwt.secret}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 19 common frames omitted
+2024-10-07 15:03:13.361  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 15:03:13.361  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:03:13.635  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 15:03:13.635  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:03:13.635  INFO - Starting service [Tomcat]
+2024-10-07 15:03:13.635  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:03:13.681  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:03:13.681  INFO - Root WebApplicationContext: initialization completed in 317 ms
+2024-10-07 15:03:13.868  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-07 15:03:13.999  INFO - LiveReload server is running on port 35729
+2024-10-07 15:03:14.006  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:03:14.016  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 15:03:14.026  INFO - Started SecurityApplication in 0.695 seconds (process running for 1451.522)
+2024-10-07 15:03:14.031  INFO - Condition evaluation unchanged
+2024-10-07 15:03:40.042  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-07 15:03:40.043  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:03:40.223  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 15:03:40.224  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:03:40.523  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 15:03:40.524  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:03:40.524  INFO - Starting service [Tomcat]
+2024-10-07 15:03:40.524  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:03:40.572  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:03:40.572  INFO - Root WebApplicationContext: initialization completed in 346 ms
+2024-10-07 15:03:40.647  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-07 15:03:40.755  INFO - LiveReload server is running on port 35729
+2024-10-07 15:03:40.763  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:03:40.773  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 15:03:40.783  INFO - Started SecurityApplication in 0.593 seconds (process running for 1478.279)
+2024-10-07 15:03:40.785  INFO - Condition evaluation unchanged
+2024-10-07 15:15:51.474  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-07 15:15:51.477  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:15:51.675  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 15:15:51.675  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:15:51.991  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 15:15:51.992  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:15:51.992  INFO - Starting service [Tomcat]
+2024-10-07 15:15:51.992  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:15:52.040  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:15:52.040  INFO - Root WebApplicationContext: initialization completed in 362 ms
+2024-10-07 15:15:52.119  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-07 15:15:52.242  INFO - LiveReload server is running on port 35729
+2024-10-07 15:15:52.251  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:15:52.260  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 15:15:52.266  INFO - Started SecurityApplication in 0.628 seconds (process running for 2209.761)
+2024-10-07 15:15:52.268  INFO - Condition evaluation unchanged
+2024-10-07 15:16:48.182  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-07 15:16:48.183  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:16:48.359  INFO - Starting SecurityApplication using Java 17 with PID 8016 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-07 15:16:48.359  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:16:48.661  INFO - Tomcat initialized with port 8080 (http)
+2024-10-07 15:16:48.662  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:16:48.663  INFO - Starting service [Tomcat]
+2024-10-07 15:16:48.663  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:16:48.714  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:16:48.714  INFO - Root WebApplicationContext: initialization completed in 353 ms
+2024-10-07 15:16:48.810  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-07 15:16:48.925  INFO - LiveReload server is running on port 35729
+2024-10-07 15:16:48.933  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:16:48.943  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 15:16:48.952  INFO - Started SecurityApplication in 0.625 seconds (process running for 2266.446)
+2024-10-07 15:16:48.954  INFO - Condition evaluation unchanged
+2024-10-07 21:50:33.262  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 21:50:33.277  INFO - Initializing Servlet 'dispatcherServlet'
+2024-10-07 21:50:33.306  INFO - Completed initialization in 28 ms
+2024-10-07 21:50:37.979  INFO - HikariPool-3 - Starting...
+2024-10-07 21:50:37.995  INFO - 21. Connection opened. {executed in 13ms} 
+2024-10-07 21:50:37.995  INFO - 21. Connection.new Connection returned 
+2024-10-07 21:50:37.995  INFO - 21. Connection.getNetworkTimeout() returned 0
+2024-10-07 21:50:37.995  INFO - 21. Connection.isReadOnly() returned false
+2024-10-07 21:50:37.995  INFO - 21. Connection.getAutoCommit() returned true
+2024-10-07 21:50:37.996  INFO - 21. Connection.isValid(1) returned true
+2024-10-07 21:50:37.996  INFO - 21. Connection.getTransactionIsolation() returned 4
+2024-10-07 21:50:37.997  INFO - HikariPool-3 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@29fcc86b
+2024-10-07 21:50:37.998  INFO - HikariPool-3 - Start completed.
+2024-10-07 21:50:37.998  INFO - 21. Connection.getAutoCommit() returned true
+2024-10-07 21:50:37.999  INFO - 21. PreparedStatement.new PreparedStatement returned 
+2024-10-07 21:50:38.000  INFO - 21. Connection.prepareStatement(SELECT ID, USERNAME, PASSWORD, ROLE FROM USER) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@32d60593
+2024-10-07 21:50:38.002  INFO - 21. SELECT ID, USERNAME, PASSWORD, ROLE FROM USER  {executed in 2 ms}
+2024-10-07 21:50:38.002  INFO - 21. PreparedStatement.execute() returned true
+2024-10-07 21:50:38.003  INFO - 21. ResultSet.new ResultSet returned 
+2024-10-07 21:50:38.003  INFO - 21. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d02f133
+2024-10-07 21:50:38.003  INFO - 21. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@65902b84 - Field level information: 
+	com.mysql.cj.result.Field@2a6018cd[dbName=poglog,tableName=USER,originalTableName=user,columnName=ID,originalColumnName=ID,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@28986a8f[dbName=poglog,tableName=USER,originalTableName=user,columnName=USERNAME,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@12a99dc6[dbName=poglog,tableName=USER,originalTableName=user,columnName=PASSWORD,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@7601581c[dbName=poglog,tableName=USER,originalTableName=user,columnName=ROLE,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+2024-10-07 21:50:38.004  INFO - 21. ResultSet.getType() returned 1003
+2024-10-07 21:50:38.004  INFO - 21. ResultSet.isClosed() returned false
+2024-10-07 21:50:38.004  INFO - 21. ResultSet.next() returned true
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.getString(ID) returned 10
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.getString(USERNAME) returned njlee
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.getString(PASSWORD) returned $2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.isClosed() returned false
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.next() returned true
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.getString(ID) returned 11
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.getString(USERNAME) returned njlee2
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.getString(PASSWORD) returned $2a$10$r07XhddKSd2Y7NtySLniR.lYWkV46PqTDXgSRsL1SjrgMsDTXInq2
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.isClosed() returned false
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.next() returned true
+2024-10-07 21:50:38.005  INFO - 21. ResultSet.getString(ID) returned 12
+2024-10-07 21:50:38.006  INFO - 21. ResultSet.getString(USERNAME) returned njlee3
+2024-10-07 21:50:38.006  INFO - 21. ResultSet.getString(PASSWORD) returned $2a$10$RRvgbB02H35hnkrxeZXEIezOu/lojfN/W4.a6DlFxGTj.r60dqvEi
+2024-10-07 21:50:38.006  INFO - 21. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-07 21:50:38.006  INFO - 21. ResultSet.isClosed() returned false
+2024-10-07 21:50:38.007  INFO - 
+|---|---------|-------------------------------------------------------------|-----------|
+|id |username |password                                                     |role       |
+|---|---------|-------------------------------------------------------------|-----------|
+|10 |njlee    |$2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi |ROLE_ADMIN |
+|11 |njlee2   |$2a$10$r07XhddKSd2Y7NtySLniR.lYWkV46PqTDXgSRsL1SjrgMsDTXInq2 |ROLE_ADMIN |
+|12 |njlee3   |$2a$10$RRvgbB02H35hnkrxeZXEIezOu/lojfN/W4.a6DlFxGTj.r60dqvEi |ROLE_ADMIN |
+|---|---------|-------------------------------------------------------------|-----------|
+
+2024-10-07 21:50:38.007  INFO - 21. ResultSet.next() returned false
+2024-10-07 21:50:38.007  INFO - 21. ResultSet.close() returned void
+2024-10-07 21:50:38.007  INFO - 21. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@37aa457d
+2024-10-07 21:50:38.007  INFO - 21. PreparedStatement.getMoreResults() returned false
+2024-10-07 21:50:38.007  INFO - 21. PreparedStatement.getUpdateCount() returned -1
+2024-10-07 21:50:38.008  INFO - 21. PreparedStatement.close() returned 
+2024-10-07 21:50:38.008  INFO - 21. Connection.clearWarnings() returned 
+2024-10-07 21:50:38.109  INFO - 22. Connection opened. {executed in 4ms} 
+2024-10-07 21:50:38.109  INFO - 22. Connection.new Connection returned 
+2024-10-07 21:50:38.109  INFO - 22. Connection.isReadOnly() returned false
+2024-10-07 21:50:38.109  INFO - 22. Connection.getAutoCommit() returned true
+2024-10-07 21:50:38.154  INFO - 23. Connection opened. {executed in 3ms} 
+2024-10-07 21:50:38.154  INFO - 23. Connection.new Connection returned 
+2024-10-07 21:50:38.155  INFO - 23. Connection.isReadOnly() returned false
+2024-10-07 21:50:38.155  INFO - 23. Connection.getAutoCommit() returned true
+2024-10-07 21:50:38.203  INFO - 24. Connection opened. {executed in 4ms} 
+2024-10-07 21:50:38.203  INFO - 24. Connection.new Connection returned 
+2024-10-07 21:50:38.203  INFO - 24. Connection.isReadOnly() returned false
+2024-10-07 21:50:38.203  INFO - 24. Connection.getAutoCommit() returned true
+2024-10-07 21:50:38.248  INFO - 25. Connection opened. {executed in 3ms} 
+2024-10-07 21:50:38.248  INFO - 25. Connection.new Connection returned 
+2024-10-07 21:50:38.248  INFO - 25. Connection.isReadOnly() returned false
+2024-10-07 21:50:38.248  INFO - 25. Connection.getAutoCommit() returned true
+2024-10-07 21:50:38.296  INFO - 26. Connection opened. {executed in 3ms} 
+2024-10-07 21:50:38.296  INFO - 26. Connection.new Connection returned 
+2024-10-07 21:50:38.296  INFO - 26. Connection.isReadOnly() returned false
+2024-10-07 21:50:38.296  INFO - 26. Connection.getAutoCommit() returned true
+2024-10-07 21:50:38.343  INFO - 27. Connection opened. {executed in 3ms} 
+2024-10-07 21:50:38.343  INFO - 27. Connection.new Connection returned 
+2024-10-07 21:50:38.343  INFO - 27. Connection.isReadOnly() returned false
+2024-10-07 21:50:38.343  INFO - 27. Connection.getAutoCommit() returned true
+2024-10-07 21:50:38.390  INFO - 28. Connection opened. {executed in 3ms} 
+2024-10-07 21:50:38.390  INFO - 28. Connection.new Connection returned 
+2024-10-07 21:50:38.390  INFO - 28. Connection.isReadOnly() returned false
+2024-10-07 21:50:38.390  INFO - 28. Connection.getAutoCommit() returned true
+2024-10-07 21:50:38.437  INFO - 29. Connection opened. {executed in 3ms} 
+2024-10-07 21:50:38.438  INFO - 29. Connection.new Connection returned 
+2024-10-07 21:50:38.438  INFO - 29. Connection.isReadOnly() returned false
+2024-10-07 21:50:38.438  INFO - 29. Connection.getAutoCommit() returned true
+2024-10-07 21:50:38.483  INFO - 30. Connection opened. {executed in 3ms} 
+2024-10-07 21:50:38.483  INFO - 30. Connection.new Connection returned 
+2024-10-07 21:50:38.483  INFO - 30. Connection.isReadOnly() returned false
+2024-10-07 21:50:38.483  INFO - 30. Connection.getAutoCommit() returned true
+2024-10-07 22:20:00.084  INFO - 25. Connection.isClosed() returned false
+2024-10-07 22:20:00.085  INFO - 25. Connection closed. {executed in 1ms} 
+2024-10-07 22:20:00.085  INFO - 25. Connection.close() returned 
+2024-10-07 22:20:00.085  INFO - 25. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:00.085  INFO - 25. Connection.close() returned 
+2024-10-07 22:20:00.090  INFO - 31. Connection opened. {executed in 4ms} 
+2024-10-07 22:20:00.091  INFO - 31. Connection.new Connection returned 
+2024-10-07 22:20:00.091  INFO - 31. Connection.isReadOnly() returned false
+2024-10-07 22:20:00.091  INFO - 31. Connection.getAutoCommit() returned true
+2024-10-07 22:20:10.556  INFO - 26. Connection.isClosed() returned false
+2024-10-07 22:20:10.557  INFO - 26. Connection closed. {executed in 1ms} 
+2024-10-07 22:20:10.557  INFO - 26. Connection.close() returned 
+2024-10-07 22:20:10.557  INFO - 26. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:10.557  INFO - 26. Connection.close() returned 
+2024-10-07 22:20:10.562  INFO - 32. Connection opened. {executed in 4ms} 
+2024-10-07 22:20:10.562  INFO - 32. Connection.new Connection returned 
+2024-10-07 22:20:10.562  INFO - 32. Connection.isReadOnly() returned false
+2024-10-07 22:20:10.562  INFO - 32. Connection.getAutoCommit() returned true
+2024-10-07 22:20:12.942  INFO - 29. Connection.isClosed() returned false
+2024-10-07 22:20:12.942  INFO - 29. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:12.943  INFO - 29. Connection.close() returned 
+2024-10-07 22:20:12.943  INFO - 29. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:12.943  INFO - 29. Connection.close() returned 
+2024-10-07 22:20:12.946  INFO - 33. Connection opened. {executed in 3ms} 
+2024-10-07 22:20:12.946  INFO - 33. Connection.new Connection returned 
+2024-10-07 22:20:12.947  INFO - 33. Connection.isReadOnly() returned false
+2024-10-07 22:20:12.947  INFO - 33. Connection.getAutoCommit() returned true
+2024-10-07 22:20:17.760  INFO - 23. Connection.isClosed() returned false
+2024-10-07 22:20:17.761  INFO - 23. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:17.761  INFO - 23. Connection.close() returned 
+2024-10-07 22:20:17.761  INFO - 23. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:17.761  INFO - 23. Connection.close() returned 
+2024-10-07 22:20:17.765  INFO - 34. Connection opened. {executed in 4ms} 
+2024-10-07 22:20:17.765  INFO - 34. Connection.new Connection returned 
+2024-10-07 22:20:17.765  INFO - 34. Connection.isReadOnly() returned false
+2024-10-07 22:20:17.765  INFO - 34. Connection.getAutoCommit() returned true
+2024-10-07 22:20:19.094  INFO - 22. Connection.isClosed() returned false
+2024-10-07 22:20:19.094  INFO - 22. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:19.094  INFO - 22. Connection.close() returned 
+2024-10-07 22:20:19.094  INFO - 22. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:19.094  INFO - 22. Connection.close() returned 
+2024-10-07 22:20:19.103  INFO - 35. Connection opened. {executed in 9ms} 
+2024-10-07 22:20:19.103  INFO - 35. Connection.new Connection returned 
+2024-10-07 22:20:19.103  INFO - 35. Connection.isReadOnly() returned false
+2024-10-07 22:20:19.103  INFO - 35. Connection.getAutoCommit() returned true
+2024-10-07 22:20:21.181  INFO - 30. Connection.isClosed() returned false
+2024-10-07 22:20:21.181  INFO - 30. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:21.181  INFO - 30. Connection.close() returned 
+2024-10-07 22:20:21.181  INFO - 30. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:21.181  INFO - 30. Connection.close() returned 
+2024-10-07 22:20:21.185  INFO - 36. Connection opened. {executed in 4ms} 
+2024-10-07 22:20:21.185  INFO - 36. Connection.new Connection returned 
+2024-10-07 22:20:21.186  INFO - 36. Connection.isReadOnly() returned false
+2024-10-07 22:20:21.186  INFO - 36. Connection.getAutoCommit() returned true
+2024-10-07 22:20:21.822  INFO - 21. Connection.isClosed() returned false
+2024-10-07 22:20:21.822  INFO - 21. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:21.822  INFO - 21. Connection.close() returned 
+2024-10-07 22:20:21.822  INFO - 21. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:21.822  INFO - 21. Connection.close() returned 
+2024-10-07 22:20:21.826  INFO - 37. Connection opened. {executed in 4ms} 
+2024-10-07 22:20:21.826  INFO - 37. Connection.new Connection returned 
+2024-10-07 22:20:21.826  INFO - 37. Connection.isReadOnly() returned false
+2024-10-07 22:20:21.826  INFO - 37. Connection.getAutoCommit() returned true
+2024-10-07 22:20:25.945  INFO - 28. Connection.isClosed() returned false
+2024-10-07 22:20:25.945  INFO - 28. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:25.945  INFO - 28. Connection.close() returned 
+2024-10-07 22:20:25.945  INFO - 28. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:25.945  INFO - 28. Connection.close() returned 
+2024-10-07 22:20:25.951  INFO - 38. Connection opened. {executed in 5ms} 
+2024-10-07 22:20:25.951  INFO - 38. Connection.new Connection returned 
+2024-10-07 22:20:25.951  INFO - 38. Connection.isReadOnly() returned false
+2024-10-07 22:20:25.951  INFO - 38. Connection.getAutoCommit() returned true
+2024-10-07 22:20:27.625  INFO - 27. Connection.isClosed() returned false
+2024-10-07 22:20:27.625  INFO - 27. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:27.625  INFO - 27. Connection.close() returned 
+2024-10-07 22:20:27.625  INFO - 27. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:27.625  INFO - 27. Connection.close() returned 
+2024-10-07 22:20:27.629  INFO - 39. Connection opened. {executed in 3ms} 
+2024-10-07 22:20:27.629  INFO - 39. Connection.new Connection returned 
+2024-10-07 22:20:27.629  INFO - 39. Connection.isReadOnly() returned false
+2024-10-07 22:20:27.629  INFO - 39. Connection.getAutoCommit() returned true
+2024-10-07 22:20:27.874  INFO - 24. Connection.isClosed() returned false
+2024-10-07 22:20:27.874  INFO - 24. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:27.874  INFO - 24. Connection.close() returned 
+2024-10-07 22:20:27.874  INFO - 24. Connection closed. {executed in 0ms} 
+2024-10-07 22:20:27.874  INFO - 24. Connection.close() returned 
+2024-10-07 22:20:27.878  INFO - 40. Connection opened. {executed in 4ms} 
+2024-10-07 22:20:27.878  INFO - 40. Connection.new Connection returned 
+2024-10-07 22:20:27.878  INFO - 40. Connection.isReadOnly() returned false
+2024-10-07 22:20:27.878  INFO - 40. Connection.getAutoCommit() returned true
+2024-10-07 22:49:38.270  INFO - 33. Connection.isClosed() returned false
+2024-10-07 22:49:38.272  INFO - 33. Connection closed. {executed in 1ms} 
+2024-10-07 22:49:38.272  INFO - 33. Connection.close() returned 
+2024-10-07 22:49:38.273  INFO - 33. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:38.273  INFO - 33. Connection.close() returned 
+2024-10-07 22:49:38.279  INFO - 41. Connection opened. {executed in 6ms} 
+2024-10-07 22:49:38.279  INFO - 41. Connection.new Connection returned 
+2024-10-07 22:49:38.279  INFO - 41. Connection.isReadOnly() returned false
+2024-10-07 22:49:38.279  INFO - 41. Connection.getAutoCommit() returned true
+2024-10-07 22:49:46.487  INFO - 31. Connection.isClosed() returned false
+2024-10-07 22:49:46.488  INFO - 31. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:46.488  INFO - 31. Connection.close() returned 
+2024-10-07 22:49:46.488  INFO - 31. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:46.489  INFO - 31. Connection.close() returned 
+2024-10-07 22:49:46.494  INFO - 42. Connection opened. {executed in 5ms} 
+2024-10-07 22:49:46.494  INFO - 42. Connection.new Connection returned 
+2024-10-07 22:49:46.494  INFO - 42. Connection.isReadOnly() returned false
+2024-10-07 22:49:46.494  INFO - 42. Connection.getAutoCommit() returned true
+2024-10-07 22:49:49.623  INFO - 32. Connection.isClosed() returned false
+2024-10-07 22:49:49.623  INFO - 32. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:49.623  INFO - 32. Connection.close() returned 
+2024-10-07 22:49:49.624  INFO - 32. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:49.624  INFO - 32. Connection.close() returned 
+2024-10-07 22:49:49.627  INFO - 43. Connection opened. {executed in 3ms} 
+2024-10-07 22:49:49.628  INFO - 43. Connection.new Connection returned 
+2024-10-07 22:49:49.628  INFO - 43. Connection.isReadOnly() returned false
+2024-10-07 22:49:49.628  INFO - 43. Connection.getAutoCommit() returned true
+2024-10-07 22:49:52.314  INFO - 38. Connection.isClosed() returned false
+2024-10-07 22:49:52.314  INFO - 38. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:52.314  INFO - 38. Connection.close() returned 
+2024-10-07 22:49:52.314  INFO - 38. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:52.315  INFO - 38. Connection.close() returned 
+2024-10-07 22:49:52.318  INFO - 44. Connection opened. {executed in 3ms} 
+2024-10-07 22:49:52.318  INFO - 44. Connection.new Connection returned 
+2024-10-07 22:49:52.318  INFO - 44. Connection.isReadOnly() returned false
+2024-10-07 22:49:52.318  INFO - 44. Connection.getAutoCommit() returned true
+2024-10-07 22:49:53.280  INFO - 36. Connection.isClosed() returned false
+2024-10-07 22:49:53.280  INFO - 36. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:53.280  INFO - 36. Connection.close() returned 
+2024-10-07 22:49:53.280  INFO - 36. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:53.281  INFO - 36. Connection.close() returned 
+2024-10-07 22:49:53.284  INFO - 45. Connection opened. {executed in 3ms} 
+2024-10-07 22:49:53.284  INFO - 45. Connection.new Connection returned 
+2024-10-07 22:49:53.284  INFO - 45. Connection.isReadOnly() returned false
+2024-10-07 22:49:53.284  INFO - 45. Connection.getAutoCommit() returned true
+2024-10-07 22:49:53.469  INFO - 35. Connection.isClosed() returned false
+2024-10-07 22:49:53.469  INFO - 35. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:53.469  INFO - 35. Connection.close() returned 
+2024-10-07 22:49:53.469  INFO - 35. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:53.470  INFO - 35. Connection.close() returned 
+2024-10-07 22:49:53.474  INFO - 46. Connection opened. {executed in 4ms} 
+2024-10-07 22:49:53.474  INFO - 46. Connection.new Connection returned 
+2024-10-07 22:49:53.474  INFO - 46. Connection.isReadOnly() returned false
+2024-10-07 22:49:53.474  INFO - 46. Connection.getAutoCommit() returned true
+2024-10-07 22:49:56.785  INFO - 37. Connection.isClosed() returned false
+2024-10-07 22:49:56.785  INFO - 37. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:56.785  INFO - 37. Connection.close() returned 
+2024-10-07 22:49:56.785  INFO - 37. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:56.785  INFO - 37. Connection.close() returned 
+2024-10-07 22:49:56.789  INFO - 47. Connection opened. {executed in 3ms} 
+2024-10-07 22:49:56.789  INFO - 47. Connection.new Connection returned 
+2024-10-07 22:49:56.789  INFO - 47. Connection.isReadOnly() returned false
+2024-10-07 22:49:56.789  INFO - 47. Connection.getAutoCommit() returned true
+2024-10-07 22:49:56.927  INFO - 40. Connection.isClosed() returned false
+2024-10-07 22:49:56.927  INFO - 40. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:56.927  INFO - 40. Connection.close() returned 
+2024-10-07 22:49:56.927  INFO - 40. Connection closed. {executed in 0ms} 
+2024-10-07 22:49:56.927  INFO - 40. Connection.close() returned 
+2024-10-07 22:49:56.931  INFO - 48. Connection opened. {executed in 4ms} 
+2024-10-07 22:49:56.931  INFO - 48. Connection.new Connection returned 
+2024-10-07 22:49:56.931  INFO - 48. Connection.isReadOnly() returned false
+2024-10-07 22:49:56.931  INFO - 48. Connection.getAutoCommit() returned true
+2024-10-07 22:50:06.168  INFO - 34. Connection.isClosed() returned false
+2024-10-07 22:50:06.169  INFO - 34. Connection closed. {executed in 0ms} 
+2024-10-07 22:50:06.169  INFO - 34. Connection.close() returned 
+2024-10-07 22:50:06.169  INFO - 34. Connection closed. {executed in 0ms} 
+2024-10-07 22:50:06.169  INFO - 34. Connection.close() returned 
+2024-10-07 22:50:06.174  INFO - 49. Connection opened. {executed in 4ms} 
+2024-10-07 22:50:06.174  INFO - 49. Connection.new Connection returned 
+2024-10-07 22:50:06.174  INFO - 49. Connection.isReadOnly() returned false
+2024-10-07 22:50:06.174  INFO - 49. Connection.getAutoCommit() returned true
+2024-10-07 22:50:15.787  INFO - 39. Connection.isClosed() returned false
+2024-10-07 22:50:15.788  INFO - 39. Connection closed. {executed in 1ms} 
+2024-10-07 22:50:15.788  INFO - 39. Connection.close() returned 
+2024-10-07 22:50:15.788  INFO - 39. Connection closed. {executed in 0ms} 
+2024-10-07 22:50:15.788  INFO - 39. Connection.close() returned 
+2024-10-07 22:50:15.793  INFO - 50. Connection opened. {executed in 4ms} 
+2024-10-07 22:50:15.794  INFO - 50. Connection.new Connection returned 
+2024-10-07 22:50:15.794  INFO - 50. Connection.isReadOnly() returned false
+2024-10-07 22:50:15.794  INFO - 50. Connection.getAutoCommit() returned true
+2024-10-07 23:18:54.097  INFO - 41. Connection.isClosed() returned false
+2024-10-07 23:18:54.098  INFO - 41. Connection closed. {executed in 0ms} 
+2024-10-07 23:18:54.098  INFO - 41. Connection.close() returned 
+2024-10-07 23:18:54.098  INFO - 41. Connection closed. {executed in 0ms} 
+2024-10-07 23:18:54.098  INFO - 41. Connection.close() returned 
+2024-10-07 23:18:54.104  INFO - 51. Connection opened. {executed in 5ms} 
+2024-10-07 23:18:54.104  INFO - 51. Connection.new Connection returned 
+2024-10-07 23:18:54.104  INFO - 51. Connection.isReadOnly() returned false
+2024-10-07 23:18:54.104  INFO - 51. Connection.getAutoCommit() returned true
+2024-10-07 23:19:13.535  INFO - 44. Connection.isClosed() returned false
+2024-10-07 23:19:13.535  INFO - 44. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:13.535  INFO - 44. Connection.close() returned 
+2024-10-07 23:19:13.535  INFO - 44. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:13.535  INFO - 44. Connection.close() returned 
+2024-10-07 23:19:13.540  INFO - 52. Connection opened. {executed in 4ms} 
+2024-10-07 23:19:13.540  INFO - 52. Connection.new Connection returned 
+2024-10-07 23:19:13.540  INFO - 52. Connection.isReadOnly() returned false
+2024-10-07 23:19:13.540  INFO - 52. Connection.getAutoCommit() returned true
+2024-10-07 23:19:24.357  INFO - 46. Connection.isClosed() returned false
+2024-10-07 23:19:24.358  INFO - 46. Connection closed. {executed in 1ms} 
+2024-10-07 23:19:24.358  INFO - 46. Connection.close() returned 
+2024-10-07 23:19:24.358  INFO - 46. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:24.358  INFO - 46. Connection.close() returned 
+2024-10-07 23:19:24.363  INFO - 53. Connection opened. {executed in 5ms} 
+2024-10-07 23:19:24.363  INFO - 53. Connection.new Connection returned 
+2024-10-07 23:19:24.363  INFO - 53. Connection.isReadOnly() returned false
+2024-10-07 23:19:24.363  INFO - 53. Connection.getAutoCommit() returned true
+2024-10-07 23:19:35.713  INFO - 48. Connection.isClosed() returned false
+2024-10-07 23:19:35.714  INFO - 48. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:35.714  INFO - 48. Connection.close() returned 
+2024-10-07 23:19:35.714  INFO - 48. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:35.714  INFO - 48. Connection.close() returned 
+2024-10-07 23:19:35.720  INFO - 54. Connection opened. {executed in 4ms} 
+2024-10-07 23:19:35.720  INFO - 54. Connection.new Connection returned 
+2024-10-07 23:19:35.720  INFO - 54. Connection.isReadOnly() returned false
+2024-10-07 23:19:35.720  INFO - 54. Connection.getAutoCommit() returned true
+2024-10-07 23:19:38.858  INFO - 43. Connection.isClosed() returned false
+2024-10-07 23:19:38.858  INFO - 43. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:38.858  INFO - 43. Connection.close() returned 
+2024-10-07 23:19:38.858  INFO - 43. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:38.858  INFO - 43. Connection.close() returned 
+2024-10-07 23:19:38.862  INFO - 55. Connection opened. {executed in 3ms} 
+2024-10-07 23:19:38.862  INFO - 55. Connection.new Connection returned 
+2024-10-07 23:19:38.862  INFO - 55. Connection.isReadOnly() returned false
+2024-10-07 23:19:38.862  INFO - 55. Connection.getAutoCommit() returned true
+2024-10-07 23:19:38.969  INFO - 42. Connection.isClosed() returned false
+2024-10-07 23:19:38.970  INFO - 42. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:38.970  INFO - 42. Connection.close() returned 
+2024-10-07 23:19:38.970  INFO - 42. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:38.970  INFO - 42. Connection.close() returned 
+2024-10-07 23:19:38.974  INFO - 56. Connection opened. {executed in 4ms} 
+2024-10-07 23:19:38.975  INFO - 56. Connection.new Connection returned 
+2024-10-07 23:19:38.975  INFO - 56. Connection.isReadOnly() returned false
+2024-10-07 23:19:38.975  INFO - 56. Connection.getAutoCommit() returned true
+2024-10-07 23:19:40.437  INFO - 45. Connection.isClosed() returned false
+2024-10-07 23:19:40.437  INFO - 45. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:40.437  INFO - 45. Connection.close() returned 
+2024-10-07 23:19:40.437  INFO - 45. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:40.438  INFO - 45. Connection.close() returned 
+2024-10-07 23:19:40.458  INFO - 57. Connection opened. {executed in 20ms} 
+2024-10-07 23:19:40.458  INFO - 57. Connection.new Connection returned 
+2024-10-07 23:19:40.458  INFO - 57. Connection.isReadOnly() returned false
+2024-10-07 23:19:40.458  INFO - 57. Connection.getAutoCommit() returned true
+2024-10-07 23:19:48.088  INFO - 50. Connection.isClosed() returned false
+2024-10-07 23:19:48.088  INFO - 50. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:48.088  INFO - 50. Connection.close() returned 
+2024-10-07 23:19:48.088  INFO - 50. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:48.088  INFO - 50. Connection.close() returned 
+2024-10-07 23:19:48.094  INFO - 58. Connection opened. {executed in 3ms} 
+2024-10-07 23:19:48.094  INFO - 58. Connection.new Connection returned 
+2024-10-07 23:19:48.094  INFO - 58. Connection.isReadOnly() returned false
+2024-10-07 23:19:48.094  INFO - 58. Connection.getAutoCommit() returned true
+2024-10-07 23:19:51.685  INFO - 47. Connection.isClosed() returned false
+2024-10-07 23:19:51.685  INFO - 47. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:51.685  INFO - 47. Connection.close() returned 
+2024-10-07 23:19:51.685  INFO - 47. Connection closed. {executed in 0ms} 
+2024-10-07 23:19:51.685  INFO - 47. Connection.close() returned 
+2024-10-07 23:19:51.688  INFO - 59. Connection opened. {executed in 3ms} 
+2024-10-07 23:19:51.688  INFO - 59. Connection.new Connection returned 
+2024-10-07 23:19:51.688  INFO - 59. Connection.isReadOnly() returned false
+2024-10-07 23:19:51.688  INFO - 59. Connection.getAutoCommit() returned true
+2024-10-07 23:20:05.838  INFO - 49. Connection.isClosed() returned false
+2024-10-07 23:20:05.840  INFO - 49. Connection closed. {executed in 1ms} 
+2024-10-07 23:20:05.840  INFO - 49. Connection.close() returned 
+2024-10-07 23:20:05.840  INFO - 49. Connection closed. {executed in 0ms} 
+2024-10-07 23:20:05.840  INFO - 49. Connection.close() returned 
+2024-10-07 23:20:05.850  INFO - 60. Connection opened. {executed in 9ms} 
+2024-10-07 23:20:05.850  INFO - 60. Connection.new Connection returned 
+2024-10-07 23:20:05.850  INFO - 60. Connection.isReadOnly() returned false
+2024-10-07 23:20:05.850  INFO - 60. Connection.getAutoCommit() returned true
+2024-10-07 23:48:15.873  INFO - 51. Connection.isClosed() returned false
+2024-10-07 23:48:15.874  INFO - 51. Connection closed. {executed in 1ms} 
+2024-10-07 23:48:15.874  INFO - 51. Connection.close() returned 
+2024-10-07 23:48:15.874  INFO - 51. Connection closed. {executed in 0ms} 
+2024-10-07 23:48:15.874  INFO - 51. Connection.close() returned 
+2024-10-07 23:48:15.880  INFO - 61. Connection opened. {executed in 5ms} 
+2024-10-07 23:48:15.880  INFO - 61. Connection.new Connection returned 
+2024-10-07 23:48:15.880  INFO - 61. Connection.isReadOnly() returned false
+2024-10-07 23:48:15.880  INFO - 61. Connection.getAutoCommit() returned true
+2024-10-07 23:48:30.985  INFO - 52. Connection.isClosed() returned false
+2024-10-07 23:48:30.986  INFO - 52. Connection closed. {executed in 1ms} 
+2024-10-07 23:48:30.986  INFO - 52. Connection.close() returned 
+2024-10-07 23:48:30.986  INFO - 52. Connection closed. {executed in 0ms} 
+2024-10-07 23:48:30.986  INFO - 52. Connection.close() returned 
+2024-10-07 23:48:30.991  INFO - 62. Connection opened. {executed in 4ms} 
+2024-10-07 23:48:30.991  INFO - 62. Connection.new Connection returned 
+2024-10-07 23:48:30.991  INFO - 62. Connection.isReadOnly() returned false
+2024-10-07 23:48:30.991  INFO - 62. Connection.getAutoCommit() returned true
+2024-10-07 23:49:03.448  INFO - 56. Connection.isClosed() returned false
+2024-10-07 23:49:03.449  INFO - 56. Connection closed. {executed in 1ms} 
+2024-10-07 23:49:03.449  INFO - 56. Connection.close() returned 
+2024-10-07 23:49:03.449  INFO - 56. Connection closed. {executed in 0ms} 
+2024-10-07 23:49:03.449  INFO - 56. Connection.close() returned 
+2024-10-07 23:49:03.455  INFO - 63. Connection opened. {executed in 5ms} 
+2024-10-07 23:49:03.455  INFO - 63. Connection.new Connection returned 
+2024-10-07 23:49:03.455  INFO - 63. Connection.isReadOnly() returned false
+2024-10-07 23:49:03.455  INFO - 63. Connection.getAutoCommit() returned true
+2024-10-07 23:49:07.202  INFO - 54. Connection.isClosed() returned false
+2024-10-07 23:49:07.203  INFO - 54. Connection closed. {executed in 1ms} 
+2024-10-07 23:49:07.203  INFO - 54. Connection.close() returned 
+2024-10-07 23:49:07.203  INFO - 54. Connection closed. {executed in 0ms} 
+2024-10-07 23:49:07.203  INFO - 54. Connection.close() returned 
+2024-10-07 23:49:07.215  INFO - 64. Connection opened. {executed in 12ms} 
+2024-10-07 23:49:07.215  INFO - 64. Connection.new Connection returned 
+2024-10-07 23:49:07.215  INFO - 64. Connection.isReadOnly() returned false
+2024-10-07 23:49:07.215  INFO - 64. Connection.getAutoCommit() returned true
+2024-10-07 23:49:09.407  INFO - 55. Connection.isClosed() returned false
+2024-10-07 23:49:09.408  INFO - 55. Connection closed. {executed in 1ms} 
+2024-10-07 23:49:09.408  INFO - 55. Connection.close() returned 
+2024-10-07 23:49:09.408  INFO - 55. Connection closed. {executed in 0ms} 
+2024-10-07 23:49:09.408  INFO - 55. Connection.close() returned 
+2024-10-07 23:49:09.412  INFO - 65. Connection opened. {executed in 4ms} 
+2024-10-07 23:49:09.412  INFO - 65. Connection.new Connection returned 
+2024-10-07 23:49:09.412  INFO - 65. Connection.isReadOnly() returned false
+2024-10-07 23:49:09.412  INFO - 65. Connection.getAutoCommit() returned true
+2024-10-07 23:49:17.123  INFO - 53. Connection.isClosed() returned false
+2024-10-07 23:49:17.124  INFO - 53. Connection closed. {executed in 1ms} 
+2024-10-07 23:49:17.125  INFO - 53. Connection.close() returned 
+2024-10-07 23:49:17.125  INFO - 53. Connection closed. {executed in 0ms} 
+2024-10-07 23:49:17.125  INFO - 53. Connection.close() returned 
+2024-10-07 23:49:17.136  INFO - 66. Connection opened. {executed in 10ms} 
+2024-10-07 23:49:17.136  INFO - 66. Connection.new Connection returned 
+2024-10-07 23:49:17.136  INFO - 66. Connection.isReadOnly() returned false
+2024-10-07 23:49:17.136  INFO - 66. Connection.getAutoCommit() returned true
+2024-10-07 23:49:17.500  INFO - 59. Connection.isClosed() returned false
+2024-10-07 23:49:17.500  INFO - 59. Connection closed. {executed in 0ms} 
+2024-10-07 23:49:17.500  INFO - 59. Connection.close() returned 
+2024-10-07 23:49:17.500  INFO - 59. Connection closed. {executed in 0ms} 
+2024-10-07 23:49:17.500  INFO - 59. Connection.close() returned 
+2024-10-07 23:49:17.504  INFO - 67. Connection opened. {executed in 4ms} 
+2024-10-07 23:49:17.504  INFO - 67. Connection.new Connection returned 
+2024-10-07 23:49:17.504  INFO - 67. Connection.isReadOnly() returned false
+2024-10-07 23:49:17.504  INFO - 67. Connection.getAutoCommit() returned true
+2024-10-07 23:49:19.464  INFO - 57. Connection.isClosed() returned false
+2024-10-07 23:49:19.464  INFO - 57. Connection closed. {executed in 0ms} 
+2024-10-07 23:49:19.464  INFO - 57. Connection.close() returned 
+2024-10-07 23:49:19.464  INFO - 57. Connection closed. {executed in 0ms} 
+2024-10-07 23:49:19.464  INFO - 57. Connection.close() returned 
+2024-10-07 23:49:19.468  INFO - 68. Connection opened. {executed in 3ms} 
+2024-10-07 23:49:19.468  INFO - 68. Connection.new Connection returned 
+2024-10-07 23:49:19.468  INFO - 68. Connection.isReadOnly() returned false
+2024-10-07 23:49:19.468  INFO - 68. Connection.getAutoCommit() returned true
+2024-10-07 23:49:47.124  INFO - 58. Connection.isClosed() returned false
+2024-10-07 23:49:47.124  INFO - 58. Connection closed. {executed in 0ms} 
+2024-10-07 23:49:47.124  INFO - 58. Connection.close() returned 
+2024-10-07 23:49:47.124  INFO - 58. Connection closed. {executed in 0ms} 
+2024-10-07 23:49:47.124  INFO - 58. Connection.close() returned 
+2024-10-07 23:49:47.131  INFO - 69. Connection opened. {executed in 6ms} 
+2024-10-07 23:49:47.131  INFO - 69. Connection.new Connection returned 
+2024-10-07 23:49:47.131  INFO - 69. Connection.isReadOnly() returned false
+2024-10-07 23:49:47.131  INFO - 69. Connection.getAutoCommit() returned true
+2024-10-07 23:50:02.860  INFO - 60. Connection.isClosed() returned false
+2024-10-07 23:50:02.860  INFO - 60. Connection closed. {executed in 0ms} 
+2024-10-07 23:50:02.860  INFO - 60. Connection.close() returned 
+2024-10-07 23:50:02.860  INFO - 60. Connection closed. {executed in 0ms} 
+2024-10-07 23:50:02.860  INFO - 60. Connection.close() returned 
+2024-10-07 23:50:02.864  INFO - 70. Connection opened. {executed in 3ms} 
+2024-10-07 23:50:02.865  INFO - 70. Connection.new Connection returned 
+2024-10-07 23:50:02.865  INFO - 70. Connection.isReadOnly() returned false
+2024-10-07 23:50:02.865  INFO - 70. Connection.getAutoCommit() returned true

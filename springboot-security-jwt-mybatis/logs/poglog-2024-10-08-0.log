@@ -1,0 +1,2170 @@
+2024-10-08 00:17:56.902  INFO - 61. Connection.isClosed() returned false
+2024-10-08 00:17:56.920  INFO - 61. Connection closed. {executed in 1ms} 
+2024-10-08 00:17:56.920  INFO - 61. Connection.close() returned 
+2024-10-08 00:17:56.920  INFO - 61. Connection closed. {executed in 0ms} 
+2024-10-08 00:17:56.920  INFO - 61. Connection.close() returned 
+2024-10-08 00:17:56.925  INFO - 71. Connection opened. {executed in 4ms} 
+2024-10-08 00:17:56.926  INFO - 71. Connection.new Connection returned 
+2024-10-08 00:17:56.926  INFO - 71. Connection.isReadOnly() returned false
+2024-10-08 00:17:56.926  INFO - 71. Connection.getAutoCommit() returned true
+2024-10-08 00:18:11.579  INFO - 62. Connection.isClosed() returned false
+2024-10-08 00:18:11.582  INFO - 62. Connection closed. {executed in 2ms} 
+2024-10-08 00:18:11.582  INFO - 62. Connection.close() returned 
+2024-10-08 00:18:11.582  INFO - 62. Connection closed. {executed in 0ms} 
+2024-10-08 00:18:11.582  INFO - 62. Connection.close() returned 
+2024-10-08 00:18:11.592  INFO - 72. Connection opened. {executed in 9ms} 
+2024-10-08 00:18:11.593  INFO - 72. Connection.new Connection returned 
+2024-10-08 00:18:11.593  INFO - 72. Connection.isReadOnly() returned false
+2024-10-08 00:18:11.593  INFO - 72. Connection.getAutoCommit() returned true
+2024-10-08 00:18:31.844  INFO - 65. Connection.isClosed() returned false
+2024-10-08 00:18:31.845  INFO - 65. Connection closed. {executed in 1ms} 
+2024-10-08 00:18:31.845  INFO - 65. Connection.close() returned 
+2024-10-08 00:18:31.845  INFO - 65. Connection closed. {executed in 0ms} 
+2024-10-08 00:18:31.845  INFO - 65. Connection.close() returned 
+2024-10-08 00:18:31.860  INFO - 73. Connection opened. {executed in 8ms} 
+2024-10-08 00:18:31.860  INFO - 73. Connection.new Connection returned 
+2024-10-08 00:18:31.860  INFO - 73. Connection.isReadOnly() returned false
+2024-10-08 00:18:31.860  INFO - 73. Connection.getAutoCommit() returned true
+2024-10-08 00:18:44.631  INFO - 68. Connection.isClosed() returned false
+2024-10-08 00:18:44.632  INFO - 68. Connection closed. {executed in 1ms} 
+2024-10-08 00:18:44.632  INFO - 68. Connection.close() returned 
+2024-10-08 00:18:44.632  INFO - 68. Connection closed. {executed in 0ms} 
+2024-10-08 00:18:44.632  INFO - 68. Connection.close() returned 
+2024-10-08 00:18:44.637  INFO - 74. Connection opened. {executed in 4ms} 
+2024-10-08 00:18:44.637  INFO - 74. Connection.new Connection returned 
+2024-10-08 00:18:44.637  INFO - 74. Connection.isReadOnly() returned false
+2024-10-08 00:18:44.637  INFO - 74. Connection.getAutoCommit() returned true
+2024-10-08 00:18:44.868  INFO - 67. Connection.isClosed() returned false
+2024-10-08 00:18:44.869  INFO - 67. Connection closed. {executed in 1ms} 
+2024-10-08 00:18:44.869  INFO - 67. Connection.close() returned 
+2024-10-08 00:18:44.869  INFO - 67. Connection closed. {executed in 0ms} 
+2024-10-08 00:18:44.869  INFO - 67. Connection.close() returned 
+2024-10-08 00:18:44.878  INFO - 75. Connection opened. {executed in 9ms} 
+2024-10-08 00:18:44.878  INFO - 75. Connection.new Connection returned 
+2024-10-08 00:18:44.878  INFO - 75. Connection.isReadOnly() returned false
+2024-10-08 00:18:44.878  INFO - 75. Connection.getAutoCommit() returned true
+2024-10-08 00:18:55.281  INFO - 63. Connection.isClosed() returned false
+2024-10-08 00:18:55.282  INFO - 63. Connection closed. {executed in 1ms} 
+2024-10-08 00:18:55.282  INFO - 63. Connection.close() returned 
+2024-10-08 00:18:55.282  INFO - 63. Connection closed. {executed in 0ms} 
+2024-10-08 00:18:55.282  INFO - 63. Connection.close() returned 
+2024-10-08 00:18:55.286  INFO - 76. Connection opened. {executed in 4ms} 
+2024-10-08 00:18:55.286  INFO - 76. Connection.new Connection returned 
+2024-10-08 00:18:55.286  INFO - 76. Connection.isReadOnly() returned false
+2024-10-08 00:18:55.286  INFO - 76. Connection.getAutoCommit() returned true
+2024-10-08 00:19:02.963  INFO - 64. Connection.isClosed() returned false
+2024-10-08 00:19:02.964  INFO - 64. Connection closed. {executed in 0ms} 
+2024-10-08 00:19:02.964  INFO - 64. Connection.close() returned 
+2024-10-08 00:19:02.964  INFO - 64. Connection closed. {executed in 0ms} 
+2024-10-08 00:19:02.964  INFO - 64. Connection.close() returned 
+2024-10-08 00:19:02.970  INFO - 77. Connection opened. {executed in 5ms} 
+2024-10-08 00:19:02.970  INFO - 77. Connection.new Connection returned 
+2024-10-08 00:19:02.970  INFO - 77. Connection.isReadOnly() returned false
+2024-10-08 00:19:02.970  INFO - 77. Connection.getAutoCommit() returned true
+2024-10-08 00:19:11.144  INFO - 66. Connection.isClosed() returned false
+2024-10-08 00:19:11.145  INFO - 66. Connection closed. {executed in 1ms} 
+2024-10-08 00:19:11.145  INFO - 66. Connection.close() returned 
+2024-10-08 00:19:11.145  INFO - 66. Connection closed. {executed in 0ms} 
+2024-10-08 00:19:11.145  INFO - 66. Connection.close() returned 
+2024-10-08 00:19:11.152  INFO - 78. Connection opened. {executed in 5ms} 
+2024-10-08 00:19:11.152  INFO - 78. Connection.new Connection returned 
+2024-10-08 00:19:11.152  INFO - 78. Connection.isReadOnly() returned false
+2024-10-08 00:19:11.152  INFO - 78. Connection.getAutoCommit() returned true
+2024-10-08 00:19:15.005  INFO - 69. Connection.isClosed() returned false
+2024-10-08 00:19:15.006  INFO - 69. Connection closed. {executed in 1ms} 
+2024-10-08 00:19:15.006  INFO - 69. Connection.close() returned 
+2024-10-08 00:19:15.006  INFO - 69. Connection closed. {executed in 0ms} 
+2024-10-08 00:19:15.006  INFO - 69. Connection.close() returned 
+2024-10-08 00:19:15.009  INFO - 79. Connection opened. {executed in 3ms} 
+2024-10-08 00:19:15.009  INFO - 79. Connection.new Connection returned 
+2024-10-08 00:19:15.009  INFO - 79. Connection.isReadOnly() returned false
+2024-10-08 00:19:15.009  INFO - 79. Connection.getAutoCommit() returned true
+2024-10-08 00:19:36.272  INFO - 70. Connection.isClosed() returned false
+2024-10-08 00:19:36.273  INFO - 70. Connection closed. {executed in 1ms} 
+2024-10-08 00:19:36.273  INFO - 70. Connection.close() returned 
+2024-10-08 00:19:36.273  INFO - 70. Connection closed. {executed in 0ms} 
+2024-10-08 00:19:36.273  INFO - 70. Connection.close() returned 
+2024-10-08 00:19:36.279  INFO - 80. Connection opened. {executed in 5ms} 
+2024-10-08 00:19:36.279  INFO - 80. Connection.new Connection returned 
+2024-10-08 00:19:36.279  INFO - 80. Connection.isReadOnly() returned false
+2024-10-08 00:19:36.279  INFO - 80. Connection.getAutoCommit() returned true
+2024-10-08 00:47:28.995  INFO - 72. Connection.isClosed() returned false
+2024-10-08 00:47:28.996  INFO - 72. Connection closed. {executed in 1ms} 
+2024-10-08 00:47:28.997  INFO - 72. Connection.close() returned 
+2024-10-08 00:47:28.997  INFO - 72. Connection closed. {executed in 0ms} 
+2024-10-08 00:47:28.997  INFO - 72. Connection.close() returned 
+2024-10-08 00:47:29.002  INFO - 81. Connection opened. {executed in 4ms} 
+2024-10-08 00:47:29.002  INFO - 81. Connection.new Connection returned 
+2024-10-08 00:47:29.003  INFO - 81. Connection.isReadOnly() returned false
+2024-10-08 00:47:29.003  INFO - 81. Connection.getAutoCommit() returned true
+2024-10-08 00:47:56.392  INFO - 71. Connection.isClosed() returned false
+2024-10-08 00:47:56.393  INFO - 71. Connection closed. {executed in 1ms} 
+2024-10-08 00:47:56.393  INFO - 71. Connection.close() returned 
+2024-10-08 00:47:56.393  INFO - 71. Connection closed. {executed in 0ms} 
+2024-10-08 00:47:56.393  INFO - 71. Connection.close() returned 
+2024-10-08 00:47:56.419  INFO - 82. Connection opened. {executed in 19ms} 
+2024-10-08 00:47:56.419  INFO - 82. Connection.new Connection returned 
+2024-10-08 00:47:56.419  INFO - 82. Connection.isReadOnly() returned false
+2024-10-08 00:47:56.419  INFO - 82. Connection.getAutoCommit() returned true
+2024-10-08 00:47:59.108  INFO - 73. Connection.isClosed() returned false
+2024-10-08 00:47:59.109  INFO - 73. Connection closed. {executed in 0ms} 
+2024-10-08 00:47:59.109  INFO - 73. Connection.close() returned 
+2024-10-08 00:47:59.109  INFO - 73. Connection closed. {executed in 0ms} 
+2024-10-08 00:47:59.109  INFO - 73. Connection.close() returned 
+2024-10-08 00:47:59.112  INFO - 83. Connection opened. {executed in 3ms} 
+2024-10-08 00:47:59.113  INFO - 83. Connection.new Connection returned 
+2024-10-08 00:47:59.113  INFO - 83. Connection.isReadOnly() returned false
+2024-10-08 00:47:59.113  INFO - 83. Connection.getAutoCommit() returned true
+2024-10-08 00:48:06.175  INFO - 74. Connection.isClosed() returned false
+2024-10-08 00:48:06.176  INFO - 74. Connection closed. {executed in 1ms} 
+2024-10-08 00:48:06.176  INFO - 74. Connection.close() returned 
+2024-10-08 00:48:06.176  INFO - 74. Connection closed. {executed in 0ms} 
+2024-10-08 00:48:06.176  INFO - 74. Connection.close() returned 
+2024-10-08 00:48:06.180  INFO - 84. Connection opened. {executed in 3ms} 
+2024-10-08 00:48:06.180  INFO - 84. Connection.new Connection returned 
+2024-10-08 00:48:06.180  INFO - 84. Connection.isReadOnly() returned false
+2024-10-08 00:48:06.180  INFO - 84. Connection.getAutoCommit() returned true
+2024-10-08 00:48:07.245  INFO - 75. Connection.isClosed() returned false
+2024-10-08 00:48:07.245  INFO - 75. Connection closed. {executed in 0ms} 
+2024-10-08 00:48:07.245  INFO - 75. Connection.close() returned 
+2024-10-08 00:48:07.245  INFO - 75. Connection closed. {executed in 0ms} 
+2024-10-08 00:48:07.245  INFO - 75. Connection.close() returned 
+2024-10-08 00:48:07.248  INFO - 85. Connection opened. {executed in 3ms} 
+2024-10-08 00:48:07.248  INFO - 85. Connection.new Connection returned 
+2024-10-08 00:48:07.248  INFO - 85. Connection.isReadOnly() returned false
+2024-10-08 00:48:07.248  INFO - 85. Connection.getAutoCommit() returned true
+2024-10-08 00:48:31.560  INFO - 78. Connection.isClosed() returned false
+2024-10-08 00:48:31.561  INFO - 78. Connection closed. {executed in 1ms} 
+2024-10-08 00:48:31.561  INFO - 78. Connection.close() returned 
+2024-10-08 00:48:31.561  INFO - 78. Connection closed. {executed in 0ms} 
+2024-10-08 00:48:31.562  INFO - 78. Connection.close() returned 
+2024-10-08 00:48:31.570  INFO - 86. Connection opened. {executed in 8ms} 
+2024-10-08 00:48:31.571  INFO - 86. Connection.new Connection returned 
+2024-10-08 00:48:31.571  INFO - 86. Connection.isReadOnly() returned false
+2024-10-08 00:48:31.571  INFO - 86. Connection.getAutoCommit() returned true
+2024-10-08 00:48:31.874  INFO - 76. Connection.isClosed() returned false
+2024-10-08 00:48:31.875  INFO - 76. Connection closed. {executed in 1ms} 
+2024-10-08 00:48:31.875  INFO - 76. Connection.close() returned 
+2024-10-08 00:48:31.875  INFO - 76. Connection closed. {executed in 0ms} 
+2024-10-08 00:48:31.875  INFO - 76. Connection.close() returned 
+2024-10-08 00:48:31.878  INFO - 87. Connection opened. {executed in 3ms} 
+2024-10-08 00:48:31.878  INFO - 87. Connection.new Connection returned 
+2024-10-08 00:48:31.878  INFO - 87. Connection.isReadOnly() returned false
+2024-10-08 00:48:31.878  INFO - 87. Connection.getAutoCommit() returned true
+2024-10-08 00:48:48.703  INFO - 77. Connection.isClosed() returned false
+2024-10-08 00:48:48.705  INFO - 77. Connection closed. {executed in 2ms} 
+2024-10-08 00:48:48.705  INFO - 77. Connection.close() returned 
+2024-10-08 00:48:48.705  INFO - 77. Connection closed. {executed in 0ms} 
+2024-10-08 00:48:48.705  INFO - 77. Connection.close() returned 
+2024-10-08 00:48:48.709  INFO - 88. Connection opened. {executed in 4ms} 
+2024-10-08 00:48:48.709  INFO - 88. Connection.new Connection returned 
+2024-10-08 00:48:48.709  INFO - 88. Connection.isReadOnly() returned false
+2024-10-08 00:48:48.709  INFO - 88. Connection.getAutoCommit() returned true
+2024-10-08 00:48:54.183  INFO - 80. Connection.isClosed() returned false
+2024-10-08 00:48:54.185  INFO - 80. Connection closed. {executed in 1ms} 
+2024-10-08 00:48:54.185  INFO - 80. Connection.close() returned 
+2024-10-08 00:48:54.185  INFO - 80. Connection closed. {executed in 0ms} 
+2024-10-08 00:48:54.185  INFO - 80. Connection.close() returned 
+2024-10-08 00:48:54.190  INFO - 89. Connection opened. {executed in 4ms} 
+2024-10-08 00:48:54.190  INFO - 89. Connection.new Connection returned 
+2024-10-08 00:48:54.190  INFO - 89. Connection.isReadOnly() returned false
+2024-10-08 00:48:54.190  INFO - 89. Connection.getAutoCommit() returned true
+2024-10-08 00:48:59.622  INFO - 79. Connection.isClosed() returned false
+2024-10-08 00:48:59.622  INFO - 79. Connection closed. {executed in 0ms} 
+2024-10-08 00:48:59.622  INFO - 79. Connection.close() returned 
+2024-10-08 00:48:59.622  INFO - 79. Connection closed. {executed in 0ms} 
+2024-10-08 00:48:59.622  INFO - 79. Connection.close() returned 
+2024-10-08 00:48:59.627  INFO - 90. Connection opened. {executed in 3ms} 
+2024-10-08 00:48:59.627  INFO - 90. Connection.new Connection returned 
+2024-10-08 00:48:59.627  INFO - 90. Connection.isReadOnly() returned false
+2024-10-08 00:48:59.627  INFO - 90. Connection.getAutoCommit() returned true
+2024-10-08 01:17:21.217  INFO - 81. Connection.isClosed() returned false
+2024-10-08 01:17:21.217  INFO - 81. Connection closed. {executed in 0ms} 
+2024-10-08 01:17:21.218  INFO - 81. Connection.close() returned 
+2024-10-08 01:17:21.218  INFO - 81. Connection closed. {executed in 0ms} 
+2024-10-08 01:17:21.218  INFO - 81. Connection.close() returned 
+2024-10-08 01:17:21.224  INFO - 91. Connection opened. {executed in 6ms} 
+2024-10-08 01:17:21.224  INFO - 91. Connection.new Connection returned 
+2024-10-08 01:17:21.224  INFO - 91. Connection.isReadOnly() returned false
+2024-10-08 01:17:21.224  INFO - 91. Connection.getAutoCommit() returned true
+2024-10-08 01:17:33.830  INFO - 82. Connection.isClosed() returned false
+2024-10-08 01:17:33.831  INFO - 82. Connection closed. {executed in 1ms} 
+2024-10-08 01:17:33.831  INFO - 82. Connection.close() returned 
+2024-10-08 01:17:33.831  INFO - 82. Connection closed. {executed in 0ms} 
+2024-10-08 01:17:33.831  INFO - 82. Connection.close() returned 
+2024-10-08 01:17:33.836  INFO - 92. Connection opened. {executed in 3ms} 
+2024-10-08 01:17:33.836  INFO - 92. Connection.new Connection returned 
+2024-10-08 01:17:33.836  INFO - 92. Connection.isReadOnly() returned false
+2024-10-08 01:17:33.836  INFO - 92. Connection.getAutoCommit() returned true
+2024-10-08 01:17:37.361  INFO - 84. Connection.isClosed() returned false
+2024-10-08 01:17:37.362  INFO - 84. Connection closed. {executed in 0ms} 
+2024-10-08 01:17:37.362  INFO - 84. Connection.close() returned 
+2024-10-08 01:17:37.362  INFO - 84. Connection closed. {executed in 0ms} 
+2024-10-08 01:17:37.362  INFO - 84. Connection.close() returned 
+2024-10-08 01:17:37.366  INFO - 93. Connection opened. {executed in 4ms} 
+2024-10-08 01:17:37.366  INFO - 93. Connection.new Connection returned 
+2024-10-08 01:17:37.366  INFO - 93. Connection.isReadOnly() returned false
+2024-10-08 01:17:37.366  INFO - 93. Connection.getAutoCommit() returned true
+2024-10-08 01:17:38.817  INFO - 85. Connection.isClosed() returned false
+2024-10-08 01:17:38.818  INFO - 85. Connection closed. {executed in 1ms} 
+2024-10-08 01:17:38.818  INFO - 85. Connection.close() returned 
+2024-10-08 01:17:38.818  INFO - 85. Connection closed. {executed in 0ms} 
+2024-10-08 01:17:38.819  INFO - 85. Connection.close() returned 
+2024-10-08 01:17:38.829  INFO - 94. Connection opened. {executed in 10ms} 
+2024-10-08 01:17:38.830  INFO - 94. Connection.new Connection returned 
+2024-10-08 01:17:38.830  INFO - 94. Connection.isReadOnly() returned false
+2024-10-08 01:17:38.830  INFO - 94. Connection.getAutoCommit() returned true
+2024-10-08 01:17:51.110  INFO - 83. Connection.isClosed() returned false
+2024-10-08 01:17:51.111  INFO - 83. Connection closed. {executed in 1ms} 
+2024-10-08 01:17:51.111  INFO - 83. Connection.close() returned 
+2024-10-08 01:17:51.111  INFO - 83. Connection closed. {executed in 0ms} 
+2024-10-08 01:17:51.111  INFO - 83. Connection.close() returned 
+2024-10-08 01:17:51.116  INFO - 95. Connection opened. {executed in 4ms} 
+2024-10-08 01:17:51.116  INFO - 95. Connection.new Connection returned 
+2024-10-08 01:17:51.116  INFO - 95. Connection.isReadOnly() returned false
+2024-10-08 01:17:51.117  INFO - 95. Connection.getAutoCommit() returned true
+2024-10-08 01:17:51.881  INFO - 87. Connection.isClosed() returned false
+2024-10-08 01:17:51.882  INFO - 87. Connection closed. {executed in 0ms} 
+2024-10-08 01:17:51.882  INFO - 87. Connection.close() returned 
+2024-10-08 01:17:51.882  INFO - 87. Connection closed. {executed in 0ms} 
+2024-10-08 01:17:51.882  INFO - 87. Connection.close() returned 
+2024-10-08 01:17:51.901  INFO - 96. Connection opened. {executed in 18ms} 
+2024-10-08 01:17:51.901  INFO - 96. Connection.new Connection returned 
+2024-10-08 01:17:51.901  INFO - 96. Connection.isReadOnly() returned false
+2024-10-08 01:17:51.901  INFO - 96. Connection.getAutoCommit() returned true
+2024-10-08 01:17:59.090  INFO - 86. Connection.isClosed() returned false
+2024-10-08 01:17:59.091  INFO - 86. Connection closed. {executed in 1ms} 
+2024-10-08 01:17:59.091  INFO - 86. Connection.close() returned 
+2024-10-08 01:17:59.091  INFO - 86. Connection closed. {executed in 0ms} 
+2024-10-08 01:17:59.091  INFO - 86. Connection.close() returned 
+2024-10-08 01:17:59.096  INFO - 97. Connection opened. {executed in 4ms} 
+2024-10-08 01:17:59.096  INFO - 97. Connection.new Connection returned 
+2024-10-08 01:17:59.096  INFO - 97. Connection.isReadOnly() returned false
+2024-10-08 01:17:59.096  INFO - 97. Connection.getAutoCommit() returned true
+2024-10-08 01:18:11.174  INFO - 88. Connection.isClosed() returned false
+2024-10-08 01:18:11.175  INFO - 88. Connection closed. {executed in 1ms} 
+2024-10-08 01:18:11.175  INFO - 88. Connection.close() returned 
+2024-10-08 01:18:11.175  INFO - 88. Connection closed. {executed in 0ms} 
+2024-10-08 01:18:11.175  INFO - 88. Connection.close() returned 
+2024-10-08 01:18:11.179  INFO - 98. Connection opened. {executed in 3ms} 
+2024-10-08 01:18:11.180  INFO - 98. Connection.new Connection returned 
+2024-10-08 01:18:11.180  INFO - 98. Connection.isReadOnly() returned false
+2024-10-08 01:18:11.180  INFO - 98. Connection.getAutoCommit() returned true
+2024-10-08 01:18:12.120  INFO - 89. Connection.isClosed() returned false
+2024-10-08 01:18:12.120  INFO - 89. Connection closed. {executed in 0ms} 
+2024-10-08 01:18:12.120  INFO - 89. Connection.close() returned 
+2024-10-08 01:18:12.120  INFO - 89. Connection closed. {executed in 0ms} 
+2024-10-08 01:18:12.120  INFO - 89. Connection.close() returned 
+2024-10-08 01:18:12.124  INFO - 99. Connection opened. {executed in 4ms} 
+2024-10-08 01:18:12.124  INFO - 99. Connection.new Connection returned 
+2024-10-08 01:18:12.124  INFO - 99. Connection.isReadOnly() returned false
+2024-10-08 01:18:12.124  INFO - 99. Connection.getAutoCommit() returned true
+2024-10-08 01:18:23.666  INFO - 90. Connection.isClosed() returned false
+2024-10-08 01:18:23.667  INFO - 90. Connection closed. {executed in 0ms} 
+2024-10-08 01:18:23.668  INFO - 90. Connection.close() returned 
+2024-10-08 01:18:23.668  INFO - 90. Connection closed. {executed in 0ms} 
+2024-10-08 01:18:23.668  INFO - 90. Connection.close() returned 
+2024-10-08 01:18:23.684  INFO - 100. Connection opened. {executed in 12ms} 
+2024-10-08 01:18:23.684  INFO - 100. Connection.new Connection returned 
+2024-10-08 01:18:23.684  INFO - 100. Connection.isReadOnly() returned false
+2024-10-08 01:18:23.684  INFO - 100. Connection.getAutoCommit() returned true
+2024-10-08 01:47:01.776  INFO - 94. Connection.isClosed() returned false
+2024-10-08 01:47:01.777  INFO - 94. Connection closed. {executed in 1ms} 
+2024-10-08 01:47:01.777  INFO - 94. Connection.close() returned 
+2024-10-08 01:47:01.777  INFO - 94. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:01.777  INFO - 94. Connection.close() returned 
+2024-10-08 01:47:01.783  INFO - 101. Connection opened. {executed in 6ms} 
+2024-10-08 01:47:01.783  INFO - 101. Connection.new Connection returned 
+2024-10-08 01:47:01.783  INFO - 101. Connection.isReadOnly() returned false
+2024-10-08 01:47:01.783  INFO - 101. Connection.getAutoCommit() returned true
+2024-10-08 01:47:12.983  INFO - 91. Connection.isClosed() returned false
+2024-10-08 01:47:12.984  INFO - 91. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:12.984  INFO - 91. Connection.close() returned 
+2024-10-08 01:47:12.984  INFO - 91. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:12.984  INFO - 91. Connection.close() returned 
+2024-10-08 01:47:12.989  INFO - 102. Connection opened. {executed in 4ms} 
+2024-10-08 01:47:12.989  INFO - 102. Connection.new Connection returned 
+2024-10-08 01:47:12.989  INFO - 102. Connection.isReadOnly() returned false
+2024-10-08 01:47:12.989  INFO - 102. Connection.getAutoCommit() returned true
+2024-10-08 01:47:15.732  INFO - 93. Connection.isClosed() returned false
+2024-10-08 01:47:15.733  INFO - 93. Connection closed. {executed in 1ms} 
+2024-10-08 01:47:15.733  INFO - 93. Connection.close() returned 
+2024-10-08 01:47:15.733  INFO - 93. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:15.733  INFO - 93. Connection.close() returned 
+2024-10-08 01:47:15.742  INFO - 103. Connection opened. {executed in 9ms} 
+2024-10-08 01:47:15.742  INFO - 103. Connection.new Connection returned 
+2024-10-08 01:47:15.742  INFO - 103. Connection.isReadOnly() returned false
+2024-10-08 01:47:15.742  INFO - 103. Connection.getAutoCommit() returned true
+2024-10-08 01:47:17.637  INFO - 92. Connection.isClosed() returned false
+2024-10-08 01:47:17.637  INFO - 92. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:17.637  INFO - 92. Connection.close() returned 
+2024-10-08 01:47:17.637  INFO - 92. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:17.637  INFO - 92. Connection.close() returned 
+2024-10-08 01:47:17.642  INFO - 104. Connection opened. {executed in 4ms} 
+2024-10-08 01:47:17.642  INFO - 104. Connection.new Connection returned 
+2024-10-08 01:47:17.642  INFO - 104. Connection.isReadOnly() returned false
+2024-10-08 01:47:17.642  INFO - 104. Connection.getAutoCommit() returned true
+2024-10-08 01:47:36.203  INFO - 96. Connection.isClosed() returned false
+2024-10-08 01:47:36.204  INFO - 96. Connection closed. {executed in 1ms} 
+2024-10-08 01:47:36.204  INFO - 96. Connection.close() returned 
+2024-10-08 01:47:36.204  INFO - 96. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:36.204  INFO - 96. Connection.close() returned 
+2024-10-08 01:47:36.209  INFO - 105. Connection opened. {executed in 4ms} 
+2024-10-08 01:47:36.209  INFO - 105. Connection.new Connection returned 
+2024-10-08 01:47:36.209  INFO - 105. Connection.isReadOnly() returned false
+2024-10-08 01:47:36.209  INFO - 105. Connection.getAutoCommit() returned true
+2024-10-08 01:47:38.013  INFO - 98. Connection.isClosed() returned false
+2024-10-08 01:47:38.013  INFO - 98. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:38.013  INFO - 98. Connection.close() returned 
+2024-10-08 01:47:38.014  INFO - 98. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:38.014  INFO - 98. Connection.close() returned 
+2024-10-08 01:47:38.017  INFO - 106. Connection opened. {executed in 3ms} 
+2024-10-08 01:47:38.017  INFO - 106. Connection.new Connection returned 
+2024-10-08 01:47:38.017  INFO - 106. Connection.isReadOnly() returned false
+2024-10-08 01:47:38.017  INFO - 106. Connection.getAutoCommit() returned true
+2024-10-08 01:47:39.828  INFO - 95. Connection.isClosed() returned false
+2024-10-08 01:47:39.828  INFO - 95. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:39.828  INFO - 95. Connection.close() returned 
+2024-10-08 01:47:39.829  INFO - 95. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:39.829  INFO - 95. Connection.close() returned 
+2024-10-08 01:47:39.832  INFO - 107. Connection opened. {executed in 3ms} 
+2024-10-08 01:47:39.832  INFO - 107. Connection.new Connection returned 
+2024-10-08 01:47:39.832  INFO - 107. Connection.isReadOnly() returned false
+2024-10-08 01:47:39.832  INFO - 107. Connection.getAutoCommit() returned true
+2024-10-08 01:47:40.077  INFO - 99. Connection.isClosed() returned false
+2024-10-08 01:47:40.078  INFO - 99. Connection closed. {executed in 1ms} 
+2024-10-08 01:47:40.078  INFO - 99. Connection.close() returned 
+2024-10-08 01:47:40.078  INFO - 99. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:40.078  INFO - 99. Connection.close() returned 
+2024-10-08 01:47:40.082  INFO - 108. Connection opened. {executed in 4ms} 
+2024-10-08 01:47:40.082  INFO - 108. Connection.new Connection returned 
+2024-10-08 01:47:40.082  INFO - 108. Connection.isReadOnly() returned false
+2024-10-08 01:47:40.082  INFO - 108. Connection.getAutoCommit() returned true
+2024-10-08 01:47:47.774  INFO - 97. Connection.isClosed() returned false
+2024-10-08 01:47:47.776  INFO - 97. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:47.777  INFO - 97. Connection.close() returned 
+2024-10-08 01:47:47.777  INFO - 97. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:47.777  INFO - 97. Connection.close() returned 
+2024-10-08 01:47:47.781  INFO - 109. Connection opened. {executed in 4ms} 
+2024-10-08 01:47:47.781  INFO - 109. Connection.new Connection returned 
+2024-10-08 01:47:47.781  INFO - 109. Connection.isReadOnly() returned false
+2024-10-08 01:47:47.781  INFO - 109. Connection.getAutoCommit() returned true
+2024-10-08 01:47:54.491  INFO - 100. Connection.isClosed() returned false
+2024-10-08 01:47:54.492  INFO - 100. Connection closed. {executed in 1ms} 
+2024-10-08 01:47:54.492  INFO - 100. Connection.close() returned 
+2024-10-08 01:47:54.492  INFO - 100. Connection closed. {executed in 0ms} 
+2024-10-08 01:47:54.492  INFO - 100. Connection.close() returned 
+2024-10-08 01:47:54.496  INFO - 110. Connection opened. {executed in 3ms} 
+2024-10-08 01:47:54.496  INFO - 110. Connection.new Connection returned 
+2024-10-08 01:47:54.496  INFO - 110. Connection.isReadOnly() returned false
+2024-10-08 01:47:54.496  INFO - 110. Connection.getAutoCommit() returned true
+2024-10-08 02:16:46.773  INFO - 104. Connection.isClosed() returned false
+2024-10-08 02:16:46.774  INFO - 104. Connection closed. {executed in 1ms} 
+2024-10-08 02:16:46.774  INFO - 104. Connection.close() returned 
+2024-10-08 02:16:46.774  INFO - 104. Connection closed. {executed in 0ms} 
+2024-10-08 02:16:46.774  INFO - 104. Connection.close() returned 
+2024-10-08 02:16:46.781  INFO - 111. Connection opened. {executed in 3ms} 
+2024-10-08 02:16:46.781  INFO - 111. Connection.new Connection returned 
+2024-10-08 02:16:46.781  INFO - 111. Connection.isReadOnly() returned false
+2024-10-08 02:16:46.781  INFO - 111. Connection.getAutoCommit() returned true
+2024-10-08 02:16:59.458  INFO - 101. Connection.isClosed() returned false
+2024-10-08 02:16:59.459  INFO - 101. Connection closed. {executed in 1ms} 
+2024-10-08 02:16:59.459  INFO - 101. Connection.close() returned 
+2024-10-08 02:16:59.459  INFO - 101. Connection closed. {executed in 0ms} 
+2024-10-08 02:16:59.459  INFO - 101. Connection.close() returned 
+2024-10-08 02:16:59.464  INFO - 112. Connection opened. {executed in 4ms} 
+2024-10-08 02:16:59.464  INFO - 112. Connection.new Connection returned 
+2024-10-08 02:16:59.464  INFO - 112. Connection.isReadOnly() returned false
+2024-10-08 02:16:59.464  INFO - 112. Connection.getAutoCommit() returned true
+2024-10-08 02:17:00.859  INFO - 108. Connection.isClosed() returned false
+2024-10-08 02:17:00.859  INFO - 108. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:00.859  INFO - 108. Connection.close() returned 
+2024-10-08 02:17:00.859  INFO - 108. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:00.859  INFO - 108. Connection.close() returned 
+2024-10-08 02:17:00.863  INFO - 113. Connection opened. {executed in 3ms} 
+2024-10-08 02:17:00.864  INFO - 113. Connection.new Connection returned 
+2024-10-08 02:17:00.864  INFO - 113. Connection.isReadOnly() returned false
+2024-10-08 02:17:00.864  INFO - 113. Connection.getAutoCommit() returned true
+2024-10-08 02:17:04.428  INFO - 102. Connection.isClosed() returned false
+2024-10-08 02:17:04.429  INFO - 102. Connection closed. {executed in 1ms} 
+2024-10-08 02:17:04.429  INFO - 102. Connection.close() returned 
+2024-10-08 02:17:04.429  INFO - 102. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:04.429  INFO - 102. Connection.close() returned 
+2024-10-08 02:17:04.437  INFO - 114. Connection opened. {executed in 7ms} 
+2024-10-08 02:17:04.437  INFO - 114. Connection.new Connection returned 
+2024-10-08 02:17:04.438  INFO - 114. Connection.isReadOnly() returned false
+2024-10-08 02:17:04.438  INFO - 114. Connection.getAutoCommit() returned true
+2024-10-08 02:17:06.856  INFO - 103. Connection.isClosed() returned false
+2024-10-08 02:17:06.856  INFO - 103. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:06.856  INFO - 103. Connection.close() returned 
+2024-10-08 02:17:06.856  INFO - 103. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:06.856  INFO - 103. Connection.close() returned 
+2024-10-08 02:17:06.859  INFO - 115. Connection opened. {executed in 3ms} 
+2024-10-08 02:17:06.860  INFO - 115. Connection.new Connection returned 
+2024-10-08 02:17:06.860  INFO - 115. Connection.isReadOnly() returned false
+2024-10-08 02:17:06.860  INFO - 115. Connection.getAutoCommit() returned true
+2024-10-08 02:17:12.830  INFO - 106. Connection.isClosed() returned false
+2024-10-08 02:17:12.831  INFO - 106. Connection closed. {executed in 1ms} 
+2024-10-08 02:17:12.831  INFO - 106. Connection.close() returned 
+2024-10-08 02:17:12.831  INFO - 106. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:12.831  INFO - 106. Connection.close() returned 
+2024-10-08 02:17:12.835  INFO - 116. Connection opened. {executed in 3ms} 
+2024-10-08 02:17:12.835  INFO - 116. Connection.new Connection returned 
+2024-10-08 02:17:12.835  INFO - 116. Connection.isReadOnly() returned false
+2024-10-08 02:17:12.835  INFO - 116. Connection.getAutoCommit() returned true
+2024-10-08 02:17:14.544  INFO - 109. Connection.isClosed() returned false
+2024-10-08 02:17:14.544  INFO - 109. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:14.544  INFO - 109. Connection.close() returned 
+2024-10-08 02:17:14.544  INFO - 109. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:14.544  INFO - 109. Connection.close() returned 
+2024-10-08 02:17:14.547  INFO - 117. Connection opened. {executed in 3ms} 
+2024-10-08 02:17:14.547  INFO - 117. Connection.new Connection returned 
+2024-10-08 02:17:14.547  INFO - 117. Connection.isReadOnly() returned false
+2024-10-08 02:17:14.547  INFO - 117. Connection.getAutoCommit() returned true
+2024-10-08 02:17:19.554  INFO - 107. Connection.isClosed() returned false
+2024-10-08 02:17:19.555  INFO - 107. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:19.555  INFO - 107. Connection.close() returned 
+2024-10-08 02:17:19.556  INFO - 107. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:19.556  INFO - 107. Connection.close() returned 
+2024-10-08 02:17:19.562  INFO - 118. Connection opened. {executed in 6ms} 
+2024-10-08 02:17:19.563  INFO - 118. Connection.new Connection returned 
+2024-10-08 02:17:19.563  INFO - 118. Connection.isReadOnly() returned false
+2024-10-08 02:17:19.563  INFO - 118. Connection.getAutoCommit() returned true
+2024-10-08 02:17:34.749  INFO - 110. Connection.isClosed() returned false
+2024-10-08 02:17:34.750  INFO - 110. Connection closed. {executed in 1ms} 
+2024-10-08 02:17:34.750  INFO - 110. Connection.close() returned 
+2024-10-08 02:17:34.750  INFO - 110. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:34.750  INFO - 110. Connection.close() returned 
+2024-10-08 02:17:34.755  INFO - 119. Connection opened. {executed in 4ms} 
+2024-10-08 02:17:34.755  INFO - 119. Connection.new Connection returned 
+2024-10-08 02:17:34.755  INFO - 119. Connection.isReadOnly() returned false
+2024-10-08 02:17:34.755  INFO - 119. Connection.getAutoCommit() returned true
+2024-10-08 02:17:35.518  INFO - 105. Connection.isClosed() returned false
+2024-10-08 02:17:35.518  INFO - 105. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:35.518  INFO - 105. Connection.close() returned 
+2024-10-08 02:17:35.518  INFO - 105. Connection closed. {executed in 0ms} 
+2024-10-08 02:17:35.518  INFO - 105. Connection.close() returned 
+2024-10-08 02:17:35.522  INFO - 120. Connection opened. {executed in 3ms} 
+2024-10-08 02:17:35.522  INFO - 120. Connection.new Connection returned 
+2024-10-08 02:17:35.522  INFO - 120. Connection.isReadOnly() returned false
+2024-10-08 02:17:35.522  INFO - 120. Connection.getAutoCommit() returned true
+2024-10-08 02:46:17.914  INFO - 113. Connection.isClosed() returned false
+2024-10-08 02:46:17.916  INFO - 113. Connection closed. {executed in 0ms} 
+2024-10-08 02:46:17.916  INFO - 113. Connection.close() returned 
+2024-10-08 02:46:17.916  INFO - 113. Connection closed. {executed in 0ms} 
+2024-10-08 02:46:17.916  INFO - 113. Connection.close() returned 
+2024-10-08 02:46:17.929  INFO - 121. Connection opened. {executed in 12ms} 
+2024-10-08 02:46:17.929  INFO - 121. Connection.new Connection returned 
+2024-10-08 02:46:17.929  INFO - 121. Connection.isReadOnly() returned false
+2024-10-08 02:46:17.929  INFO - 121. Connection.getAutoCommit() returned true
+2024-10-08 02:46:27.497  INFO - 111. Connection.isClosed() returned false
+2024-10-08 02:46:27.498  INFO - 111. Connection closed. {executed in 1ms} 
+2024-10-08 02:46:27.498  INFO - 111. Connection.close() returned 
+2024-10-08 02:46:27.498  INFO - 111. Connection closed. {executed in 0ms} 
+2024-10-08 02:46:27.498  INFO - 111. Connection.close() returned 
+2024-10-08 02:46:27.502  INFO - 122. Connection opened. {executed in 4ms} 
+2024-10-08 02:46:27.502  INFO - 122. Connection.new Connection returned 
+2024-10-08 02:46:27.502  INFO - 122. Connection.isReadOnly() returned false
+2024-10-08 02:46:27.503  INFO - 122. Connection.getAutoCommit() returned true
+2024-10-08 02:46:31.730  INFO - 117. Connection.isClosed() returned false
+2024-10-08 02:46:31.730  INFO - 117. Connection closed. {executed in 0ms} 
+2024-10-08 02:46:31.730  INFO - 117. Connection.close() returned 
+2024-10-08 02:46:31.730  INFO - 117. Connection closed. {executed in 0ms} 
+2024-10-08 02:46:31.730  INFO - 117. Connection.close() returned 
+2024-10-08 02:46:31.734  INFO - 123. Connection opened. {executed in 4ms} 
+2024-10-08 02:46:31.734  INFO - 123. Connection.new Connection returned 
+2024-10-08 02:46:31.734  INFO - 123. Connection.isReadOnly() returned false
+2024-10-08 02:46:31.734  INFO - 123. Connection.getAutoCommit() returned true
+2024-10-08 02:46:32.313  INFO - 116. Connection.isClosed() returned false
+2024-10-08 02:46:32.313  INFO - 116. Connection closed. {executed in 0ms} 
+2024-10-08 02:46:32.313  INFO - 116. Connection.close() returned 
+2024-10-08 02:46:32.313  INFO - 116. Connection closed. {executed in 0ms} 
+2024-10-08 02:46:32.313  INFO - 116. Connection.close() returned 
+2024-10-08 02:46:32.320  INFO - 124. Connection opened. {executed in 6ms} 
+2024-10-08 02:46:32.320  INFO - 124. Connection.new Connection returned 
+2024-10-08 02:46:32.320  INFO - 124. Connection.isReadOnly() returned false
+2024-10-08 02:46:32.320  INFO - 124. Connection.getAutoCommit() returned true
+2024-10-08 02:46:44.894  INFO - 112. Connection.isClosed() returned false
+2024-10-08 02:46:44.894  INFO - 112. Connection closed. {executed in 0ms} 
+2024-10-08 02:46:44.894  INFO - 112. Connection.close() returned 
+2024-10-08 02:46:44.894  INFO - 112. Connection closed. {executed in 0ms} 
+2024-10-08 02:46:44.894  INFO - 112. Connection.close() returned 
+2024-10-08 02:46:44.899  INFO - 125. Connection opened. {executed in 3ms} 
+2024-10-08 02:46:44.900  INFO - 125. Connection.new Connection returned 
+2024-10-08 02:46:44.900  INFO - 125. Connection.isReadOnly() returned false
+2024-10-08 02:46:44.900  INFO - 125. Connection.getAutoCommit() returned true
+2024-10-08 02:46:53.613  INFO - 114. Connection.isClosed() returned false
+2024-10-08 02:46:53.614  INFO - 114. Connection closed. {executed in 1ms} 
+2024-10-08 02:46:53.614  INFO - 114. Connection.close() returned 
+2024-10-08 02:46:53.614  INFO - 114. Connection closed. {executed in 0ms} 
+2024-10-08 02:46:53.614  INFO - 114. Connection.close() returned 
+2024-10-08 02:46:53.621  INFO - 126. Connection opened. {executed in 6ms} 
+2024-10-08 02:46:53.621  INFO - 126. Connection.new Connection returned 
+2024-10-08 02:46:53.621  INFO - 126. Connection.isReadOnly() returned false
+2024-10-08 02:46:53.621  INFO - 126. Connection.getAutoCommit() returned true
+2024-10-08 02:47:02.224  INFO - 115. Connection.isClosed() returned false
+2024-10-08 02:47:02.225  INFO - 115. Connection closed. {executed in 0ms} 
+2024-10-08 02:47:02.225  INFO - 115. Connection.close() returned 
+2024-10-08 02:47:02.225  INFO - 115. Connection closed. {executed in 0ms} 
+2024-10-08 02:47:02.225  INFO - 115. Connection.close() returned 
+2024-10-08 02:47:02.232  INFO - 127. Connection opened. {executed in 6ms} 
+2024-10-08 02:47:02.232  INFO - 127. Connection.new Connection returned 
+2024-10-08 02:47:02.232  INFO - 127. Connection.isReadOnly() returned false
+2024-10-08 02:47:02.232  INFO - 127. Connection.getAutoCommit() returned true
+2024-10-08 02:47:04.764  INFO - 119. Connection.isClosed() returned false
+2024-10-08 02:47:04.765  INFO - 119. Connection closed. {executed in 1ms} 
+2024-10-08 02:47:04.765  INFO - 119. Connection.close() returned 
+2024-10-08 02:47:04.765  INFO - 119. Connection closed. {executed in 0ms} 
+2024-10-08 02:47:04.765  INFO - 119. Connection.close() returned 
+2024-10-08 02:47:04.775  INFO - 128. Connection opened. {executed in 9ms} 
+2024-10-08 02:47:04.775  INFO - 128. Connection.new Connection returned 
+2024-10-08 02:47:04.775  INFO - 128. Connection.isReadOnly() returned false
+2024-10-08 02:47:04.776  INFO - 128. Connection.getAutoCommit() returned true
+2024-10-08 02:47:14.737  INFO - 120. Connection.isClosed() returned false
+2024-10-08 02:47:14.738  INFO - 120. Connection closed. {executed in 1ms} 
+2024-10-08 02:47:14.738  INFO - 120. Connection.close() returned 
+2024-10-08 02:47:14.738  INFO - 120. Connection closed. {executed in 0ms} 
+2024-10-08 02:47:14.738  INFO - 120. Connection.close() returned 
+2024-10-08 02:47:14.745  INFO - 129. Connection opened. {executed in 6ms} 
+2024-10-08 02:47:14.745  INFO - 129. Connection.new Connection returned 
+2024-10-08 02:47:14.745  INFO - 129. Connection.isReadOnly() returned false
+2024-10-08 02:47:14.745  INFO - 129. Connection.getAutoCommit() returned true
+2024-10-08 02:47:14.910  INFO - 118. Connection.isClosed() returned false
+2024-10-08 02:47:14.910  INFO - 118. Connection closed. {executed in 0ms} 
+2024-10-08 02:47:14.910  INFO - 118. Connection.close() returned 
+2024-10-08 02:47:14.910  INFO - 118. Connection closed. {executed in 0ms} 
+2024-10-08 02:47:14.911  INFO - 118. Connection.close() returned 
+2024-10-08 02:47:14.915  INFO - 130. Connection opened. {executed in 4ms} 
+2024-10-08 02:47:14.915  INFO - 130. Connection.new Connection returned 
+2024-10-08 02:47:14.915  INFO - 130. Connection.isReadOnly() returned false
+2024-10-08 02:47:14.915  INFO - 130. Connection.getAutoCommit() returned true
+2024-10-08 03:15:50.731  INFO - 121. Connection.isClosed() returned false
+2024-10-08 03:15:50.732  INFO - 121. Connection closed. {executed in 0ms} 
+2024-10-08 03:15:50.733  INFO - 121. Connection.close() returned 
+2024-10-08 03:15:50.733  INFO - 121. Connection closed. {executed in 0ms} 
+2024-10-08 03:15:50.733  INFO - 121. Connection.close() returned 
+2024-10-08 03:15:50.741  INFO - 131. Connection opened. {executed in 8ms} 
+2024-10-08 03:15:50.741  INFO - 131. Connection.new Connection returned 
+2024-10-08 03:15:50.741  INFO - 131. Connection.isReadOnly() returned false
+2024-10-08 03:15:50.741  INFO - 131. Connection.getAutoCommit() returned true
+2024-10-08 03:16:17.409  INFO - 124. Connection.isClosed() returned false
+2024-10-08 03:16:17.410  INFO - 124. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:17.410  INFO - 124. Connection.close() returned 
+2024-10-08 03:16:17.410  INFO - 124. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:17.410  INFO - 124. Connection.close() returned 
+2024-10-08 03:16:17.415  INFO - 132. Connection opened. {executed in 4ms} 
+2024-10-08 03:16:17.415  INFO - 132. Connection.new Connection returned 
+2024-10-08 03:16:17.415  INFO - 132. Connection.isReadOnly() returned false
+2024-10-08 03:16:17.415  INFO - 132. Connection.getAutoCommit() returned true
+2024-10-08 03:16:18.666  INFO - 122. Connection.isClosed() returned false
+2024-10-08 03:16:18.666  INFO - 122. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:18.666  INFO - 122. Connection.close() returned 
+2024-10-08 03:16:18.666  INFO - 122. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:18.666  INFO - 122. Connection.close() returned 
+2024-10-08 03:16:18.670  INFO - 133. Connection opened. {executed in 4ms} 
+2024-10-08 03:16:18.670  INFO - 133. Connection.new Connection returned 
+2024-10-08 03:16:18.670  INFO - 133. Connection.isReadOnly() returned false
+2024-10-08 03:16:18.670  INFO - 133. Connection.getAutoCommit() returned true
+2024-10-08 03:16:24.308  INFO - 125. Connection.isClosed() returned false
+2024-10-08 03:16:24.309  INFO - 125. Connection closed. {executed in 1ms} 
+2024-10-08 03:16:24.309  INFO - 125. Connection.close() returned 
+2024-10-08 03:16:24.309  INFO - 125. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:24.309  INFO - 125. Connection.close() returned 
+2024-10-08 03:16:24.314  INFO - 134. Connection opened. {executed in 4ms} 
+2024-10-08 03:16:24.315  INFO - 134. Connection.new Connection returned 
+2024-10-08 03:16:24.315  INFO - 134. Connection.isReadOnly() returned false
+2024-10-08 03:16:24.315  INFO - 134. Connection.getAutoCommit() returned true
+2024-10-08 03:16:30.185  INFO - 123. Connection.isClosed() returned false
+2024-10-08 03:16:30.186  INFO - 123. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:30.186  INFO - 123. Connection.close() returned 
+2024-10-08 03:16:30.186  INFO - 123. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:30.186  INFO - 123. Connection.close() returned 
+2024-10-08 03:16:30.191  INFO - 135. Connection opened. {executed in 4ms} 
+2024-10-08 03:16:30.191  INFO - 135. Connection.new Connection returned 
+2024-10-08 03:16:30.192  INFO - 135. Connection.isReadOnly() returned false
+2024-10-08 03:16:30.192  INFO - 135. Connection.getAutoCommit() returned true
+2024-10-08 03:16:34.068  INFO - 128. Connection.isClosed() returned false
+2024-10-08 03:16:34.069  INFO - 128. Connection closed. {executed in 1ms} 
+2024-10-08 03:16:34.069  INFO - 128. Connection.close() returned 
+2024-10-08 03:16:34.069  INFO - 128. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:34.069  INFO - 128. Connection.close() returned 
+2024-10-08 03:16:34.072  INFO - 136. Connection opened. {executed in 3ms} 
+2024-10-08 03:16:34.073  INFO - 136. Connection.new Connection returned 
+2024-10-08 03:16:34.073  INFO - 136. Connection.isReadOnly() returned false
+2024-10-08 03:16:34.073  INFO - 136. Connection.getAutoCommit() returned true
+2024-10-08 03:16:34.647  INFO - 126. Connection.isClosed() returned false
+2024-10-08 03:16:34.647  INFO - 126. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:34.647  INFO - 126. Connection.close() returned 
+2024-10-08 03:16:34.647  INFO - 126. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:34.647  INFO - 126. Connection.close() returned 
+2024-10-08 03:16:34.650  INFO - 137. Connection opened. {executed in 3ms} 
+2024-10-08 03:16:34.650  INFO - 137. Connection.new Connection returned 
+2024-10-08 03:16:34.650  INFO - 137. Connection.isReadOnly() returned false
+2024-10-08 03:16:34.650  INFO - 137. Connection.getAutoCommit() returned true
+2024-10-08 03:16:39.130  INFO - 129. Connection.isClosed() returned false
+2024-10-08 03:16:39.130  INFO - 129. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:39.130  INFO - 129. Connection.close() returned 
+2024-10-08 03:16:39.130  INFO - 129. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:39.130  INFO - 129. Connection.close() returned 
+2024-10-08 03:16:39.135  INFO - 138. Connection opened. {executed in 5ms} 
+2024-10-08 03:16:39.135  INFO - 138. Connection.new Connection returned 
+2024-10-08 03:16:39.135  INFO - 138. Connection.isReadOnly() returned false
+2024-10-08 03:16:39.135  INFO - 138. Connection.getAutoCommit() returned true
+2024-10-08 03:16:43.001  INFO - 127. Connection.isClosed() returned false
+2024-10-08 03:16:43.001  INFO - 127. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:43.001  INFO - 127. Connection.close() returned 
+2024-10-08 03:16:43.001  INFO - 127. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:43.001  INFO - 127. Connection.close() returned 
+2024-10-08 03:16:43.005  INFO - 139. Connection opened. {executed in 4ms} 
+2024-10-08 03:16:43.005  INFO - 139. Connection.new Connection returned 
+2024-10-08 03:16:43.005  INFO - 139. Connection.isReadOnly() returned false
+2024-10-08 03:16:43.005  INFO - 139. Connection.getAutoCommit() returned true
+2024-10-08 03:16:45.030  INFO - 130. Connection.isClosed() returned false
+2024-10-08 03:16:45.031  INFO - 130. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:45.031  INFO - 130. Connection.close() returned 
+2024-10-08 03:16:45.031  INFO - 130. Connection closed. {executed in 0ms} 
+2024-10-08 03:16:45.031  INFO - 130. Connection.close() returned 
+2024-10-08 03:16:45.034  INFO - 140. Connection opened. {executed in 3ms} 
+2024-10-08 03:16:45.034  INFO - 140. Connection.new Connection returned 
+2024-10-08 03:16:45.034  INFO - 140. Connection.isReadOnly() returned false
+2024-10-08 03:16:45.034  INFO - 140. Connection.getAutoCommit() returned true
+2024-10-08 03:45:09.369  INFO - 131. Connection.isClosed() returned false
+2024-10-08 03:45:09.370  INFO - 131. Connection closed. {executed in 1ms} 
+2024-10-08 03:45:09.370  INFO - 131. Connection.close() returned 
+2024-10-08 03:45:09.370  INFO - 131. Connection closed. {executed in 0ms} 
+2024-10-08 03:45:09.370  INFO - 131. Connection.close() returned 
+2024-10-08 03:45:09.376  INFO - 141. Connection opened. {executed in 5ms} 
+2024-10-08 03:45:09.376  INFO - 141. Connection.new Connection returned 
+2024-10-08 03:45:09.376  INFO - 141. Connection.isReadOnly() returned false
+2024-10-08 03:45:09.376  INFO - 141. Connection.getAutoCommit() returned true
+2024-10-08 03:45:53.132  INFO - 134. Connection.isClosed() returned false
+2024-10-08 03:45:53.132  INFO - 134. Connection closed. {executed in 0ms} 
+2024-10-08 03:45:53.132  INFO - 134. Connection.close() returned 
+2024-10-08 03:45:53.132  INFO - 134. Connection closed. {executed in 0ms} 
+2024-10-08 03:45:53.132  INFO - 134. Connection.close() returned 
+2024-10-08 03:45:53.137  INFO - 142. Connection opened. {executed in 4ms} 
+2024-10-08 03:45:53.137  INFO - 142. Connection.new Connection returned 
+2024-10-08 03:45:53.137  INFO - 142. Connection.isReadOnly() returned false
+2024-10-08 03:45:53.137  INFO - 142. Connection.getAutoCommit() returned true
+2024-10-08 03:45:55.299  INFO - 138. Connection.isClosed() returned false
+2024-10-08 03:45:55.300  INFO - 138. Connection closed. {executed in 1ms} 
+2024-10-08 03:45:55.300  INFO - 138. Connection.close() returned 
+2024-10-08 03:45:55.300  INFO - 138. Connection closed. {executed in 0ms} 
+2024-10-08 03:45:55.300  INFO - 138. Connection.close() returned 
+2024-10-08 03:45:55.308  INFO - 143. Connection opened. {executed in 8ms} 
+2024-10-08 03:45:55.308  INFO - 143. Connection.new Connection returned 
+2024-10-08 03:45:55.308  INFO - 143. Connection.isReadOnly() returned false
+2024-10-08 03:45:55.308  INFO - 143. Connection.getAutoCommit() returned true
+2024-10-08 03:45:59.618  INFO - 133. Connection.isClosed() returned false
+2024-10-08 03:45:59.618  INFO - 133. Connection closed. {executed in 0ms} 
+2024-10-08 03:45:59.618  INFO - 133. Connection.close() returned 
+2024-10-08 03:45:59.618  INFO - 133. Connection closed. {executed in 0ms} 
+2024-10-08 03:45:59.618  INFO - 133. Connection.close() returned 
+2024-10-08 03:45:59.635  INFO - 144. Connection opened. {executed in 17ms} 
+2024-10-08 03:45:59.635  INFO - 144. Connection.new Connection returned 
+2024-10-08 03:45:59.635  INFO - 144. Connection.isReadOnly() returned false
+2024-10-08 03:45:59.635  INFO - 144. Connection.getAutoCommit() returned true
+2024-10-08 03:46:01.781  INFO - 139. Connection.isClosed() returned false
+2024-10-08 03:46:01.781  INFO - 139. Connection closed. {executed in 0ms} 
+2024-10-08 03:46:01.781  INFO - 139. Connection.close() returned 
+2024-10-08 03:46:01.781  INFO - 139. Connection closed. {executed in 0ms} 
+2024-10-08 03:46:01.781  INFO - 139. Connection.close() returned 
+2024-10-08 03:46:01.785  INFO - 145. Connection opened. {executed in 3ms} 
+2024-10-08 03:46:01.785  INFO - 145. Connection.new Connection returned 
+2024-10-08 03:46:01.785  INFO - 145. Connection.isReadOnly() returned false
+2024-10-08 03:46:01.785  INFO - 145. Connection.getAutoCommit() returned true
+2024-10-08 03:46:03.633  INFO - 136. Connection.isClosed() returned false
+2024-10-08 03:46:03.634  INFO - 136. Connection closed. {executed in 1ms} 
+2024-10-08 03:46:03.634  INFO - 136. Connection.close() returned 
+2024-10-08 03:46:03.634  INFO - 136. Connection closed. {executed in 0ms} 
+2024-10-08 03:46:03.634  INFO - 136. Connection.close() returned 
+2024-10-08 03:46:03.637  INFO - 146. Connection opened. {executed in 3ms} 
+2024-10-08 03:46:03.637  INFO - 146. Connection.new Connection returned 
+2024-10-08 03:46:03.637  INFO - 146. Connection.isReadOnly() returned false
+2024-10-08 03:46:03.637  INFO - 146. Connection.getAutoCommit() returned true
+2024-10-08 03:46:08.141  INFO - 132. Connection.isClosed() returned false
+2024-10-08 03:46:08.141  INFO - 132. Connection closed. {executed in 0ms} 
+2024-10-08 03:46:08.141  INFO - 132. Connection.close() returned 
+2024-10-08 03:46:08.141  INFO - 132. Connection closed. {executed in 0ms} 
+2024-10-08 03:46:08.141  INFO - 132. Connection.close() returned 
+2024-10-08 03:46:08.145  INFO - 147. Connection opened. {executed in 4ms} 
+2024-10-08 03:46:08.145  INFO - 147. Connection.new Connection returned 
+2024-10-08 03:46:08.145  INFO - 147. Connection.isReadOnly() returned false
+2024-10-08 03:46:08.145  INFO - 147. Connection.getAutoCommit() returned true
+2024-10-08 03:46:26.880  INFO - 135. Connection.isClosed() returned false
+2024-10-08 03:46:26.881  INFO - 135. Connection closed. {executed in 1ms} 
+2024-10-08 03:46:26.881  INFO - 135. Connection.close() returned 
+2024-10-08 03:46:26.881  INFO - 135. Connection closed. {executed in 0ms} 
+2024-10-08 03:46:26.881  INFO - 135. Connection.close() returned 
+2024-10-08 03:46:26.886  INFO - 148. Connection opened. {executed in 4ms} 
+2024-10-08 03:46:26.886  INFO - 148. Connection.new Connection returned 
+2024-10-08 03:46:26.886  INFO - 148. Connection.isReadOnly() returned false
+2024-10-08 03:46:26.886  INFO - 148. Connection.getAutoCommit() returned true
+2024-10-08 03:46:29.802  INFO - 137. Connection.isClosed() returned false
+2024-10-08 03:46:29.802  INFO - 137. Connection closed. {executed in 0ms} 
+2024-10-08 03:46:29.802  INFO - 137. Connection.close() returned 
+2024-10-08 03:46:29.802  INFO - 137. Connection closed. {executed in 0ms} 
+2024-10-08 03:46:29.802  INFO - 137. Connection.close() returned 
+2024-10-08 03:46:29.805  INFO - 149. Connection opened. {executed in 3ms} 
+2024-10-08 03:46:29.805  INFO - 149. Connection.new Connection returned 
+2024-10-08 03:46:29.805  INFO - 149. Connection.isReadOnly() returned false
+2024-10-08 03:46:29.805  INFO - 149. Connection.getAutoCommit() returned true
+2024-10-08 03:46:30.157  INFO - 140. Connection.isClosed() returned false
+2024-10-08 03:46:30.157  INFO - 140. Connection closed. {executed in 0ms} 
+2024-10-08 03:46:30.157  INFO - 140. Connection.close() returned 
+2024-10-08 03:46:30.157  INFO - 140. Connection closed. {executed in 0ms} 
+2024-10-08 03:46:30.157  INFO - 140. Connection.close() returned 
+2024-10-08 03:46:30.160  INFO - 150. Connection opened. {executed in 3ms} 
+2024-10-08 03:46:30.160  INFO - 150. Connection.new Connection returned 
+2024-10-08 03:46:30.160  INFO - 150. Connection.isReadOnly() returned false
+2024-10-08 03:46:30.160  INFO - 150. Connection.getAutoCommit() returned true
+2024-10-08 04:14:44.274  INFO - 141. Connection.isClosed() returned false
+2024-10-08 04:14:44.275  INFO - 141. Connection closed. {executed in 0ms} 
+2024-10-08 04:14:44.275  INFO - 141. Connection.close() returned 
+2024-10-08 04:14:44.275  INFO - 141. Connection closed. {executed in 0ms} 
+2024-10-08 04:14:44.275  INFO - 141. Connection.close() returned 
+2024-10-08 04:14:44.280  INFO - 151. Connection opened. {executed in 4ms} 
+2024-10-08 04:14:44.280  INFO - 151. Connection.new Connection returned 
+2024-10-08 04:14:44.280  INFO - 151. Connection.isReadOnly() returned false
+2024-10-08 04:14:44.280  INFO - 151. Connection.getAutoCommit() returned true
+2024-10-08 04:15:18.229  INFO - 145. Connection.isClosed() returned false
+2024-10-08 04:15:18.230  INFO - 145. Connection closed. {executed in 1ms} 
+2024-10-08 04:15:18.230  INFO - 145. Connection.close() returned 
+2024-10-08 04:15:18.230  INFO - 145. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:18.230  INFO - 145. Connection.close() returned 
+2024-10-08 04:15:18.235  INFO - 152. Connection opened. {executed in 5ms} 
+2024-10-08 04:15:18.235  INFO - 152. Connection.new Connection returned 
+2024-10-08 04:15:18.235  INFO - 152. Connection.isReadOnly() returned false
+2024-10-08 04:15:18.235  INFO - 152. Connection.getAutoCommit() returned true
+2024-10-08 04:15:34.760  INFO - 142. Connection.isClosed() returned false
+2024-10-08 04:15:34.761  INFO - 142. Connection closed. {executed in 1ms} 
+2024-10-08 04:15:34.761  INFO - 142. Connection.close() returned 
+2024-10-08 04:15:34.761  INFO - 142. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:34.761  INFO - 142. Connection.close() returned 
+2024-10-08 04:15:34.766  INFO - 153. Connection opened. {executed in 3ms} 
+2024-10-08 04:15:34.766  INFO - 153. Connection.new Connection returned 
+2024-10-08 04:15:34.766  INFO - 153. Connection.isReadOnly() returned false
+2024-10-08 04:15:34.766  INFO - 153. Connection.getAutoCommit() returned true
+2024-10-08 04:15:36.772  INFO - 143. Connection.isClosed() returned false
+2024-10-08 04:15:36.772  INFO - 143. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:36.772  INFO - 143. Connection.close() returned 
+2024-10-08 04:15:36.772  INFO - 143. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:36.772  INFO - 143. Connection.close() returned 
+2024-10-08 04:15:36.775  INFO - 154. Connection opened. {executed in 3ms} 
+2024-10-08 04:15:36.775  INFO - 154. Connection.new Connection returned 
+2024-10-08 04:15:36.776  INFO - 154. Connection.isReadOnly() returned false
+2024-10-08 04:15:36.776  INFO - 154. Connection.getAutoCommit() returned true
+2024-10-08 04:15:46.234  INFO - 147. Connection.isClosed() returned false
+2024-10-08 04:15:46.234  INFO - 147. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:46.234  INFO - 147. Connection.close() returned 
+2024-10-08 04:15:46.234  INFO - 147. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:46.234  INFO - 147. Connection.close() returned 
+2024-10-08 04:15:46.239  INFO - 155. Connection opened. {executed in 5ms} 
+2024-10-08 04:15:46.239  INFO - 155. Connection.new Connection returned 
+2024-10-08 04:15:46.239  INFO - 155. Connection.isReadOnly() returned false
+2024-10-08 04:15:46.239  INFO - 155. Connection.getAutoCommit() returned true
+2024-10-08 04:15:46.873  INFO - 148. Connection.isClosed() returned false
+2024-10-08 04:15:46.873  INFO - 148. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:46.873  INFO - 148. Connection.close() returned 
+2024-10-08 04:15:46.873  INFO - 148. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:46.873  INFO - 148. Connection.close() returned 
+2024-10-08 04:15:46.876  INFO - 156. Connection opened. {executed in 2ms} 
+2024-10-08 04:15:46.877  INFO - 156. Connection.new Connection returned 
+2024-10-08 04:15:46.877  INFO - 156. Connection.isReadOnly() returned false
+2024-10-08 04:15:46.877  INFO - 156. Connection.getAutoCommit() returned true
+2024-10-08 04:15:48.313  INFO - 146. Connection.isClosed() returned false
+2024-10-08 04:15:48.313  INFO - 146. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:48.313  INFO - 146. Connection.close() returned 
+2024-10-08 04:15:48.313  INFO - 146. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:48.313  INFO - 146. Connection.close() returned 
+2024-10-08 04:15:48.316  INFO - 157. Connection opened. {executed in 3ms} 
+2024-10-08 04:15:48.317  INFO - 157. Connection.new Connection returned 
+2024-10-08 04:15:48.317  INFO - 157. Connection.isReadOnly() returned false
+2024-10-08 04:15:48.317  INFO - 157. Connection.getAutoCommit() returned true
+2024-10-08 04:15:48.880  INFO - 144. Connection.isClosed() returned false
+2024-10-08 04:15:48.880  INFO - 144. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:48.880  INFO - 144. Connection.close() returned 
+2024-10-08 04:15:48.880  INFO - 144. Connection closed. {executed in 0ms} 
+2024-10-08 04:15:48.880  INFO - 144. Connection.close() returned 
+2024-10-08 04:15:48.883  INFO - 158. Connection opened. {executed in 3ms} 
+2024-10-08 04:15:48.883  INFO - 158. Connection.new Connection returned 
+2024-10-08 04:15:48.883  INFO - 158. Connection.isReadOnly() returned false
+2024-10-08 04:15:48.883  INFO - 158. Connection.getAutoCommit() returned true
+2024-10-08 04:16:06.043  INFO - 150. Connection.isClosed() returned false
+2024-10-08 04:16:06.043  INFO - 150. Connection closed. {executed in 0ms} 
+2024-10-08 04:16:06.043  INFO - 150. Connection.close() returned 
+2024-10-08 04:16:06.043  INFO - 150. Connection closed. {executed in 0ms} 
+2024-10-08 04:16:06.043  INFO - 150. Connection.close() returned 
+2024-10-08 04:16:06.049  INFO - 159. Connection opened. {executed in 5ms} 
+2024-10-08 04:16:06.049  INFO - 159. Connection.new Connection returned 
+2024-10-08 04:16:06.049  INFO - 159. Connection.isReadOnly() returned false
+2024-10-08 04:16:06.049  INFO - 159. Connection.getAutoCommit() returned true
+2024-10-08 04:16:15.516  INFO - 149. Connection.isClosed() returned false
+2024-10-08 04:16:15.517  INFO - 149. Connection closed. {executed in 1ms} 
+2024-10-08 04:16:15.517  INFO - 149. Connection.close() returned 
+2024-10-08 04:16:15.517  INFO - 149. Connection closed. {executed in 0ms} 
+2024-10-08 04:16:15.517  INFO - 149. Connection.close() returned 
+2024-10-08 04:16:15.522  INFO - 160. Connection opened. {executed in 4ms} 
+2024-10-08 04:16:15.522  INFO - 160. Connection.new Connection returned 
+2024-10-08 04:16:15.522  INFO - 160. Connection.isReadOnly() returned false
+2024-10-08 04:16:15.522  INFO - 160. Connection.getAutoCommit() returned true
+2024-10-08 04:44:25.777  INFO - 151. Connection.isClosed() returned false
+2024-10-08 04:44:25.778  INFO - 151. Connection closed. {executed in 0ms} 
+2024-10-08 04:44:25.778  INFO - 151. Connection.close() returned 
+2024-10-08 04:44:25.778  INFO - 151. Connection closed. {executed in 0ms} 
+2024-10-08 04:44:25.778  INFO - 151. Connection.close() returned 
+2024-10-08 04:44:25.784  INFO - 161. Connection opened. {executed in 5ms} 
+2024-10-08 04:44:25.784  INFO - 161. Connection.new Connection returned 
+2024-10-08 04:44:25.784  INFO - 161. Connection.isReadOnly() returned false
+2024-10-08 04:44:25.784  INFO - 161. Connection.getAutoCommit() returned true
+2024-10-08 04:45:01.923  INFO - 152. Connection.isClosed() returned false
+2024-10-08 04:45:01.924  INFO - 152. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:01.924  INFO - 152. Connection.close() returned 
+2024-10-08 04:45:01.924  INFO - 152. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:01.924  INFO - 152. Connection.close() returned 
+2024-10-08 04:45:01.930  INFO - 162. Connection opened. {executed in 5ms} 
+2024-10-08 04:45:01.930  INFO - 162. Connection.new Connection returned 
+2024-10-08 04:45:01.930  INFO - 162. Connection.isReadOnly() returned false
+2024-10-08 04:45:01.930  INFO - 162. Connection.getAutoCommit() returned true
+2024-10-08 04:45:05.592  INFO - 156. Connection.isClosed() returned false
+2024-10-08 04:45:05.592  INFO - 156. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:05.592  INFO - 156. Connection.close() returned 
+2024-10-08 04:45:05.592  INFO - 156. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:05.592  INFO - 156. Connection.close() returned 
+2024-10-08 04:45:05.595  INFO - 163. Connection opened. {executed in 2ms} 
+2024-10-08 04:45:05.595  INFO - 163. Connection.new Connection returned 
+2024-10-08 04:45:05.596  INFO - 163. Connection.isReadOnly() returned false
+2024-10-08 04:45:05.596  INFO - 163. Connection.getAutoCommit() returned true
+2024-10-08 04:45:17.819  INFO - 154. Connection.isClosed() returned false
+2024-10-08 04:45:17.820  INFO - 154. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:17.820  INFO - 154. Connection.close() returned 
+2024-10-08 04:45:17.820  INFO - 154. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:17.820  INFO - 154. Connection.close() returned 
+2024-10-08 04:45:17.824  INFO - 164. Connection opened. {executed in 3ms} 
+2024-10-08 04:45:17.824  INFO - 164. Connection.new Connection returned 
+2024-10-08 04:45:17.824  INFO - 164. Connection.isReadOnly() returned false
+2024-10-08 04:45:17.825  INFO - 164. Connection.getAutoCommit() returned true
+2024-10-08 04:45:32.905  INFO - 155. Connection.isClosed() returned false
+2024-10-08 04:45:32.906  INFO - 155. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:32.906  INFO - 155. Connection.close() returned 
+2024-10-08 04:45:32.906  INFO - 155. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:32.906  INFO - 155. Connection.close() returned 
+2024-10-08 04:45:32.915  INFO - 165. Connection opened. {executed in 6ms} 
+2024-10-08 04:45:32.916  INFO - 165. Connection.new Connection returned 
+2024-10-08 04:45:32.916  INFO - 165. Connection.isReadOnly() returned false
+2024-10-08 04:45:32.916  INFO - 165. Connection.getAutoCommit() returned true
+2024-10-08 04:45:33.807  INFO - 153. Connection.isClosed() returned false
+2024-10-08 04:45:33.807  INFO - 153. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:33.807  INFO - 153. Connection.close() returned 
+2024-10-08 04:45:33.807  INFO - 153. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:33.808  INFO - 153. Connection.close() returned 
+2024-10-08 04:45:33.812  INFO - 166. Connection opened. {executed in 4ms} 
+2024-10-08 04:45:33.813  INFO - 166. Connection.new Connection returned 
+2024-10-08 04:45:33.813  INFO - 166. Connection.isReadOnly() returned false
+2024-10-08 04:45:33.813  INFO - 166. Connection.getAutoCommit() returned true
+2024-10-08 04:45:39.986  INFO - 158. Connection.isClosed() returned false
+2024-10-08 04:45:39.986  INFO - 158. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:39.987  INFO - 158. Connection.close() returned 
+2024-10-08 04:45:39.987  INFO - 158. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:39.987  INFO - 158. Connection.close() returned 
+2024-10-08 04:45:39.990  INFO - 167. Connection opened. {executed in 3ms} 
+2024-10-08 04:45:39.990  INFO - 167. Connection.new Connection returned 
+2024-10-08 04:45:39.990  INFO - 167. Connection.isReadOnly() returned false
+2024-10-08 04:45:39.990  INFO - 167. Connection.getAutoCommit() returned true
+2024-10-08 04:45:41.243  INFO - 160. Connection.isClosed() returned false
+2024-10-08 04:45:41.243  INFO - 160. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:41.243  INFO - 160. Connection.close() returned 
+2024-10-08 04:45:41.243  INFO - 160. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:41.243  INFO - 160. Connection.close() returned 
+2024-10-08 04:45:41.247  INFO - 168. Connection opened. {executed in 2ms} 
+2024-10-08 04:45:41.247  INFO - 168. Connection.new Connection returned 
+2024-10-08 04:45:41.247  INFO - 168. Connection.isReadOnly() returned false
+2024-10-08 04:45:41.247  INFO - 168. Connection.getAutoCommit() returned true
+2024-10-08 04:45:44.433  INFO - 157. Connection.isClosed() returned false
+2024-10-08 04:45:44.433  INFO - 157. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:44.433  INFO - 157. Connection.close() returned 
+2024-10-08 04:45:44.433  INFO - 157. Connection closed. {executed in 0ms} 
+2024-10-08 04:45:44.433  INFO - 157. Connection.close() returned 
+2024-10-08 04:45:44.436  INFO - 169. Connection opened. {executed in 3ms} 
+2024-10-08 04:45:44.436  INFO - 169. Connection.new Connection returned 
+2024-10-08 04:45:44.436  INFO - 169. Connection.isReadOnly() returned false
+2024-10-08 04:45:44.436  INFO - 169. Connection.getAutoCommit() returned true
+2024-10-08 04:46:04.959  INFO - 159. Connection.isClosed() returned false
+2024-10-08 04:46:04.960  INFO - 159. Connection closed. {executed in 0ms} 
+2024-10-08 04:46:04.960  INFO - 159. Connection.close() returned 
+2024-10-08 04:46:04.960  INFO - 159. Connection closed. {executed in 0ms} 
+2024-10-08 04:46:04.960  INFO - 159. Connection.close() returned 
+2024-10-08 04:46:04.966  INFO - 170. Connection opened. {executed in 5ms} 
+2024-10-08 04:46:04.966  INFO - 170. Connection.new Connection returned 
+2024-10-08 04:46:04.966  INFO - 170. Connection.isReadOnly() returned false
+2024-10-08 04:46:04.966  INFO - 170. Connection.getAutoCommit() returned true
+2024-10-08 05:14:05.216  INFO - 161. Connection.isClosed() returned false
+2024-10-08 05:14:05.217  INFO - 161. Connection closed. {executed in 1ms} 
+2024-10-08 05:14:05.217  INFO - 161. Connection.close() returned 
+2024-10-08 05:14:05.217  INFO - 161. Connection closed. {executed in 0ms} 
+2024-10-08 05:14:05.217  INFO - 161. Connection.close() returned 
+2024-10-08 05:14:05.225  INFO - 171. Connection opened. {executed in 7ms} 
+2024-10-08 05:14:05.225  INFO - 171. Connection.new Connection returned 
+2024-10-08 05:14:05.225  INFO - 171. Connection.isReadOnly() returned false
+2024-10-08 05:14:05.225  INFO - 171. Connection.getAutoCommit() returned true
+2024-10-08 05:14:35.883  INFO - 164. Connection.isClosed() returned false
+2024-10-08 05:14:35.885  INFO - 164. Connection closed. {executed in 2ms} 
+2024-10-08 05:14:35.885  INFO - 164. Connection.close() returned 
+2024-10-08 05:14:35.885  INFO - 164. Connection closed. {executed in 0ms} 
+2024-10-08 05:14:35.885  INFO - 164. Connection.close() returned 
+2024-10-08 05:14:35.890  INFO - 172. Connection opened. {executed in 5ms} 
+2024-10-08 05:14:35.890  INFO - 172. Connection.new Connection returned 
+2024-10-08 05:14:35.890  INFO - 172. Connection.isReadOnly() returned false
+2024-10-08 05:14:35.890  INFO - 172. Connection.getAutoCommit() returned true
+2024-10-08 05:14:39.362  INFO - 162. Connection.isClosed() returned false
+2024-10-08 05:14:39.363  INFO - 162. Connection closed. {executed in 1ms} 
+2024-10-08 05:14:39.363  INFO - 162. Connection.close() returned 
+2024-10-08 05:14:39.363  INFO - 162. Connection closed. {executed in 0ms} 
+2024-10-08 05:14:39.363  INFO - 162. Connection.close() returned 
+2024-10-08 05:14:39.371  INFO - 173. Connection opened. {executed in 6ms} 
+2024-10-08 05:14:39.371  INFO - 173. Connection.new Connection returned 
+2024-10-08 05:14:39.371  INFO - 173. Connection.isReadOnly() returned false
+2024-10-08 05:14:39.371  INFO - 173. Connection.getAutoCommit() returned true
+2024-10-08 05:14:48.750  INFO - 163. Connection.isClosed() returned false
+2024-10-08 05:14:48.750  INFO - 163. Connection closed. {executed in 0ms} 
+2024-10-08 05:14:48.751  INFO - 163. Connection.close() returned 
+2024-10-08 05:14:48.751  INFO - 163. Connection closed. {executed in 0ms} 
+2024-10-08 05:14:48.751  INFO - 163. Connection.close() returned 
+2024-10-08 05:14:48.760  INFO - 174. Connection opened. {executed in 4ms} 
+2024-10-08 05:14:48.760  INFO - 174. Connection.new Connection returned 
+2024-10-08 05:14:48.760  INFO - 174. Connection.isReadOnly() returned false
+2024-10-08 05:14:48.760  INFO - 174. Connection.getAutoCommit() returned true
+2024-10-08 05:15:05.473  INFO - 167. Connection.isClosed() returned false
+2024-10-08 05:15:05.473  INFO - 167. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:05.474  INFO - 167. Connection.close() returned 
+2024-10-08 05:15:05.474  INFO - 167. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:05.474  INFO - 167. Connection.close() returned 
+2024-10-08 05:15:05.478  INFO - 175. Connection opened. {executed in 4ms} 
+2024-10-08 05:15:05.478  INFO - 175. Connection.new Connection returned 
+2024-10-08 05:15:05.478  INFO - 175. Connection.isReadOnly() returned false
+2024-10-08 05:15:05.478  INFO - 175. Connection.getAutoCommit() returned true
+2024-10-08 05:15:06.543  INFO - 168. Connection.isClosed() returned false
+2024-10-08 05:15:06.543  INFO - 168. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:06.543  INFO - 168. Connection.close() returned 
+2024-10-08 05:15:06.543  INFO - 168. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:06.543  INFO - 168. Connection.close() returned 
+2024-10-08 05:15:06.549  INFO - 176. Connection opened. {executed in 5ms} 
+2024-10-08 05:15:06.549  INFO - 176. Connection.new Connection returned 
+2024-10-08 05:15:06.549  INFO - 176. Connection.isReadOnly() returned false
+2024-10-08 05:15:06.549  INFO - 176. Connection.getAutoCommit() returned true
+2024-10-08 05:15:09.152  INFO - 166. Connection.isClosed() returned false
+2024-10-08 05:15:09.152  INFO - 166. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:09.152  INFO - 166. Connection.close() returned 
+2024-10-08 05:15:09.152  INFO - 166. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:09.152  INFO - 166. Connection.close() returned 
+2024-10-08 05:15:09.156  INFO - 177. Connection opened. {executed in 3ms} 
+2024-10-08 05:15:09.156  INFO - 177. Connection.new Connection returned 
+2024-10-08 05:15:09.156  INFO - 177. Connection.isReadOnly() returned false
+2024-10-08 05:15:09.156  INFO - 177. Connection.getAutoCommit() returned true
+2024-10-08 05:15:19.969  INFO - 165. Connection.isClosed() returned false
+2024-10-08 05:15:19.970  INFO - 165. Connection closed. {executed in 1ms} 
+2024-10-08 05:15:19.970  INFO - 165. Connection.close() returned 
+2024-10-08 05:15:19.970  INFO - 165. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:19.970  INFO - 165. Connection.close() returned 
+2024-10-08 05:15:19.974  INFO - 178. Connection opened. {executed in 3ms} 
+2024-10-08 05:15:19.974  INFO - 178. Connection.new Connection returned 
+2024-10-08 05:15:19.974  INFO - 178. Connection.isReadOnly() returned false
+2024-10-08 05:15:19.974  INFO - 178. Connection.getAutoCommit() returned true
+2024-10-08 05:15:32.546  INFO - 170. Connection.isClosed() returned false
+2024-10-08 05:15:32.547  INFO - 170. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:32.547  INFO - 170. Connection.close() returned 
+2024-10-08 05:15:32.547  INFO - 170. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:32.547  INFO - 170. Connection.close() returned 
+2024-10-08 05:15:32.551  INFO - 179. Connection opened. {executed in 3ms} 
+2024-10-08 05:15:32.552  INFO - 179. Connection.new Connection returned 
+2024-10-08 05:15:32.552  INFO - 179. Connection.isReadOnly() returned false
+2024-10-08 05:15:32.552  INFO - 179. Connection.getAutoCommit() returned true
+2024-10-08 05:15:34.146  INFO - 169. Connection.isClosed() returned false
+2024-10-08 05:15:34.146  INFO - 169. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:34.146  INFO - 169. Connection.close() returned 
+2024-10-08 05:15:34.146  INFO - 169. Connection closed. {executed in 0ms} 
+2024-10-08 05:15:34.146  INFO - 169. Connection.close() returned 
+2024-10-08 05:15:34.150  INFO - 180. Connection opened. {executed in 4ms} 
+2024-10-08 05:15:34.150  INFO - 180. Connection.new Connection returned 
+2024-10-08 05:15:34.150  INFO - 180. Connection.isReadOnly() returned false
+2024-10-08 05:15:34.150  INFO - 180. Connection.getAutoCommit() returned true
+2024-10-08 05:43:31.923  INFO - 171. Connection.isClosed() returned false
+2024-10-08 05:43:31.924  INFO - 171. Connection closed. {executed in 0ms} 
+2024-10-08 05:43:31.924  INFO - 171. Connection.close() returned 
+2024-10-08 05:43:31.924  INFO - 171. Connection closed. {executed in 0ms} 
+2024-10-08 05:43:31.924  INFO - 171. Connection.close() returned 
+2024-10-08 05:43:31.931  INFO - 181. Connection opened. {executed in 6ms} 
+2024-10-08 05:43:31.931  INFO - 181. Connection.new Connection returned 
+2024-10-08 05:43:31.931  INFO - 181. Connection.isReadOnly() returned false
+2024-10-08 05:43:31.931  INFO - 181. Connection.getAutoCommit() returned true
+2024-10-08 05:44:16.016  INFO - 172. Connection.isClosed() returned false
+2024-10-08 05:44:16.016  INFO - 172. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:16.016  INFO - 172. Connection.close() returned 
+2024-10-08 05:44:16.016  INFO - 172. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:16.016  INFO - 172. Connection.close() returned 
+2024-10-08 05:44:16.023  INFO - 182. Connection opened. {executed in 5ms} 
+2024-10-08 05:44:16.023  INFO - 182. Connection.new Connection returned 
+2024-10-08 05:44:16.023  INFO - 182. Connection.isReadOnly() returned false
+2024-10-08 05:44:16.023  INFO - 182. Connection.getAutoCommit() returned true
+2024-10-08 05:44:16.281  INFO - 174. Connection.isClosed() returned false
+2024-10-08 05:44:16.281  INFO - 174. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:16.281  INFO - 174. Connection.close() returned 
+2024-10-08 05:44:16.281  INFO - 174. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:16.281  INFO - 174. Connection.close() returned 
+2024-10-08 05:44:16.284  INFO - 183. Connection opened. {executed in 3ms} 
+2024-10-08 05:44:16.285  INFO - 183. Connection.new Connection returned 
+2024-10-08 05:44:16.285  INFO - 183. Connection.isReadOnly() returned false
+2024-10-08 05:44:16.285  INFO - 183. Connection.getAutoCommit() returned true
+2024-10-08 05:44:19.513  INFO - 173. Connection.isClosed() returned false
+2024-10-08 05:44:19.513  INFO - 173. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:19.513  INFO - 173. Connection.close() returned 
+2024-10-08 05:44:19.513  INFO - 173. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:19.513  INFO - 173. Connection.close() returned 
+2024-10-08 05:44:19.517  INFO - 184. Connection opened. {executed in 3ms} 
+2024-10-08 05:44:19.517  INFO - 184. Connection.new Connection returned 
+2024-10-08 05:44:19.517  INFO - 184. Connection.isReadOnly() returned false
+2024-10-08 05:44:19.517  INFO - 184. Connection.getAutoCommit() returned true
+2024-10-08 05:44:37.815  INFO - 178. Connection.isClosed() returned false
+2024-10-08 05:44:37.817  INFO - 178. Connection closed. {executed in 2ms} 
+2024-10-08 05:44:37.817  INFO - 178. Connection.close() returned 
+2024-10-08 05:44:37.817  INFO - 178. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:37.817  INFO - 178. Connection.close() returned 
+2024-10-08 05:44:37.825  INFO - 185. Connection opened. {executed in 7ms} 
+2024-10-08 05:44:37.826  INFO - 185. Connection.new Connection returned 
+2024-10-08 05:44:37.826  INFO - 185. Connection.isReadOnly() returned false
+2024-10-08 05:44:37.826  INFO - 185. Connection.getAutoCommit() returned true
+2024-10-08 05:44:42.713  INFO - 176. Connection.isClosed() returned false
+2024-10-08 05:44:42.713  INFO - 176. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:42.713  INFO - 176. Connection.close() returned 
+2024-10-08 05:44:42.713  INFO - 176. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:42.713  INFO - 176. Connection.close() returned 
+2024-10-08 05:44:42.717  INFO - 186. Connection opened. {executed in 3ms} 
+2024-10-08 05:44:42.717  INFO - 186. Connection.new Connection returned 
+2024-10-08 05:44:42.717  INFO - 186. Connection.isReadOnly() returned false
+2024-10-08 05:44:42.717  INFO - 186. Connection.getAutoCommit() returned true
+2024-10-08 05:44:54.014  INFO - 175. Connection.isClosed() returned false
+2024-10-08 05:44:54.014  INFO - 175. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:54.015  INFO - 175. Connection.close() returned 
+2024-10-08 05:44:54.015  INFO - 175. Connection closed. {executed in 0ms} 
+2024-10-08 05:44:54.015  INFO - 175. Connection.close() returned 
+2024-10-08 05:44:54.022  INFO - 187. Connection opened. {executed in 4ms} 
+2024-10-08 05:44:54.022  INFO - 187. Connection.new Connection returned 
+2024-10-08 05:44:54.022  INFO - 187. Connection.isReadOnly() returned false
+2024-10-08 05:44:54.022  INFO - 187. Connection.getAutoCommit() returned true
+2024-10-08 05:45:00.912  INFO - 177. Connection.isClosed() returned false
+2024-10-08 05:45:00.912  INFO - 177. Connection closed. {executed in 0ms} 
+2024-10-08 05:45:00.912  INFO - 177. Connection.close() returned 
+2024-10-08 05:45:00.912  INFO - 177. Connection closed. {executed in 0ms} 
+2024-10-08 05:45:00.912  INFO - 177. Connection.close() returned 
+2024-10-08 05:45:00.918  INFO - 188. Connection opened. {executed in 4ms} 
+2024-10-08 05:45:00.918  INFO - 188. Connection.new Connection returned 
+2024-10-08 05:45:00.918  INFO - 188. Connection.isReadOnly() returned false
+2024-10-08 05:45:00.918  INFO - 188. Connection.getAutoCommit() returned true
+2024-10-08 05:45:04.556  INFO - 180. Connection.isClosed() returned false
+2024-10-08 05:45:04.556  INFO - 180. Connection closed. {executed in 0ms} 
+2024-10-08 05:45:04.556  INFO - 180. Connection.close() returned 
+2024-10-08 05:45:04.556  INFO - 180. Connection closed. {executed in 0ms} 
+2024-10-08 05:45:04.556  INFO - 180. Connection.close() returned 
+2024-10-08 05:45:04.562  INFO - 189. Connection opened. {executed in 6ms} 
+2024-10-08 05:45:04.562  INFO - 189. Connection.new Connection returned 
+2024-10-08 05:45:04.562  INFO - 189. Connection.isReadOnly() returned false
+2024-10-08 05:45:04.562  INFO - 189. Connection.getAutoCommit() returned true
+2024-10-08 05:45:14.872  INFO - 179. Connection.isClosed() returned false
+2024-10-08 05:45:14.872  INFO - 179. Connection closed. {executed in 0ms} 
+2024-10-08 05:45:14.872  INFO - 179. Connection.close() returned 
+2024-10-08 05:45:14.872  INFO - 179. Connection closed. {executed in 0ms} 
+2024-10-08 05:45:14.872  INFO - 179. Connection.close() returned 
+2024-10-08 05:45:14.879  INFO - 190. Connection opened. {executed in 5ms} 
+2024-10-08 05:45:14.879  INFO - 190. Connection.new Connection returned 
+2024-10-08 05:45:14.879  INFO - 190. Connection.isReadOnly() returned false
+2024-10-08 05:45:14.879  INFO - 190. Connection.getAutoCommit() returned true
+2024-10-08 06:12:47.041  INFO - 181. Connection.isClosed() returned false
+2024-10-08 06:12:47.042  INFO - 181. Connection closed. {executed in 1ms} 
+2024-10-08 06:12:47.042  INFO - 181. Connection.close() returned 
+2024-10-08 06:12:47.042  INFO - 181. Connection closed. {executed in 0ms} 
+2024-10-08 06:12:47.042  INFO - 181. Connection.close() returned 
+2024-10-08 06:12:47.050  INFO - 191. Connection opened. {executed in 8ms} 
+2024-10-08 06:12:47.050  INFO - 191. Connection.new Connection returned 
+2024-10-08 06:12:47.050  INFO - 191. Connection.isReadOnly() returned false
+2024-10-08 06:12:47.050  INFO - 191. Connection.getAutoCommit() returned true
+2024-10-08 06:13:43.701  INFO - 184. Connection.isClosed() returned false
+2024-10-08 06:13:43.702  INFO - 184. Connection closed. {executed in 1ms} 
+2024-10-08 06:13:43.702  INFO - 184. Connection.close() returned 
+2024-10-08 06:13:43.702  INFO - 184. Connection closed. {executed in 0ms} 
+2024-10-08 06:13:43.702  INFO - 184. Connection.close() returned 
+2024-10-08 06:13:43.710  INFO - 192. Connection opened. {executed in 7ms} 
+2024-10-08 06:13:43.710  INFO - 192. Connection.new Connection returned 
+2024-10-08 06:13:43.710  INFO - 192. Connection.isReadOnly() returned false
+2024-10-08 06:13:43.710  INFO - 192. Connection.getAutoCommit() returned true
+2024-10-08 06:14:03.484  INFO - 182. Connection.isClosed() returned false
+2024-10-08 06:14:03.485  INFO - 182. Connection closed. {executed in 1ms} 
+2024-10-08 06:14:03.485  INFO - 182. Connection.close() returned 
+2024-10-08 06:14:03.485  INFO - 182. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:03.485  INFO - 182. Connection.close() returned 
+2024-10-08 06:14:03.489  INFO - 193. Connection opened. {executed in 4ms} 
+2024-10-08 06:14:03.489  INFO - 193. Connection.new Connection returned 
+2024-10-08 06:14:03.489  INFO - 193. Connection.isReadOnly() returned false
+2024-10-08 06:14:03.489  INFO - 193. Connection.getAutoCommit() returned true
+2024-10-08 06:14:11.108  INFO - 183. Connection.isClosed() returned false
+2024-10-08 06:14:11.109  INFO - 183. Connection closed. {executed in 1ms} 
+2024-10-08 06:14:11.109  INFO - 183. Connection.close() returned 
+2024-10-08 06:14:11.109  INFO - 183. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:11.109  INFO - 183. Connection.close() returned 
+2024-10-08 06:14:11.115  INFO - 194. Connection opened. {executed in 5ms} 
+2024-10-08 06:14:11.115  INFO - 194. Connection.new Connection returned 
+2024-10-08 06:14:11.115  INFO - 194. Connection.isReadOnly() returned false
+2024-10-08 06:14:11.115  INFO - 194. Connection.getAutoCommit() returned true
+2024-10-08 06:14:14.362  INFO - 186. Connection.isClosed() returned false
+2024-10-08 06:14:14.362  INFO - 186. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:14.362  INFO - 186. Connection.close() returned 
+2024-10-08 06:14:14.362  INFO - 186. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:14.362  INFO - 186. Connection.close() returned 
+2024-10-08 06:14:14.367  INFO - 195. Connection opened. {executed in 4ms} 
+2024-10-08 06:14:14.367  INFO - 195. Connection.new Connection returned 
+2024-10-08 06:14:14.367  INFO - 195. Connection.isReadOnly() returned false
+2024-10-08 06:14:14.367  INFO - 195. Connection.getAutoCommit() returned true
+2024-10-08 06:14:21.064  INFO - 189. Connection.isClosed() returned false
+2024-10-08 06:14:21.065  INFO - 189. Connection closed. {executed in 1ms} 
+2024-10-08 06:14:21.065  INFO - 189. Connection.close() returned 
+2024-10-08 06:14:21.065  INFO - 189. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:21.065  INFO - 189. Connection.close() returned 
+2024-10-08 06:14:21.069  INFO - 196. Connection opened. {executed in 4ms} 
+2024-10-08 06:14:21.069  INFO - 196. Connection.new Connection returned 
+2024-10-08 06:14:21.069  INFO - 196. Connection.isReadOnly() returned false
+2024-10-08 06:14:21.069  INFO - 196. Connection.getAutoCommit() returned true
+2024-10-08 06:14:28.917  INFO - 188. Connection.isClosed() returned false
+2024-10-08 06:14:28.917  INFO - 188. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:28.917  INFO - 188. Connection.close() returned 
+2024-10-08 06:14:28.917  INFO - 188. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:28.917  INFO - 188. Connection.close() returned 
+2024-10-08 06:14:28.923  INFO - 197. Connection opened. {executed in 3ms} 
+2024-10-08 06:14:28.923  INFO - 197. Connection.new Connection returned 
+2024-10-08 06:14:28.923  INFO - 197. Connection.isReadOnly() returned false
+2024-10-08 06:14:28.923  INFO - 197. Connection.getAutoCommit() returned true
+2024-10-08 06:14:31.830  INFO - 190. Connection.isClosed() returned false
+2024-10-08 06:14:31.830  INFO - 190. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:31.830  INFO - 190. Connection.close() returned 
+2024-10-08 06:14:31.830  INFO - 190. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:31.830  INFO - 190. Connection.close() returned 
+2024-10-08 06:14:31.833  INFO - 198. Connection opened. {executed in 3ms} 
+2024-10-08 06:14:31.833  INFO - 198. Connection.new Connection returned 
+2024-10-08 06:14:31.833  INFO - 198. Connection.isReadOnly() returned false
+2024-10-08 06:14:31.833  INFO - 198. Connection.getAutoCommit() returned true
+2024-10-08 06:14:33.608  INFO - 185. Connection.isClosed() returned false
+2024-10-08 06:14:33.608  INFO - 185. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:33.608  INFO - 185. Connection.close() returned 
+2024-10-08 06:14:33.609  INFO - 185. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:33.609  INFO - 185. Connection.close() returned 
+2024-10-08 06:14:33.612  INFO - 199. Connection opened. {executed in 3ms} 
+2024-10-08 06:14:33.612  INFO - 199. Connection.new Connection returned 
+2024-10-08 06:14:33.612  INFO - 199. Connection.isReadOnly() returned false
+2024-10-08 06:14:33.612  INFO - 199. Connection.getAutoCommit() returned true
+2024-10-08 06:14:43.581  INFO - 187. Connection.isClosed() returned false
+2024-10-08 06:14:43.582  INFO - 187. Connection closed. {executed in 1ms} 
+2024-10-08 06:14:43.582  INFO - 187. Connection.close() returned 
+2024-10-08 06:14:43.582  INFO - 187. Connection closed. {executed in 0ms} 
+2024-10-08 06:14:43.582  INFO - 187. Connection.close() returned 
+2024-10-08 06:14:43.586  INFO - 200. Connection opened. {executed in 3ms} 
+2024-10-08 06:14:43.586  INFO - 200. Connection.new Connection returned 
+2024-10-08 06:14:43.586  INFO - 200. Connection.isReadOnly() returned false
+2024-10-08 06:14:43.586  INFO - 200. Connection.getAutoCommit() returned true
+2024-10-08 06:42:14.249  INFO - 191. Connection.isClosed() returned false
+2024-10-08 06:42:14.250  INFO - 191. Connection closed. {executed in 1ms} 
+2024-10-08 06:42:14.250  INFO - 191. Connection.close() returned 
+2024-10-08 06:42:14.250  INFO - 191. Connection closed. {executed in 0ms} 
+2024-10-08 06:42:14.250  INFO - 191. Connection.close() returned 
+2024-10-08 06:42:14.266  INFO - 201. Connection opened. {executed in 11ms} 
+2024-10-08 06:42:14.267  INFO - 201. Connection.new Connection returned 
+2024-10-08 06:42:14.267  INFO - 201. Connection.isReadOnly() returned false
+2024-10-08 06:42:14.268  INFO - 201. Connection.getAutoCommit() returned true
+2024-10-08 06:43:07.402  INFO - 192. Connection.isClosed() returned false
+2024-10-08 06:43:07.404  INFO - 192. Connection closed. {executed in 1ms} 
+2024-10-08 06:43:07.404  INFO - 192. Connection.close() returned 
+2024-10-08 06:43:07.404  INFO - 192. Connection closed. {executed in 0ms} 
+2024-10-08 06:43:07.404  INFO - 192. Connection.close() returned 
+2024-10-08 06:43:07.416  INFO - 202. Connection opened. {executed in 11ms} 
+2024-10-08 06:43:07.416  INFO - 202. Connection.new Connection returned 
+2024-10-08 06:43:07.416  INFO - 202. Connection.isReadOnly() returned false
+2024-10-08 06:43:07.416  INFO - 202. Connection.getAutoCommit() returned true
+2024-10-08 06:43:38.587  INFO - 194. Connection.isClosed() returned false
+2024-10-08 06:43:38.587  INFO - 194. Connection closed. {executed in 0ms} 
+2024-10-08 06:43:38.587  INFO - 194. Connection.close() returned 
+2024-10-08 06:43:38.587  INFO - 194. Connection closed. {executed in 0ms} 
+2024-10-08 06:43:38.587  INFO - 194. Connection.close() returned 
+2024-10-08 06:43:38.592  INFO - 203. Connection opened. {executed in 4ms} 
+2024-10-08 06:43:38.592  INFO - 203. Connection.new Connection returned 
+2024-10-08 06:43:38.592  INFO - 203. Connection.isReadOnly() returned false
+2024-10-08 06:43:38.592  INFO - 203. Connection.getAutoCommit() returned true
+2024-10-08 06:43:58.547  INFO - 199. Connection.isClosed() returned false
+2024-10-08 06:43:58.548  INFO - 199. Connection closed. {executed in 1ms} 
+2024-10-08 06:43:58.548  INFO - 199. Connection.close() returned 
+2024-10-08 06:43:58.548  INFO - 199. Connection closed. {executed in 0ms} 
+2024-10-08 06:43:58.548  INFO - 199. Connection.close() returned 
+2024-10-08 06:43:58.552  INFO - 204. Connection opened. {executed in 4ms} 
+2024-10-08 06:43:58.552  INFO - 204. Connection.new Connection returned 
+2024-10-08 06:43:58.552  INFO - 204. Connection.isReadOnly() returned false
+2024-10-08 06:43:58.552  INFO - 204. Connection.getAutoCommit() returned true
+2024-10-08 06:44:02.755  INFO - 193. Connection.isClosed() returned false
+2024-10-08 06:44:02.755  INFO - 193. Connection closed. {executed in 0ms} 
+2024-10-08 06:44:02.755  INFO - 193. Connection.close() returned 
+2024-10-08 06:44:02.755  INFO - 193. Connection closed. {executed in 0ms} 
+2024-10-08 06:44:02.755  INFO - 193. Connection.close() returned 
+2024-10-08 06:44:02.759  INFO - 205. Connection opened. {executed in 4ms} 
+2024-10-08 06:44:02.759  INFO - 205. Connection.new Connection returned 
+2024-10-08 06:44:02.759  INFO - 205. Connection.isReadOnly() returned false
+2024-10-08 06:44:02.759  INFO - 205. Connection.getAutoCommit() returned true
+2024-10-08 06:44:08.806  INFO - 195. Connection.isClosed() returned false
+2024-10-08 06:44:08.807  INFO - 195. Connection closed. {executed in 1ms} 
+2024-10-08 06:44:08.807  INFO - 195. Connection.close() returned 
+2024-10-08 06:44:08.807  INFO - 195. Connection closed. {executed in 0ms} 
+2024-10-08 06:44:08.807  INFO - 195. Connection.close() returned 
+2024-10-08 06:44:08.812  INFO - 206. Connection opened. {executed in 4ms} 
+2024-10-08 06:44:08.812  INFO - 206. Connection.new Connection returned 
+2024-10-08 06:44:08.812  INFO - 206. Connection.isReadOnly() returned false
+2024-10-08 06:44:08.812  INFO - 206. Connection.getAutoCommit() returned true
+2024-10-08 06:44:09.059  INFO - 198. Connection.isClosed() returned false
+2024-10-08 06:44:09.060  INFO - 198. Connection closed. {executed in 1ms} 
+2024-10-08 06:44:09.061  INFO - 198. Connection.close() returned 
+2024-10-08 06:44:09.061  INFO - 198. Connection closed. {executed in 0ms} 
+2024-10-08 06:44:09.061  INFO - 198. Connection.close() returned 
+2024-10-08 06:44:09.068  INFO - 207. Connection opened. {executed in 7ms} 
+2024-10-08 06:44:09.069  INFO - 207. Connection.new Connection returned 
+2024-10-08 06:44:09.069  INFO - 207. Connection.isReadOnly() returned false
+2024-10-08 06:44:09.069  INFO - 207. Connection.getAutoCommit() returned true
+2024-10-08 06:44:17.936  INFO - 196. Connection.isClosed() returned false
+2024-10-08 06:44:17.937  INFO - 196. Connection closed. {executed in 1ms} 
+2024-10-08 06:44:17.937  INFO - 196. Connection.close() returned 
+2024-10-08 06:44:17.937  INFO - 196. Connection closed. {executed in 0ms} 
+2024-10-08 06:44:17.937  INFO - 196. Connection.close() returned 
+2024-10-08 06:44:17.943  INFO - 208. Connection opened. {executed in 4ms} 
+2024-10-08 06:44:17.943  INFO - 208. Connection.new Connection returned 
+2024-10-08 06:44:17.943  INFO - 208. Connection.isReadOnly() returned false
+2024-10-08 06:44:17.943  INFO - 208. Connection.getAutoCommit() returned true
+2024-10-08 06:44:27.137  INFO - 197. Connection.isClosed() returned false
+2024-10-08 06:44:27.138  INFO - 197. Connection closed. {executed in 1ms} 
+2024-10-08 06:44:27.138  INFO - 197. Connection.close() returned 
+2024-10-08 06:44:27.138  INFO - 197. Connection closed. {executed in 0ms} 
+2024-10-08 06:44:27.138  INFO - 197. Connection.close() returned 
+2024-10-08 06:44:27.142  INFO - 209. Connection opened. {executed in 4ms} 
+2024-10-08 06:44:27.142  INFO - 209. Connection.new Connection returned 
+2024-10-08 06:44:27.142  INFO - 209. Connection.isReadOnly() returned false
+2024-10-08 06:44:27.142  INFO - 209. Connection.getAutoCommit() returned true
+2024-10-08 06:44:38.843  INFO - 200. Connection.isClosed() returned false
+2024-10-08 06:44:38.844  INFO - 200. Connection closed. {executed in 1ms} 
+2024-10-08 06:44:38.844  INFO - 200. Connection.close() returned 
+2024-10-08 06:44:38.844  INFO - 200. Connection closed. {executed in 0ms} 
+2024-10-08 06:44:38.844  INFO - 200. Connection.close() returned 
+2024-10-08 06:44:38.853  INFO - 210. Connection opened. {executed in 8ms} 
+2024-10-08 06:44:38.853  INFO - 210. Connection.new Connection returned 
+2024-10-08 06:44:38.853  INFO - 210. Connection.isReadOnly() returned false
+2024-10-08 06:44:38.853  INFO - 210. Connection.getAutoCommit() returned true
+2024-10-08 07:12:04.920  INFO - 201. Connection.isClosed() returned false
+2024-10-08 07:12:04.923  INFO - 201. Connection closed. {executed in 3ms} 
+2024-10-08 07:12:04.923  INFO - 201. Connection.close() returned 
+2024-10-08 07:12:04.923  INFO - 201. Connection closed. {executed in 0ms} 
+2024-10-08 07:12:04.923  INFO - 201. Connection.close() returned 
+2024-10-08 07:12:04.930  INFO - 211. Connection opened. {executed in 5ms} 
+2024-10-08 07:12:04.930  INFO - 211. Connection.new Connection returned 
+2024-10-08 07:12:04.930  INFO - 211. Connection.isReadOnly() returned false
+2024-10-08 07:12:04.930  INFO - 211. Connection.getAutoCommit() returned true
+2024-10-08 07:12:50.806  INFO - 202. Connection.isClosed() returned false
+2024-10-08 07:12:50.807  INFO - 202. Connection closed. {executed in 1ms} 
+2024-10-08 07:12:50.807  INFO - 202. Connection.close() returned 
+2024-10-08 07:12:50.807  INFO - 202. Connection closed. {executed in 0ms} 
+2024-10-08 07:12:50.807  INFO - 202. Connection.close() returned 
+2024-10-08 07:12:50.812  INFO - 212. Connection opened. {executed in 4ms} 
+2024-10-08 07:12:50.812  INFO - 212. Connection.new Connection returned 
+2024-10-08 07:12:50.812  INFO - 212. Connection.isReadOnly() returned false
+2024-10-08 07:12:50.812  INFO - 212. Connection.getAutoCommit() returned true
+2024-10-08 07:13:25.335  INFO - 204. Connection.isClosed() returned false
+2024-10-08 07:13:25.335  INFO - 204. Connection closed. {executed in 0ms} 
+2024-10-08 07:13:25.335  INFO - 204. Connection.close() returned 
+2024-10-08 07:13:25.335  INFO - 204. Connection closed. {executed in 0ms} 
+2024-10-08 07:13:25.335  INFO - 204. Connection.close() returned 
+2024-10-08 07:13:25.341  INFO - 213. Connection opened. {executed in 5ms} 
+2024-10-08 07:13:25.341  INFO - 213. Connection.new Connection returned 
+2024-10-08 07:13:25.341  INFO - 213. Connection.isReadOnly() returned false
+2024-10-08 07:13:25.341  INFO - 213. Connection.getAutoCommit() returned true
+2024-10-08 07:13:34.261  INFO - 203. Connection.isClosed() returned false
+2024-10-08 07:13:34.262  INFO - 203. Connection closed. {executed in 1ms} 
+2024-10-08 07:13:34.262  INFO - 203. Connection.close() returned 
+2024-10-08 07:13:34.262  INFO - 203. Connection closed. {executed in 0ms} 
+2024-10-08 07:13:34.262  INFO - 203. Connection.close() returned 
+2024-10-08 07:13:34.265  INFO - 214. Connection opened. {executed in 3ms} 
+2024-10-08 07:13:34.265  INFO - 214. Connection.new Connection returned 
+2024-10-08 07:13:34.265  INFO - 214. Connection.isReadOnly() returned false
+2024-10-08 07:13:34.265  INFO - 214. Connection.getAutoCommit() returned true
+2024-10-08 07:13:36.037  INFO - 205. Connection.isClosed() returned false
+2024-10-08 07:13:36.037  INFO - 205. Connection closed. {executed in 0ms} 
+2024-10-08 07:13:36.037  INFO - 205. Connection.close() returned 
+2024-10-08 07:13:36.037  INFO - 205. Connection closed. {executed in 0ms} 
+2024-10-08 07:13:36.037  INFO - 205. Connection.close() returned 
+2024-10-08 07:13:36.041  INFO - 215. Connection opened. {executed in 3ms} 
+2024-10-08 07:13:36.041  INFO - 215. Connection.new Connection returned 
+2024-10-08 07:13:36.041  INFO - 215. Connection.isReadOnly() returned false
+2024-10-08 07:13:36.041  INFO - 215. Connection.getAutoCommit() returned true
+2024-10-08 07:13:41.782  INFO - 208. Connection.isClosed() returned false
+2024-10-08 07:13:41.783  INFO - 208. Connection closed. {executed in 1ms} 
+2024-10-08 07:13:41.783  INFO - 208. Connection.close() returned 
+2024-10-08 07:13:41.783  INFO - 208. Connection closed. {executed in 0ms} 
+2024-10-08 07:13:41.783  INFO - 208. Connection.close() returned 
+2024-10-08 07:13:41.788  INFO - 216. Connection opened. {executed in 4ms} 
+2024-10-08 07:13:41.788  INFO - 216. Connection.new Connection returned 
+2024-10-08 07:13:41.788  INFO - 216. Connection.isReadOnly() returned false
+2024-10-08 07:13:41.788  INFO - 216. Connection.getAutoCommit() returned true
+2024-10-08 07:13:47.787  INFO - 206. Connection.isClosed() returned false
+2024-10-08 07:13:47.788  INFO - 206. Connection closed. {executed in 1ms} 
+2024-10-08 07:13:47.788  INFO - 206. Connection.close() returned 
+2024-10-08 07:13:47.788  INFO - 206. Connection closed. {executed in 0ms} 
+2024-10-08 07:13:47.788  INFO - 206. Connection.close() returned 
+2024-10-08 07:13:47.793  INFO - 217. Connection opened. {executed in 4ms} 
+2024-10-08 07:13:47.793  INFO - 217. Connection.new Connection returned 
+2024-10-08 07:13:47.793  INFO - 217. Connection.isReadOnly() returned false
+2024-10-08 07:13:47.793  INFO - 217. Connection.getAutoCommit() returned true
+2024-10-08 07:13:49.022  INFO - 209. Connection.isClosed() returned false
+2024-10-08 07:13:49.022  INFO - 209. Connection closed. {executed in 0ms} 
+2024-10-08 07:13:49.022  INFO - 209. Connection.close() returned 
+2024-10-08 07:13:49.022  INFO - 209. Connection closed. {executed in 0ms} 
+2024-10-08 07:13:49.022  INFO - 209. Connection.close() returned 
+2024-10-08 07:13:49.026  INFO - 218. Connection opened. {executed in 3ms} 
+2024-10-08 07:13:49.027  INFO - 218. Connection.new Connection returned 
+2024-10-08 07:13:49.027  INFO - 218. Connection.isReadOnly() returned false
+2024-10-08 07:13:49.027  INFO - 218. Connection.getAutoCommit() returned true
+2024-10-08 07:14:01.336  INFO - 210. Connection.isClosed() returned false
+2024-10-08 07:14:01.336  INFO - 210. Connection closed. {executed in 0ms} 
+2024-10-08 07:14:01.336  INFO - 210. Connection.close() returned 
+2024-10-08 07:14:01.336  INFO - 210. Connection closed. {executed in 0ms} 
+2024-10-08 07:14:01.336  INFO - 210. Connection.close() returned 
+2024-10-08 07:14:01.343  INFO - 219. Connection opened. {executed in 5ms} 
+2024-10-08 07:14:01.343  INFO - 219. Connection.new Connection returned 
+2024-10-08 07:14:01.343  INFO - 219. Connection.isReadOnly() returned false
+2024-10-08 07:14:01.343  INFO - 219. Connection.getAutoCommit() returned true
+2024-10-08 07:14:03.702  INFO - 207. Connection.isClosed() returned false
+2024-10-08 07:14:03.703  INFO - 207. Connection closed. {executed in 1ms} 
+2024-10-08 07:14:03.703  INFO - 207. Connection.close() returned 
+2024-10-08 07:14:03.703  INFO - 207. Connection closed. {executed in 0ms} 
+2024-10-08 07:14:03.703  INFO - 207. Connection.close() returned 
+2024-10-08 07:14:03.705  INFO - 220. Connection opened. {executed in 2ms} 
+2024-10-08 07:14:03.705  INFO - 220. Connection.new Connection returned 
+2024-10-08 07:14:03.705  INFO - 220. Connection.isReadOnly() returned false
+2024-10-08 07:14:03.705  INFO - 220. Connection.getAutoCommit() returned true
+2024-10-08 07:41:36.524  INFO - 211. Connection.isClosed() returned false
+2024-10-08 07:41:36.524  INFO - 211. Connection closed. {executed in 0ms} 
+2024-10-08 07:41:36.524  INFO - 211. Connection.close() returned 
+2024-10-08 07:41:36.524  INFO - 211. Connection closed. {executed in 0ms} 
+2024-10-08 07:41:36.524  INFO - 211. Connection.close() returned 
+2024-10-08 07:41:36.529  INFO - 221. Connection opened. {executed in 4ms} 
+2024-10-08 07:41:36.529  INFO - 221. Connection.new Connection returned 
+2024-10-08 07:41:36.529  INFO - 221. Connection.isReadOnly() returned false
+2024-10-08 07:41:36.529  INFO - 221. Connection.getAutoCommit() returned true
+2024-10-08 07:42:21.051  INFO - 212. Connection.isClosed() returned false
+2024-10-08 07:42:21.052  INFO - 212. Connection closed. {executed in 1ms} 
+2024-10-08 07:42:21.052  INFO - 212. Connection.close() returned 
+2024-10-08 07:42:21.052  INFO - 212. Connection closed. {executed in 0ms} 
+2024-10-08 07:42:21.052  INFO - 212. Connection.close() returned 
+2024-10-08 07:42:21.056  INFO - 222. Connection opened. {executed in 4ms} 
+2024-10-08 07:42:21.056  INFO - 222. Connection.new Connection returned 
+2024-10-08 07:42:21.056  INFO - 222. Connection.isReadOnly() returned false
+2024-10-08 07:42:21.056  INFO - 222. Connection.getAutoCommit() returned true
+2024-10-08 07:43:04.248  INFO - 213. Connection.isClosed() returned false
+2024-10-08 07:43:04.249  INFO - 213. Connection closed. {executed in 1ms} 
+2024-10-08 07:43:04.249  INFO - 213. Connection.close() returned 
+2024-10-08 07:43:04.249  INFO - 213. Connection closed. {executed in 0ms} 
+2024-10-08 07:43:04.249  INFO - 213. Connection.close() returned 
+2024-10-08 07:43:04.254  INFO - 223. Connection opened. {executed in 5ms} 
+2024-10-08 07:43:04.254  INFO - 223. Connection.new Connection returned 
+2024-10-08 07:43:04.254  INFO - 223. Connection.isReadOnly() returned false
+2024-10-08 07:43:04.254  INFO - 223. Connection.getAutoCommit() returned true
+2024-10-08 07:43:06.791  INFO - 217. Connection.isClosed() returned false
+2024-10-08 07:43:06.791  INFO - 217. Connection closed. {executed in 0ms} 
+2024-10-08 07:43:06.791  INFO - 217. Connection.close() returned 
+2024-10-08 07:43:06.791  INFO - 217. Connection closed. {executed in 0ms} 
+2024-10-08 07:43:06.791  INFO - 217. Connection.close() returned 
+2024-10-08 07:43:06.794  INFO - 224. Connection opened. {executed in 3ms} 
+2024-10-08 07:43:06.794  INFO - 224. Connection.new Connection returned 
+2024-10-08 07:43:06.794  INFO - 224. Connection.isReadOnly() returned false
+2024-10-08 07:43:06.794  INFO - 224. Connection.getAutoCommit() returned true
+2024-10-08 07:43:23.446  INFO - 216. Connection.isClosed() returned false
+2024-10-08 07:43:23.447  INFO - 216. Connection closed. {executed in 0ms} 
+2024-10-08 07:43:23.447  INFO - 216. Connection.close() returned 
+2024-10-08 07:43:23.447  INFO - 216. Connection closed. {executed in 0ms} 
+2024-10-08 07:43:23.447  INFO - 216. Connection.close() returned 
+2024-10-08 07:43:23.451  INFO - 225. Connection opened. {executed in 3ms} 
+2024-10-08 07:43:23.452  INFO - 225. Connection.new Connection returned 
+2024-10-08 07:43:23.452  INFO - 225. Connection.isReadOnly() returned false
+2024-10-08 07:43:23.452  INFO - 225. Connection.getAutoCommit() returned true
+2024-10-08 07:43:27.382  INFO - 214. Connection.isClosed() returned false
+2024-10-08 07:43:27.383  INFO - 214. Connection closed. {executed in 1ms} 
+2024-10-08 07:43:27.383  INFO - 214. Connection.close() returned 
+2024-10-08 07:43:27.383  INFO - 214. Connection closed. {executed in 0ms} 
+2024-10-08 07:43:27.383  INFO - 214. Connection.close() returned 
+2024-10-08 07:43:27.387  INFO - 226. Connection opened. {executed in 4ms} 
+2024-10-08 07:43:27.387  INFO - 226. Connection.new Connection returned 
+2024-10-08 07:43:27.387  INFO - 226. Connection.isReadOnly() returned false
+2024-10-08 07:43:27.387  INFO - 226. Connection.getAutoCommit() returned true
+2024-10-08 07:43:31.641  INFO - 215. Connection.isClosed() returned false
+2024-10-08 07:43:31.641  INFO - 215. Connection closed. {executed in 0ms} 
+2024-10-08 07:43:31.641  INFO - 215. Connection.close() returned 
+2024-10-08 07:43:31.641  INFO - 215. Connection closed. {executed in 0ms} 
+2024-10-08 07:43:31.641  INFO - 215. Connection.close() returned 
+2024-10-08 07:43:31.644  INFO - 227. Connection opened. {executed in 3ms} 
+2024-10-08 07:43:31.644  INFO - 227. Connection.new Connection returned 
+2024-10-08 07:43:31.644  INFO - 227. Connection.isReadOnly() returned false
+2024-10-08 07:43:31.644  INFO - 227. Connection.getAutoCommit() returned true
+2024-10-08 07:43:38.478  INFO - 220. Connection.isClosed() returned false
+2024-10-08 07:43:38.479  INFO - 220. Connection closed. {executed in 1ms} 
+2024-10-08 07:43:38.479  INFO - 220. Connection.close() returned 
+2024-10-08 07:43:38.479  INFO - 220. Connection closed. {executed in 0ms} 
+2024-10-08 07:43:38.479  INFO - 220. Connection.close() returned 
+2024-10-08 07:43:38.483  INFO - 228. Connection opened. {executed in 4ms} 
+2024-10-08 07:43:38.483  INFO - 228. Connection.new Connection returned 
+2024-10-08 07:43:38.483  INFO - 228. Connection.isReadOnly() returned false
+2024-10-08 07:43:38.483  INFO - 228. Connection.getAutoCommit() returned true
+2024-10-08 07:43:46.466  INFO - 218. Connection.isClosed() returned false
+2024-10-08 07:43:46.467  INFO - 218. Connection closed. {executed in 1ms} 
+2024-10-08 07:43:46.467  INFO - 218. Connection.close() returned 
+2024-10-08 07:43:46.467  INFO - 218. Connection closed. {executed in 0ms} 
+2024-10-08 07:43:46.467  INFO - 218. Connection.close() returned 
+2024-10-08 07:43:46.475  INFO - 229. Connection opened. {executed in 7ms} 
+2024-10-08 07:43:46.475  INFO - 229. Connection.new Connection returned 
+2024-10-08 07:43:46.475  INFO - 229. Connection.isReadOnly() returned false
+2024-10-08 07:43:46.475  INFO - 229. Connection.getAutoCommit() returned true
+2024-10-08 07:44:00.129  INFO - 219. Connection.isClosed() returned false
+2024-10-08 07:44:00.129  INFO - 219. Connection closed. {executed in 0ms} 
+2024-10-08 07:44:00.129  INFO - 219. Connection.close() returned 
+2024-10-08 07:44:00.129  INFO - 219. Connection closed. {executed in 0ms} 
+2024-10-08 07:44:00.129  INFO - 219. Connection.close() returned 
+2024-10-08 07:44:00.135  INFO - 230. Connection opened. {executed in 3ms} 
+2024-10-08 07:44:00.135  INFO - 230. Connection.new Connection returned 
+2024-10-08 07:44:00.135  INFO - 230. Connection.isReadOnly() returned false
+2024-10-08 07:44:00.135  INFO - 230. Connection.getAutoCommit() returned true
+2024-10-08 08:10:52.968  INFO - 221. Connection.isClosed() returned false
+2024-10-08 08:10:52.969  INFO - 221. Connection closed. {executed in 1ms} 
+2024-10-08 08:10:52.969  INFO - 221. Connection.close() returned 
+2024-10-08 08:10:52.969  INFO - 221. Connection closed. {executed in 0ms} 
+2024-10-08 08:10:52.969  INFO - 221. Connection.close() returned 
+2024-10-08 08:10:52.975  INFO - 231. Connection opened. {executed in 5ms} 
+2024-10-08 08:10:52.975  INFO - 231. Connection.new Connection returned 
+2024-10-08 08:10:52.975  INFO - 231. Connection.isReadOnly() returned false
+2024-10-08 08:10:52.975  INFO - 231. Connection.getAutoCommit() returned true
+2024-10-08 08:12:12.929  INFO - 222. Connection.isClosed() returned false
+2024-10-08 08:12:12.930  INFO - 222. Connection closed. {executed in 0ms} 
+2024-10-08 08:12:12.930  INFO - 222. Connection.close() returned 
+2024-10-08 08:12:12.930  INFO - 222. Connection closed. {executed in 0ms} 
+2024-10-08 08:12:12.930  INFO - 222. Connection.close() returned 
+2024-10-08 08:12:12.935  INFO - 232. Connection opened. {executed in 4ms} 
+2024-10-08 08:12:12.935  INFO - 232. Connection.new Connection returned 
+2024-10-08 08:12:12.935  INFO - 232. Connection.isReadOnly() returned false
+2024-10-08 08:12:12.935  INFO - 232. Connection.getAutoCommit() returned true
+2024-10-08 08:12:38.565  INFO - 224. Connection.isClosed() returned false
+2024-10-08 08:12:38.566  INFO - 224. Connection closed. {executed in 0ms} 
+2024-10-08 08:12:38.567  INFO - 224. Connection.close() returned 
+2024-10-08 08:12:38.567  INFO - 224. Connection closed. {executed in 0ms} 
+2024-10-08 08:12:38.567  INFO - 224. Connection.close() returned 
+2024-10-08 08:12:38.573  INFO - 233. Connection opened. {executed in 5ms} 
+2024-10-08 08:12:38.573  INFO - 233. Connection.new Connection returned 
+2024-10-08 08:12:38.574  INFO - 233. Connection.isReadOnly() returned false
+2024-10-08 08:12:38.574  INFO - 233. Connection.getAutoCommit() returned true
+2024-10-08 08:12:42.053  INFO - 223. Connection.isClosed() returned false
+2024-10-08 08:12:42.053  INFO - 223. Connection closed. {executed in 0ms} 
+2024-10-08 08:12:42.053  INFO - 223. Connection.close() returned 
+2024-10-08 08:12:42.053  INFO - 223. Connection closed. {executed in 0ms} 
+2024-10-08 08:12:42.053  INFO - 223. Connection.close() returned 
+2024-10-08 08:12:42.057  INFO - 234. Connection opened. {executed in 3ms} 
+2024-10-08 08:12:42.057  INFO - 234. Connection.new Connection returned 
+2024-10-08 08:12:42.057  INFO - 234. Connection.isReadOnly() returned false
+2024-10-08 08:12:42.057  INFO - 234. Connection.getAutoCommit() returned true
+2024-10-08 08:12:46.811  INFO - 226. Connection.isClosed() returned false
+2024-10-08 08:12:46.811  INFO - 226. Connection closed. {executed in 0ms} 
+2024-10-08 08:12:46.811  INFO - 226. Connection.close() returned 
+2024-10-08 08:12:46.811  INFO - 226. Connection closed. {executed in 0ms} 
+2024-10-08 08:12:46.811  INFO - 226. Connection.close() returned 
+2024-10-08 08:12:46.815  INFO - 235. Connection opened. {executed in 3ms} 
+2024-10-08 08:12:46.815  INFO - 235. Connection.new Connection returned 
+2024-10-08 08:12:46.815  INFO - 235. Connection.isReadOnly() returned false
+2024-10-08 08:12:46.815  INFO - 235. Connection.getAutoCommit() returned true
+2024-10-08 08:13:04.549  INFO - 229. Connection.isClosed() returned false
+2024-10-08 08:13:04.550  INFO - 229. Connection closed. {executed in 1ms} 
+2024-10-08 08:13:04.550  INFO - 229. Connection.close() returned 
+2024-10-08 08:13:04.550  INFO - 229. Connection closed. {executed in 0ms} 
+2024-10-08 08:13:04.550  INFO - 229. Connection.close() returned 
+2024-10-08 08:13:04.555  INFO - 236. Connection opened. {executed in 5ms} 
+2024-10-08 08:13:04.555  INFO - 236. Connection.new Connection returned 
+2024-10-08 08:13:04.556  INFO - 236. Connection.isReadOnly() returned false
+2024-10-08 08:13:04.556  INFO - 236. Connection.getAutoCommit() returned true
+2024-10-08 08:13:07.846  INFO - 228. Connection.isClosed() returned false
+2024-10-08 08:13:07.847  INFO - 228. Connection closed. {executed in 1ms} 
+2024-10-08 08:13:07.847  INFO - 228. Connection.close() returned 
+2024-10-08 08:13:07.847  INFO - 228. Connection closed. {executed in 0ms} 
+2024-10-08 08:13:07.847  INFO - 228. Connection.close() returned 
+2024-10-08 08:13:07.854  INFO - 237. Connection opened. {executed in 7ms} 
+2024-10-08 08:13:07.854  INFO - 237. Connection.new Connection returned 
+2024-10-08 08:13:07.854  INFO - 237. Connection.isReadOnly() returned false
+2024-10-08 08:13:07.854  INFO - 237. Connection.getAutoCommit() returned true
+2024-10-08 08:13:12.268  INFO - 225. Connection.isClosed() returned false
+2024-10-08 08:13:12.268  INFO - 225. Connection closed. {executed in 0ms} 
+2024-10-08 08:13:12.268  INFO - 225. Connection.close() returned 
+2024-10-08 08:13:12.268  INFO - 225. Connection closed. {executed in 0ms} 
+2024-10-08 08:13:12.268  INFO - 225. Connection.close() returned 
+2024-10-08 08:13:12.272  INFO - 238. Connection opened. {executed in 4ms} 
+2024-10-08 08:13:12.272  INFO - 238. Connection.new Connection returned 
+2024-10-08 08:13:12.272  INFO - 238. Connection.isReadOnly() returned false
+2024-10-08 08:13:12.272  INFO - 238. Connection.getAutoCommit() returned true
+2024-10-08 08:13:20.553  INFO - 227. Connection.isClosed() returned false
+2024-10-08 08:13:20.554  INFO - 227. Connection closed. {executed in 1ms} 
+2024-10-08 08:13:20.554  INFO - 227. Connection.close() returned 
+2024-10-08 08:13:20.554  INFO - 227. Connection closed. {executed in 0ms} 
+2024-10-08 08:13:20.554  INFO - 227. Connection.close() returned 
+2024-10-08 08:13:20.560  INFO - 239. Connection opened. {executed in 5ms} 
+2024-10-08 08:13:20.560  INFO - 239. Connection.new Connection returned 
+2024-10-08 08:13:20.560  INFO - 239. Connection.isReadOnly() returned false
+2024-10-08 08:13:20.560  INFO - 239. Connection.getAutoCommit() returned true
+2024-10-08 08:13:23.990  INFO - 230. Connection.isClosed() returned false
+2024-10-08 08:13:23.991  INFO - 230. Connection closed. {executed in 1ms} 
+2024-10-08 08:13:23.991  INFO - 230. Connection.close() returned 
+2024-10-08 08:13:23.991  INFO - 230. Connection closed. {executed in 0ms} 
+2024-10-08 08:13:23.991  INFO - 230. Connection.close() returned 
+2024-10-08 08:13:23.994  INFO - 240. Connection opened. {executed in 3ms} 
+2024-10-08 08:13:23.994  INFO - 240. Connection.new Connection returned 
+2024-10-08 08:13:23.994  INFO - 240. Connection.isReadOnly() returned false
+2024-10-08 08:13:23.994  INFO - 240. Connection.getAutoCommit() returned true
+2024-10-08 08:18:13.148  INFO - Application shutdown requested.
+2024-10-08 08:18:13.149  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 08:18:13.253  INFO - HikariPool-3 - Shutdown initiated...
+2024-10-08 08:18:13.254  INFO - 231. Connection.isClosed() returned false
+2024-10-08 08:18:13.254  INFO - 231. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.255  INFO - 231. Connection.close() returned 
+2024-10-08 08:18:13.255  INFO - 231. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.255  INFO - 231. Connection.close() returned 
+2024-10-08 08:18:13.255  INFO - 232. Connection.isClosed() returned false
+2024-10-08 08:18:13.255  INFO - 232. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.255  INFO - 232. Connection.close() returned 
+2024-10-08 08:18:13.255  INFO - 232. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.255  INFO - 232. Connection.close() returned 
+2024-10-08 08:18:13.255  INFO - 233. Connection.isClosed() returned false
+2024-10-08 08:18:13.255  INFO - 233. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.255  INFO - 233. Connection.close() returned 
+2024-10-08 08:18:13.255  INFO - 233. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.255  INFO - 233. Connection.close() returned 
+2024-10-08 08:18:13.255  INFO - 234. Connection.isClosed() returned false
+2024-10-08 08:18:13.256  INFO - 234. Connection closed. {executed in 1ms} 
+2024-10-08 08:18:13.256  INFO - 234. Connection.close() returned 
+2024-10-08 08:18:13.256  INFO - 234. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.256  INFO - 234. Connection.close() returned 
+2024-10-08 08:18:13.256  INFO - 235. Connection.isClosed() returned false
+2024-10-08 08:18:13.256  INFO - 235. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.256  INFO - 235. Connection.close() returned 
+2024-10-08 08:18:13.256  INFO - 235. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.256  INFO - 235. Connection.close() returned 
+2024-10-08 08:18:13.256  INFO - 236. Connection.isClosed() returned false
+2024-10-08 08:18:13.256  INFO - 236. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.256  INFO - 236. Connection.close() returned 
+2024-10-08 08:18:13.256  INFO - 236. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.256  INFO - 236. Connection.close() returned 
+2024-10-08 08:18:13.256  INFO - 237. Connection.isClosed() returned false
+2024-10-08 08:18:13.257  INFO - 237. Connection closed. {executed in 1ms} 
+2024-10-08 08:18:13.257  INFO - 237. Connection.close() returned 
+2024-10-08 08:18:13.257  INFO - 237. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.257  INFO - 237. Connection.close() returned 
+2024-10-08 08:18:13.257  INFO - 238. Connection.isClosed() returned false
+2024-10-08 08:18:13.257  INFO - 238. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.257  INFO - 238. Connection.close() returned 
+2024-10-08 08:18:13.257  INFO - 238. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.257  INFO - 238. Connection.close() returned 
+2024-10-08 08:18:13.257  INFO - 239. Connection.isClosed() returned false
+2024-10-08 08:18:13.257  INFO - 239. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.257  INFO - 239. Connection.close() returned 
+2024-10-08 08:18:13.257  INFO - 239. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.257  INFO - 239. Connection.close() returned 
+2024-10-08 08:18:13.257  INFO - 240. Connection.isClosed() returned false
+2024-10-08 08:18:13.258  INFO - 240. Connection closed. {executed in 1ms} 
+2024-10-08 08:18:13.258  INFO - 240. Connection.close() returned 
+2024-10-08 08:18:13.258  INFO - 240. Connection closed. {executed in 0ms} 
+2024-10-08 08:18:13.258  INFO - 240. Connection.close() returned 
+2024-10-08 08:18:13.258  INFO - HikariPool-3 - Shutdown completed.
+2024-10-08 15:58:04.851  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 15:58:04.863  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 15:58:04.922  INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-08 15:58:04.923  INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-08 15:58:06.505  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 15:58:06.519  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 15:58:06.524  INFO - Starting service [Tomcat]
+2024-10-08 15:58:06.525  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 15:58:06.624  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 15:58:06.625  INFO - Root WebApplicationContext: initialization completed in 1701 ms
+2024-10-08 15:58:07.328  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 15:58:07.810  INFO - LiveReload server is running on port 35729
+2024-10-08 15:58:07.831  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 15:58:07.899  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 15:58:07.916  INFO - Started SecurityApplication in 3.708 seconds (process running for 5.131)
+2024-10-08 15:59:27.758  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-08 15:59:27.759  INFO - Initializing Servlet 'dispatcherServlet'
+2024-10-08 15:59:27.761  INFO - Completed initialization in 2 ms
+2024-10-08 15:59:27.972  INFO - HikariPool-1 - Starting...
+2024-10-08 15:59:28.241  INFO - 1. Connection opened. {executed in 229ms} 
+2024-10-08 15:59:28.242  INFO - 1. Connection.new Connection returned 
+2024-10-08 15:59:28.242  INFO - 1. Connection.getNetworkTimeout() returned 0
+2024-10-08 15:59:28.243  INFO - 1. Connection.isReadOnly() returned false
+2024-10-08 15:59:28.243  INFO - 1. Connection.getAutoCommit() returned true
+2024-10-08 15:59:28.244  INFO - 1. Connection.isValid(1) returned true
+2024-10-08 15:59:28.244  INFO - 1. Connection.getTransactionIsolation() returned 4
+2024-10-08 15:59:28.245  INFO - HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@4b94934f
+2024-10-08 15:59:28.248  INFO - HikariPool-1 - Start completed.
+2024-10-08 15:59:28.251  INFO - 1. Connection.getAutoCommit() returned true
+2024-10-08 15:59:28.266  INFO - 1. PreparedStatement.new PreparedStatement returned 
+2024-10-08 15:59:28.267  INFO - 1. Connection.prepareStatement(SELECT ID, USERNAME, PASSWORD, ROLE FROM USER WHERE USERNAME = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4ba4c952
+2024-10-08 15:59:28.270  INFO - 1. PreparedStatement.setString(1, "njlee") returned 
+2024-10-08 15:59:28.315  INFO - 1. SELECT ID, USERNAME, PASSWORD, ROLE FROM USER WHERE USERNAME = 'njlee'  {executed in 44 ms}
+2024-10-08 15:59:28.315  INFO - 1. PreparedStatement.execute() returned true
+2024-10-08 15:59:28.319  INFO - 1. ResultSet.new ResultSet returned 
+2024-10-08 15:59:28.319  INFO - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@20186e9e
+2024-10-08 15:59:28.323  INFO - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@259099ff - Field level information: 
+	com.mysql.cj.result.Field@2b67aef4[dbName=poglog,tableName=USER,originalTableName=user,columnName=ID,originalColumnName=ID,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@1956479f[dbName=poglog,tableName=USER,originalTableName=user,columnName=USERNAME,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@af6963d[dbName=poglog,tableName=USER,originalTableName=user,columnName=PASSWORD,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@2b08a9fd[dbName=poglog,tableName=USER,originalTableName=user,columnName=ROLE,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+2024-10-08 15:59:28.325  INFO - 1. ResultSet.getType() returned 1003
+2024-10-08 15:59:28.325  INFO - 1. ResultSet.isClosed() returned false
+2024-10-08 15:59:28.325  INFO - 1. ResultSet.next() returned true
+2024-10-08 15:59:28.328  INFO - 1. ResultSet.getString(ID) returned 10
+2024-10-08 15:59:28.328  INFO - 1. ResultSet.getString(USERNAME) returned njlee
+2024-10-08 15:59:28.328  INFO - 1. ResultSet.getString(PASSWORD) returned $2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi
+2024-10-08 15:59:28.328  INFO - 1. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-08 15:59:28.328  INFO - 1. ResultSet.isClosed() returned false
+2024-10-08 15:59:28.331  INFO - 
+|---|---------|-------------------------------------------------------------|-----------|
+|id |username |password                                                     |role       |
+|---|---------|-------------------------------------------------------------|-----------|
+|10 |njlee    |$2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi |ROLE_ADMIN |
+|---|---------|-------------------------------------------------------------|-----------|
+
+2024-10-08 15:59:28.331  INFO - 1. ResultSet.next() returned false
+2024-10-08 15:59:28.331  INFO - 1. ResultSet.close() returned void
+2024-10-08 15:59:28.331  INFO - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@6d8f508
+2024-10-08 15:59:28.334  INFO - 1. PreparedStatement.getMoreResults() returned false
+2024-10-08 15:59:28.334  INFO - 1. PreparedStatement.getUpdateCount() returned -1
+2024-10-08 15:59:28.335  INFO - 1. PreparedStatement.close() returned 
+2024-10-08 15:59:28.341  INFO - 1. Connection.clearWarnings() returned 
+2024-10-08 15:59:28.371  INFO - 2. Connection opened. {executed in 12ms} 
+2024-10-08 15:59:28.372  INFO - 2. Connection.new Connection returned 
+2024-10-08 15:59:28.372  INFO - 2. Connection.isReadOnly() returned false
+2024-10-08 15:59:28.372  INFO - 2. Connection.getAutoCommit() returned true
+2024-10-08 15:59:28.422  INFO - 3. Connection opened. {executed in 5ms} 
+2024-10-08 15:59:28.422  INFO - 3. Connection.new Connection returned 
+2024-10-08 15:59:28.422  INFO - 3. Connection.isReadOnly() returned false
+2024-10-08 15:59:28.422  INFO - 3. Connection.getAutoCommit() returned true
+2024-10-08 15:59:28.448  INFO - 로그인 성공
+2024-10-08 15:59:28.468  INFO - 4. Connection opened. {executed in 3ms} 
+2024-10-08 15:59:28.468  INFO - 4. Connection.new Connection returned 
+2024-10-08 15:59:28.468  INFO - 4. Connection.isReadOnly() returned false
+2024-10-08 15:59:28.468  INFO - 4. Connection.getAutoCommit() returned true
+2024-10-08 15:59:28.514  INFO - 5. Connection opened. {executed in 4ms} 
+2024-10-08 15:59:28.514  INFO - 5. Connection.new Connection returned 
+2024-10-08 15:59:28.514  INFO - 5. Connection.isReadOnly() returned false
+2024-10-08 15:59:28.514  INFO - 5. Connection.getAutoCommit() returned true
+2024-10-08 15:59:28.562  INFO - 6. Connection opened. {executed in 4ms} 
+2024-10-08 15:59:28.562  INFO - 6. Connection.new Connection returned 
+2024-10-08 15:59:28.562  INFO - 6. Connection.isReadOnly() returned false
+2024-10-08 15:59:28.562  INFO - 6. Connection.getAutoCommit() returned true
+2024-10-08 15:59:28.608  INFO - 7. Connection opened. {executed in 4ms} 
+2024-10-08 15:59:28.608  INFO - 7. Connection.new Connection returned 
+2024-10-08 15:59:28.608  INFO - 7. Connection.isReadOnly() returned false
+2024-10-08 15:59:28.608  INFO - 7. Connection.getAutoCommit() returned true
+2024-10-08 15:59:28.654  INFO - 8. Connection opened. {executed in 3ms} 
+2024-10-08 15:59:28.655  INFO - 8. Connection.new Connection returned 
+2024-10-08 15:59:28.655  INFO - 8. Connection.isReadOnly() returned false
+2024-10-08 15:59:28.655  INFO - 8. Connection.getAutoCommit() returned true
+2024-10-08 15:59:28.703  INFO - 9. Connection opened. {executed in 4ms} 
+2024-10-08 15:59:28.703  INFO - 9. Connection.new Connection returned 
+2024-10-08 15:59:28.703  INFO - 9. Connection.isReadOnly() returned false
+2024-10-08 15:59:28.703  INFO - 9. Connection.getAutoCommit() returned true
+2024-10-08 15:59:28.750  INFO - 10. Connection opened. {executed in 4ms} 
+2024-10-08 15:59:28.750  INFO - 10. Connection.new Connection returned 
+2024-10-08 15:59:28.750  INFO - 10. Connection.isReadOnly() returned false
+2024-10-08 15:59:28.750  INFO - 10. Connection.getAutoCommit() returned true
+2024-10-08 16:00:11.978  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-08 16:00:11.982  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:12.075  INFO - HikariPool-1 - Shutdown initiated...
+2024-10-08 16:00:12.077  INFO - 1. Connection.isClosed() returned false
+2024-10-08 16:00:12.083  INFO - 1. Connection closed. {executed in 6ms} 
+2024-10-08 16:00:12.083  INFO - 1. Connection.close() returned 
+2024-10-08 16:00:12.083  INFO - 1. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.083  INFO - 1. Connection.close() returned 
+2024-10-08 16:00:12.083  INFO - 2. Connection.isClosed() returned false
+2024-10-08 16:00:12.084  INFO - 2. Connection closed. {executed in 1ms} 
+2024-10-08 16:00:12.084  INFO - 2. Connection.close() returned 
+2024-10-08 16:00:12.085  INFO - 2. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.085  INFO - 2. Connection.close() returned 
+2024-10-08 16:00:12.085  INFO - 3. Connection.isClosed() returned false
+2024-10-08 16:00:12.085  INFO - 3. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.086  INFO - 3. Connection.close() returned 
+2024-10-08 16:00:12.086  INFO - 3. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.086  INFO - 3. Connection.close() returned 
+2024-10-08 16:00:12.086  INFO - 4. Connection.isClosed() returned false
+2024-10-08 16:00:12.087  INFO - 4. Connection closed. {executed in 1ms} 
+2024-10-08 16:00:12.087  INFO - 4. Connection.close() returned 
+2024-10-08 16:00:12.087  INFO - 4. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.088  INFO - 4. Connection.close() returned 
+2024-10-08 16:00:12.088  INFO - 5. Connection.isClosed() returned false
+2024-10-08 16:00:12.089  INFO - 5. Connection closed. {executed in 1ms} 
+2024-10-08 16:00:12.089  INFO - 5. Connection.close() returned 
+2024-10-08 16:00:12.089  INFO - 5. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.089  INFO - 5. Connection.close() returned 
+2024-10-08 16:00:12.089  INFO - 6. Connection.isClosed() returned false
+2024-10-08 16:00:12.090  INFO - 6. Connection closed. {executed in 1ms} 
+2024-10-08 16:00:12.090  INFO - 6. Connection.close() returned 
+2024-10-08 16:00:12.090  INFO - 6. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.090  INFO - 6. Connection.close() returned 
+2024-10-08 16:00:12.090  INFO - 7. Connection.isClosed() returned false
+2024-10-08 16:00:12.091  INFO - 7. Connection closed. {executed in 1ms} 
+2024-10-08 16:00:12.091  INFO - 7. Connection.close() returned 
+2024-10-08 16:00:12.091  INFO - 7. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.092  INFO - 7. Connection.close() returned 
+2024-10-08 16:00:12.092  INFO - 8. Connection.isClosed() returned false
+2024-10-08 16:00:12.093  INFO - 8. Connection closed. {executed in 1ms} 
+2024-10-08 16:00:12.094  INFO - 8. Connection.close() returned 
+2024-10-08 16:00:12.094  INFO - 8. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.094  INFO - 8. Connection.close() returned 
+2024-10-08 16:00:12.094  INFO - 9. Connection.isClosed() returned false
+2024-10-08 16:00:12.095  INFO - 9. Connection closed. {executed in 1ms} 
+2024-10-08 16:00:12.096  INFO - 9. Connection.close() returned 
+2024-10-08 16:00:12.096  INFO - 9. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.096  INFO - 9. Connection.close() returned 
+2024-10-08 16:00:12.096  INFO - 10. Connection.isClosed() returned false
+2024-10-08 16:00:12.097  INFO - 10. Connection closed. {executed in 1ms} 
+2024-10-08 16:00:12.097  INFO - 10. Connection.close() returned 
+2024-10-08 16:00:12.097  INFO - 10. Connection closed. {executed in 0ms} 
+2024-10-08 16:00:12.097  INFO - 10. Connection.close() returned 
+2024-10-08 16:00:12.097  INFO - HikariPool-1 - Shutdown completed.
+2024-10-08 16:00:12.258  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 16:00:12.258  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 16:00:12.622  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 16:00:12.623  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:12.624  INFO - Starting service [Tomcat]
+2024-10-08 16:00:12.625  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 16:00:12.674  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 16:00:12.674  INFO - Root WebApplicationContext: initialization completed in 413 ms
+2024-10-08 16:00:12.776  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 16:00:12.936  INFO - LiveReload server is running on port 35729
+2024-10-08 16:00:12.946  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:12.954  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 16:00:12.963  INFO - Started SecurityApplication in 0.797 seconds (process running for 130.178)
+2024-10-08 16:00:12.975  INFO - Condition evaluation unchanged
+2024-10-08 16:00:15.405  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-08 16:00:15.411  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:15.612  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 16:00:15.612  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 16:00:15.903  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 16:00:15.903  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:15.904  INFO - Starting service [Tomcat]
+2024-10-08 16:00:15.904  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 16:00:15.956  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 16:00:15.956  INFO - Root WebApplicationContext: initialization completed in 339 ms
+2024-10-08 16:00:16.047  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 16:00:16.141  INFO - LiveReload server is running on port 35729
+2024-10-08 16:00:16.149  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:16.159  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 16:00:16.170  INFO - Started SecurityApplication in 0.616 seconds (process running for 133.385)
+2024-10-08 16:00:16.172  INFO - Condition evaluation unchanged
+2024-10-08 16:00:19.661  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-08 16:00:19.663  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:19.826  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 16:00:19.827  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 16:00:20.093  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 16:00:20.094  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:20.095  INFO - Starting service [Tomcat]
+2024-10-08 16:00:20.095  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 16:00:20.148  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 16:00:20.148  INFO - Root WebApplicationContext: initialization completed in 318 ms
+2024-10-08 16:00:20.222  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 16:00:20.319  INFO - LiveReload server is running on port 35729
+2024-10-08 16:00:20.326  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:20.336  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 16:00:20.346  INFO - Started SecurityApplication in 0.555 seconds (process running for 137.561)
+2024-10-08 16:00:20.348  INFO - Condition evaluation unchanged
+2024-10-08 16:00:39.258  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-08 16:00:39.260  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:39.425  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 16:00:39.426  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 16:00:39.683  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 16:00:39.684  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:39.685  INFO - Starting service [Tomcat]
+2024-10-08 16:00:39.685  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 16:00:39.727  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 16:00:39.727  INFO - Root WebApplicationContext: initialization completed in 298 ms
+2024-10-08 16:00:39.805  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 16:00:39.902  INFO - LiveReload server is running on port 35729
+2024-10-08 16:00:39.909  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:00:39.919  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 16:00:39.934  INFO - Started SecurityApplication in 0.542 seconds (process running for 157.149)
+2024-10-08 16:00:39.935  INFO - Condition evaluation unchanged
+2024-10-08 16:01:00.909  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-08 16:01:00.912  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:01:01.085  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 16:01:01.086  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 16:01:01.375  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 16:01:01.375  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:01:01.376  INFO - Starting service [Tomcat]
+2024-10-08 16:01:01.376  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 16:01:01.423  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 16:01:01.424  INFO - Root WebApplicationContext: initialization completed in 335 ms
+2024-10-08 16:01:01.503  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 16:01:01.605  INFO - LiveReload server is running on port 35729
+2024-10-08 16:01:01.613  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:01:01.622  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 16:01:01.631  INFO - Started SecurityApplication in 0.579 seconds (process running for 178.847)
+2024-10-08 16:01:01.633  INFO - Condition evaluation unchanged
+2024-10-08 16:01:10.244  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-08 16:01:10.244  INFO - Initializing Servlet 'dispatcherServlet'
+2024-10-08 16:01:10.245  INFO - Completed initialization in 1 ms
+2024-10-08 16:01:10.354  INFO - HikariPool-2 - Starting...
+2024-10-08 16:01:10.359  INFO - 11. Connection opened. {executed in 4ms} 
+2024-10-08 16:01:10.359  INFO - 11. Connection.new Connection returned 
+2024-10-08 16:01:10.359  INFO - 11. Connection.getNetworkTimeout() returned 0
+2024-10-08 16:01:10.359  INFO - 11. Connection.isReadOnly() returned false
+2024-10-08 16:01:10.360  INFO - 11. Connection.getAutoCommit() returned true
+2024-10-08 16:01:10.360  INFO - 11. Connection.isValid(1) returned true
+2024-10-08 16:01:10.360  INFO - 11. Connection.getTransactionIsolation() returned 4
+2024-10-08 16:01:10.361  INFO - HikariPool-2 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@482b75dd
+2024-10-08 16:01:10.361  INFO - HikariPool-2 - Start completed.
+2024-10-08 16:01:10.361  INFO - 11. Connection.getAutoCommit() returned true
+2024-10-08 16:01:10.361  INFO - 11. PreparedStatement.new PreparedStatement returned 
+2024-10-08 16:01:10.361  INFO - 11. Connection.prepareStatement(SELECT ID, USERNAME, PASSWORD, ROLE FROM USER WHERE USERNAME = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@32cae09e
+2024-10-08 16:01:10.361  INFO - 11. PreparedStatement.setString(1, "njlee") returned 
+2024-10-08 16:01:10.362  INFO - 11. SELECT ID, USERNAME, PASSWORD, ROLE FROM USER WHERE USERNAME = 'njlee'  {executed in 1 ms}
+2024-10-08 16:01:10.362  INFO - 11. PreparedStatement.execute() returned true
+2024-10-08 16:01:10.363  INFO - 11. ResultSet.new ResultSet returned 
+2024-10-08 16:01:10.363  INFO - 11. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@49b4b888
+2024-10-08 16:01:10.363  INFO - 11. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@40396a41 - Field level information: 
+	com.mysql.cj.result.Field@532f7a06[dbName=poglog,tableName=USER,originalTableName=user,columnName=ID,originalColumnName=ID,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@3684beed[dbName=poglog,tableName=USER,originalTableName=user,columnName=USERNAME,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@5a98204d[dbName=poglog,tableName=USER,originalTableName=user,columnName=PASSWORD,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@5178323d[dbName=poglog,tableName=USER,originalTableName=user,columnName=ROLE,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+2024-10-08 16:01:10.363  INFO - 11. ResultSet.getType() returned 1003
+2024-10-08 16:01:10.363  INFO - 11. ResultSet.isClosed() returned false
+2024-10-08 16:01:10.363  INFO - 11. ResultSet.next() returned true
+2024-10-08 16:01:10.363  INFO - 11. ResultSet.getString(ID) returned 10
+2024-10-08 16:01:10.363  INFO - 11. ResultSet.getString(USERNAME) returned njlee
+2024-10-08 16:01:10.363  INFO - 11. ResultSet.getString(PASSWORD) returned $2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi
+2024-10-08 16:01:10.363  INFO - 11. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-08 16:01:10.364  INFO - 11. ResultSet.isClosed() returned false
+2024-10-08 16:01:10.364  INFO - 
+|---|---------|-------------------------------------------------------------|-----------|
+|id |username |password                                                     |role       |
+|---|---------|-------------------------------------------------------------|-----------|
+|10 |njlee    |$2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi |ROLE_ADMIN |
+|---|---------|-------------------------------------------------------------|-----------|
+
+2024-10-08 16:01:10.364  INFO - 11. ResultSet.next() returned false
+2024-10-08 16:01:10.364  INFO - 11. ResultSet.close() returned void
+2024-10-08 16:01:10.364  INFO - 11. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@6acf3740
+2024-10-08 16:01:10.364  INFO - 11. PreparedStatement.getMoreResults() returned false
+2024-10-08 16:01:10.365  INFO - 11. PreparedStatement.getUpdateCount() returned -1
+2024-10-08 16:01:10.365  INFO - 11. PreparedStatement.close() returned 
+2024-10-08 16:01:10.365  INFO - 11. Connection.clearWarnings() returned 
+2024-10-08 16:01:10.473  INFO - 로그인 성공 username=njlee role=ROLE_ADMIN token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im5qbGVlIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpYXQiOjE3MjgzNzA4NzAsImV4cCI6MTcyODM3MDkwNn0.2HlRyMyWcB0cD82Bc8S9WMqTkwivmpHLAgoYocoqYDc
+2024-10-08 16:01:10.482  INFO - 12. Connection opened. {executed in 5ms} 
+2024-10-08 16:01:10.482  INFO - 12. Connection.new Connection returned 
+2024-10-08 16:01:10.483  INFO - 12. Connection.isReadOnly() returned false
+2024-10-08 16:01:10.483  INFO - 12. Connection.getAutoCommit() returned true
+2024-10-08 16:01:10.525  INFO - 13. Connection opened. {executed in 3ms} 
+2024-10-08 16:01:10.525  INFO - 13. Connection.new Connection returned 
+2024-10-08 16:01:10.525  INFO - 13. Connection.isReadOnly() returned false
+2024-10-08 16:01:10.525  INFO - 13. Connection.getAutoCommit() returned true
+2024-10-08 16:01:10.570  INFO - 14. Connection opened. {executed in 3ms} 
+2024-10-08 16:01:10.571  INFO - 14. Connection.new Connection returned 
+2024-10-08 16:01:10.571  INFO - 14. Connection.isReadOnly() returned false
+2024-10-08 16:01:10.571  INFO - 14. Connection.getAutoCommit() returned true
+2024-10-08 16:01:10.616  INFO - 15. Connection opened. {executed in 3ms} 
+2024-10-08 16:01:10.616  INFO - 15. Connection.new Connection returned 
+2024-10-08 16:01:10.616  INFO - 15. Connection.isReadOnly() returned false
+2024-10-08 16:01:10.616  INFO - 15. Connection.getAutoCommit() returned true
+2024-10-08 16:01:10.662  INFO - 16. Connection opened. {executed in 3ms} 
+2024-10-08 16:01:10.662  INFO - 16. Connection.new Connection returned 
+2024-10-08 16:01:10.662  INFO - 16. Connection.isReadOnly() returned false
+2024-10-08 16:01:10.662  INFO - 16. Connection.getAutoCommit() returned true
+2024-10-08 16:01:10.710  INFO - 17. Connection opened. {executed in 4ms} 
+2024-10-08 16:01:10.710  INFO - 17. Connection.new Connection returned 
+2024-10-08 16:01:10.710  INFO - 17. Connection.isReadOnly() returned false
+2024-10-08 16:01:10.710  INFO - 17. Connection.getAutoCommit() returned true
+2024-10-08 16:01:10.757  INFO - 18. Connection opened. {executed in 4ms} 
+2024-10-08 16:01:10.757  INFO - 18. Connection.new Connection returned 
+2024-10-08 16:01:10.757  INFO - 18. Connection.isReadOnly() returned false
+2024-10-08 16:01:10.758  INFO - 18. Connection.getAutoCommit() returned true
+2024-10-08 16:01:10.804  INFO - 19. Connection opened. {executed in 4ms} 
+2024-10-08 16:01:10.804  INFO - 19. Connection.new Connection returned 
+2024-10-08 16:01:10.804  INFO - 19. Connection.isReadOnly() returned false
+2024-10-08 16:01:10.804  INFO - 19. Connection.getAutoCommit() returned true
+2024-10-08 16:01:10.849  INFO - 20. Connection opened. {executed in 3ms} 
+2024-10-08 16:01:10.850  INFO - 20. Connection.new Connection returned 
+2024-10-08 16:01:10.850  INFO - 20. Connection.isReadOnly() returned false
+2024-10-08 16:01:10.850  INFO - 20. Connection.getAutoCommit() returned true
+2024-10-08 16:25:03.368  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-08 16:25:03.376  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:03.503  INFO - HikariPool-2 - Shutdown initiated...
+2024-10-08 16:25:03.508  INFO - 11. Connection.isClosed() returned false
+2024-10-08 16:25:03.511  INFO - 11. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:03.511  INFO - 11. Connection.close() returned 
+2024-10-08 16:25:03.511  INFO - 11. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.511  INFO - 11. Connection.close() returned 
+2024-10-08 16:25:03.513  INFO - 12. Connection.isClosed() returned false
+2024-10-08 16:25:03.514  INFO - 12. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:03.514  INFO - 12. Connection.close() returned 
+2024-10-08 16:25:03.515  INFO - 12. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.515  INFO - 12. Connection.close() returned 
+2024-10-08 16:25:03.515  INFO - 13. Connection.isClosed() returned false
+2024-10-08 16:25:03.519  INFO - 13. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.522  INFO - 13. Connection.close() returned 
+2024-10-08 16:25:03.522  INFO - 13. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.523  INFO - 13. Connection.close() returned 
+2024-10-08 16:25:03.523  INFO - 14. Connection.isClosed() returned false
+2024-10-08 16:25:03.524  INFO - 14. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:03.524  INFO - 14. Connection.close() returned 
+2024-10-08 16:25:03.524  INFO - 14. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.525  INFO - 14. Connection.close() returned 
+2024-10-08 16:25:03.525  INFO - 15. Connection.isClosed() returned false
+2024-10-08 16:25:03.526  INFO - 15. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.526  INFO - 15. Connection.close() returned 
+2024-10-08 16:25:03.526  INFO - 15. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.526  INFO - 15. Connection.close() returned 
+2024-10-08 16:25:03.526  INFO - 16. Connection.isClosed() returned false
+2024-10-08 16:25:03.527  INFO - 16. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:03.527  INFO - 16. Connection.close() returned 
+2024-10-08 16:25:03.528  INFO - 16. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.528  INFO - 16. Connection.close() returned 
+2024-10-08 16:25:03.528  INFO - 17. Connection.isClosed() returned false
+2024-10-08 16:25:03.529  INFO - 17. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:03.529  INFO - 17. Connection.close() returned 
+2024-10-08 16:25:03.529  INFO - 17. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.529  INFO - 17. Connection.close() returned 
+2024-10-08 16:25:03.529  INFO - 18. Connection.isClosed() returned false
+2024-10-08 16:25:03.530  INFO - 18. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.530  INFO - 18. Connection.close() returned 
+2024-10-08 16:25:03.531  INFO - 18. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.531  INFO - 18. Connection.close() returned 
+2024-10-08 16:25:03.531  INFO - 19. Connection.isClosed() returned false
+2024-10-08 16:25:03.532  INFO - 19. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:03.532  INFO - 19. Connection.close() returned 
+2024-10-08 16:25:03.532  INFO - 19. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.532  INFO - 19. Connection.close() returned 
+2024-10-08 16:25:03.534  INFO - 20. Connection.isClosed() returned false
+2024-10-08 16:25:03.536  INFO - 20. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:03.536  INFO - 20. Connection.close() returned 
+2024-10-08 16:25:03.536  INFO - 20. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:03.536  INFO - 20. Connection.close() returned 
+2024-10-08 16:25:03.537  INFO - HikariPool-2 - Shutdown completed.
+2024-10-08 16:25:03.625  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 16:25:03.626  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 16:25:03.919  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 16:25:03.920  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:03.921  INFO - Starting service [Tomcat]
+2024-10-08 16:25:03.921  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 16:25:03.966  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 16:25:03.966  INFO - Root WebApplicationContext: initialization completed in 338 ms
+2024-10-08 16:25:04.040  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 16:25:04.166  INFO - LiveReload server is running on port 35729
+2024-10-08 16:25:04.174  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:04.182  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 16:25:04.192  INFO - Started SecurityApplication in 0.602 seconds (process running for 1621.381)
+2024-10-08 16:25:04.194  INFO - Condition evaluation unchanged
+2024-10-08 16:25:12.732  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-08 16:25:12.732  INFO - Initializing Servlet 'dispatcherServlet'
+2024-10-08 16:25:12.733  INFO - Completed initialization in 1 ms
+2024-10-08 16:25:12.870  INFO - HikariPool-3 - Starting...
+2024-10-08 16:25:12.875  INFO - 21. Connection opened. {executed in 5ms} 
+2024-10-08 16:25:12.875  INFO - 21. Connection.new Connection returned 
+2024-10-08 16:25:12.875  INFO - 21. Connection.getNetworkTimeout() returned 0
+2024-10-08 16:25:12.876  INFO - 21. Connection.isReadOnly() returned false
+2024-10-08 16:25:12.876  INFO - 21. Connection.getAutoCommit() returned true
+2024-10-08 16:25:12.876  INFO - 21. Connection.isValid(1) returned true
+2024-10-08 16:25:12.876  INFO - 21. Connection.getTransactionIsolation() returned 4
+2024-10-08 16:25:12.877  INFO - HikariPool-3 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@b0c6afd
+2024-10-08 16:25:12.877  INFO - HikariPool-3 - Start completed.
+2024-10-08 16:25:12.877  INFO - 21. Connection.getAutoCommit() returned true
+2024-10-08 16:25:12.877  INFO - 21. PreparedStatement.new PreparedStatement returned 
+2024-10-08 16:25:12.877  INFO - 21. Connection.prepareStatement(SELECT ID, USERNAME, PASSWORD, ROLE FROM USER WHERE USERNAME = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@31a4515
+2024-10-08 16:25:12.877  INFO - 21. PreparedStatement.setString(1, "njlee") returned 
+2024-10-08 16:25:12.881  INFO - 21. SELECT ID, USERNAME, PASSWORD, ROLE FROM USER WHERE USERNAME = 'njlee'  {executed in 3 ms}
+2024-10-08 16:25:12.881  INFO - 21. PreparedStatement.execute() returned true
+2024-10-08 16:25:12.881  INFO - 21. ResultSet.new ResultSet returned 
+2024-10-08 16:25:12.881  INFO - 21. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@739e035e
+2024-10-08 16:25:12.881  INFO - 21. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@524d8d4d - Field level information: 
+	com.mysql.cj.result.Field@3a7e4e7b[dbName=poglog,tableName=USER,originalTableName=user,columnName=ID,originalColumnName=ID,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@6b1d86cc[dbName=poglog,tableName=USER,originalTableName=user,columnName=USERNAME,originalColumnName=USERNAME,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@689aec02[dbName=poglog,tableName=USER,originalTableName=user,columnName=PASSWORD,originalColumnName=PASSWORD,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+	com.mysql.cj.result.Field@560333b9[dbName=poglog,tableName=USER,originalTableName=user,columnName=ROLE,originalColumnName=ROLE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=224, charsetName=UTF-8]
+2024-10-08 16:25:12.881  INFO - 21. ResultSet.getType() returned 1003
+2024-10-08 16:25:12.881  INFO - 21. ResultSet.isClosed() returned false
+2024-10-08 16:25:12.882  INFO - 21. ResultSet.next() returned true
+2024-10-08 16:25:12.883  INFO - 21. ResultSet.getString(ID) returned 10
+2024-10-08 16:25:12.884  INFO - 21. ResultSet.getString(USERNAME) returned njlee
+2024-10-08 16:25:12.884  INFO - 21. ResultSet.getString(PASSWORD) returned $2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi
+2024-10-08 16:25:12.884  INFO - 21. ResultSet.getString(ROLE) returned ROLE_ADMIN
+2024-10-08 16:25:12.884  INFO - 21. ResultSet.isClosed() returned false
+2024-10-08 16:25:12.885  INFO - 
+|---|---------|-------------------------------------------------------------|-----------|
+|id |username |password                                                     |role       |
+|---|---------|-------------------------------------------------------------|-----------|
+|10 |njlee    |$2a$10$hZm67uB6w3XbjTPoDbmHOOl3xmzXaASJ.mV9I0.2UBC7KW8Ba/lUi |ROLE_ADMIN |
+|---|---------|-------------------------------------------------------------|-----------|
+
+2024-10-08 16:25:12.885  INFO - 21. ResultSet.next() returned false
+2024-10-08 16:25:12.885  INFO - 21. ResultSet.close() returned void
+2024-10-08 16:25:12.885  INFO - 21. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@196a6c76
+2024-10-08 16:25:12.885  INFO - 21. PreparedStatement.getMoreResults() returned false
+2024-10-08 16:25:12.885  INFO - 21. PreparedStatement.getUpdateCount() returned -1
+2024-10-08 16:25:12.885  INFO - 21. PreparedStatement.close() returned 
+2024-10-08 16:25:12.886  INFO - 21. Connection.clearWarnings() returned 
+2024-10-08 16:25:12.985  INFO - 22. Connection opened. {executed in 6ms} 
+2024-10-08 16:25:12.985  INFO - 22. Connection.new Connection returned 
+2024-10-08 16:25:12.985  INFO - 22. Connection.isReadOnly() returned false
+2024-10-08 16:25:12.985  INFO - 22. Connection.getAutoCommit() returned true
+2024-10-08 16:25:12.992  INFO - 로그인 실패
+2024-10-08 16:25:13.027  INFO - 23. Connection opened. {executed in 3ms} 
+2024-10-08 16:25:13.027  INFO - 23. Connection.new Connection returned 
+2024-10-08 16:25:13.028  INFO - 23. Connection.isReadOnly() returned false
+2024-10-08 16:25:13.028  INFO - 23. Connection.getAutoCommit() returned true
+2024-10-08 16:25:13.075  INFO - 24. Connection opened. {executed in 4ms} 
+2024-10-08 16:25:13.075  INFO - 24. Connection.new Connection returned 
+2024-10-08 16:25:13.075  INFO - 24. Connection.isReadOnly() returned false
+2024-10-08 16:25:13.075  INFO - 24. Connection.getAutoCommit() returned true
+2024-10-08 16:25:13.121  INFO - 25. Connection opened. {executed in 3ms} 
+2024-10-08 16:25:13.121  INFO - 25. Connection.new Connection returned 
+2024-10-08 16:25:13.121  INFO - 25. Connection.isReadOnly() returned false
+2024-10-08 16:25:13.121  INFO - 25. Connection.getAutoCommit() returned true
+2024-10-08 16:25:13.169  INFO - 26. Connection opened. {executed in 4ms} 
+2024-10-08 16:25:13.169  INFO - 26. Connection.new Connection returned 
+2024-10-08 16:25:13.169  INFO - 26. Connection.isReadOnly() returned false
+2024-10-08 16:25:13.169  INFO - 26. Connection.getAutoCommit() returned true
+2024-10-08 16:25:13.218  INFO - 27. Connection opened. {executed in 7ms} 
+2024-10-08 16:25:13.218  INFO - 27. Connection.new Connection returned 
+2024-10-08 16:25:13.218  INFO - 27. Connection.isReadOnly() returned false
+2024-10-08 16:25:13.218  INFO - 27. Connection.getAutoCommit() returned true
+2024-10-08 16:25:13.269  INFO - 28. Connection opened. {executed in 12ms} 
+2024-10-08 16:25:13.269  INFO - 28. Connection.new Connection returned 
+2024-10-08 16:25:13.269  INFO - 28. Connection.isReadOnly() returned false
+2024-10-08 16:25:13.269  INFO - 28. Connection.getAutoCommit() returned true
+2024-10-08 16:25:13.307  INFO - 29. Connection opened. {executed in 3ms} 
+2024-10-08 16:25:13.307  INFO - 29. Connection.new Connection returned 
+2024-10-08 16:25:13.307  INFO - 29. Connection.isReadOnly() returned false
+2024-10-08 16:25:13.308  INFO - 29. Connection.getAutoCommit() returned true
+2024-10-08 16:25:13.355  INFO - 30. Connection opened. {executed in 4ms} 
+2024-10-08 16:25:13.355  INFO - 30. Connection.new Connection returned 
+2024-10-08 16:25:13.355  INFO - 30. Connection.isReadOnly() returned false
+2024-10-08 16:25:13.355  INFO - 30. Connection.getAutoCommit() returned true
+2024-10-08 16:25:31.346  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-08 16:25:31.348  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:31.436  INFO - HikariPool-3 - Shutdown initiated...
+2024-10-08 16:25:31.437  INFO - 21. Connection.isClosed() returned false
+2024-10-08 16:25:31.438  INFO - 21. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:31.438  INFO - 21. Connection.close() returned 
+2024-10-08 16:25:31.438  INFO - 21. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.438  INFO - 21. Connection.close() returned 
+2024-10-08 16:25:31.438  INFO - 22. Connection.isClosed() returned false
+2024-10-08 16:25:31.439  INFO - 22. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:31.439  INFO - 22. Connection.close() returned 
+2024-10-08 16:25:31.439  INFO - 22. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.439  INFO - 22. Connection.close() returned 
+2024-10-08 16:25:31.439  INFO - 23. Connection.isClosed() returned false
+2024-10-08 16:25:31.439  INFO - 23. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.439  INFO - 23. Connection.close() returned 
+2024-10-08 16:25:31.439  INFO - 23. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.439  INFO - 23. Connection.close() returned 
+2024-10-08 16:25:31.439  INFO - 24. Connection.isClosed() returned false
+2024-10-08 16:25:31.441  INFO - 24. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:31.442  INFO - 24. Connection.close() returned 
+2024-10-08 16:25:31.443  INFO - 24. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.443  INFO - 24. Connection.close() returned 
+2024-10-08 16:25:31.443  INFO - 25. Connection.isClosed() returned false
+2024-10-08 16:25:31.444  INFO - 25. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.445  INFO - 25. Connection.close() returned 
+2024-10-08 16:25:31.445  INFO - 25. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.445  INFO - 25. Connection.close() returned 
+2024-10-08 16:25:31.445  INFO - 26. Connection.isClosed() returned false
+2024-10-08 16:25:31.446  INFO - 26. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:31.446  INFO - 26. Connection.close() returned 
+2024-10-08 16:25:31.446  INFO - 26. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.446  INFO - 26. Connection.close() returned 
+2024-10-08 16:25:31.446  INFO - 27. Connection.isClosed() returned false
+2024-10-08 16:25:31.446  INFO - 27. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.446  INFO - 27. Connection.close() returned 
+2024-10-08 16:25:31.447  INFO - 27. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.447  INFO - 27. Connection.close() returned 
+2024-10-08 16:25:31.447  INFO - 28. Connection.isClosed() returned false
+2024-10-08 16:25:31.448  INFO - 28. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:31.449  INFO - 28. Connection.close() returned 
+2024-10-08 16:25:31.450  INFO - 28. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.450  INFO - 28. Connection.close() returned 
+2024-10-08 16:25:31.450  INFO - 29. Connection.isClosed() returned false
+2024-10-08 16:25:31.451  INFO - 29. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:31.451  INFO - 29. Connection.close() returned 
+2024-10-08 16:25:31.451  INFO - 29. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.452  INFO - 29. Connection.close() returned 
+2024-10-08 16:25:31.455  INFO - 30. Connection.isClosed() returned false
+2024-10-08 16:25:31.457  INFO - 30. Connection closed. {executed in 1ms} 
+2024-10-08 16:25:31.458  INFO - 30. Connection.close() returned 
+2024-10-08 16:25:31.458  INFO - 30. Connection closed. {executed in 0ms} 
+2024-10-08 16:25:31.458  INFO - 30. Connection.close() returned 
+2024-10-08 16:25:31.458  INFO - HikariPool-3 - Shutdown completed.
+2024-10-08 16:25:31.541  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 16:25:31.541  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 16:25:31.826  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 16:25:31.827  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:31.827  INFO - Starting service [Tomcat]
+2024-10-08 16:25:31.827  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 16:25:31.873  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 16:25:31.874  INFO - Root WebApplicationContext: initialization completed in 329 ms
+2024-10-08 16:25:31.952  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 16:25:32.052  INFO - LiveReload server is running on port 35729
+2024-10-08 16:25:32.060  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:32.070  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 16:25:32.082  INFO - Started SecurityApplication in 0.574 seconds (process running for 1649.27)
+2024-10-08 16:25:32.085  INFO - Condition evaluation unchanged
+2024-10-08 16:25:37.624  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-08 16:25:37.626  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:37.827  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 16:25:37.827  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 16:25:38.261  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 16:25:38.262  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:38.262  INFO - Starting service [Tomcat]
+2024-10-08 16:25:38.262  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 16:25:38.323  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 16:25:38.323  INFO - Root WebApplicationContext: initialization completed in 491 ms
+2024-10-08 16:25:38.397  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 16:25:38.497  INFO - LiveReload server is running on port 35729
+2024-10-08 16:25:38.505  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:38.516  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 16:25:38.526  INFO - Started SecurityApplication in 0.764 seconds (process running for 1655.714)
+2024-10-08 16:25:38.527  INFO - Condition evaluation unchanged
+2024-10-08 16:25:39.955  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-08 16:25:39.956  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:40.135  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 16:25:40.135  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 16:25:40.407  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 16:25:40.409  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:40.410  INFO - Starting service [Tomcat]
+2024-10-08 16:25:40.410  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 16:25:40.452  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 16:25:40.452  INFO - Root WebApplicationContext: initialization completed in 311 ms
+2024-10-08 16:25:40.529  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 16:25:40.623  INFO - LiveReload server is running on port 35729
+2024-10-08 16:25:40.631  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:40.640  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 16:25:40.650  INFO - Started SecurityApplication in 0.554 seconds (process running for 1657.839)
+2024-10-08 16:25:40.653  INFO - Condition evaluation unchanged
+2024-10-08 16:25:59.633  INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-08 16:25:59.634  INFO - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:25:59.814  INFO - Starting SecurityApplication using Java 17 with PID 3452 (D:\dev\workspace\elespoglog\SpringJWT\target\classes started by 22220252 in D:\dev\workspace\elespoglog\SpringJWT)
+2024-10-08 16:25:59.815  INFO - No active profile set, falling back to 1 default profile: "default"
+2024-10-08 16:26:00.081  INFO - Tomcat initialized with port 8080 (http)
+2024-10-08 16:26:00.082  INFO - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:26:00.082  INFO - Starting service [Tomcat]
+2024-10-08 16:26:00.082  INFO - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-08 16:26:00.132  INFO - Initializing Spring embedded WebApplicationContext
+2024-10-08 16:26:00.132  INFO - Root WebApplicationContext: initialization completed in 314 ms
+2024-10-08 16:26:00.217  INFO - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-08 16:26:00.312  INFO - LiveReload server is running on port 35729
+2024-10-08 16:26:00.320  INFO - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-08 16:26:00.332  INFO - Tomcat started on port 8080 (http) with context path '/'
+2024-10-08 16:26:00.342  INFO - Started SecurityApplication in 0.561 seconds (process running for 1677.529)
+2024-10-08 16:26:00.343  INFO - Condition evaluation unchanged

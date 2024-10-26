@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입 및 로그인 페이지</title>
+    <link rel="stylesheet" href="/html/styles.css" />
+  </head>
+  <body>
+    <!-- 네비게이션 바 -->
+    <nav>
+      <a href="#" data-page="allUsers">모든유저</a> | <a href="#" data-page="loginUsers">로그인유저</a> | <a href="#" data-page="salesUsers">영업유저</a> | <a href="#" data-page="financeUsers">재무유저</a> | <a href="#" data-page="admin">관리자</a> |
+      <a href="#" id="authActionLink" data-page="login">로그인</a>
+      <a href="#" data-page="signup">| 회원가입</a>
+      <div id="userInfo" style="display: none;"></div>
+    </nav>
+    <hr />
+    <!-- 페이지 콘텐츠 -->
+    <div id="content">
+      <!-- 회원가입 페이지 -->
+      <div id="signupPage" class="form-container" style="display: none;">
+        <h2>회원가입</h2>
+        <label for="USERNAME">아이디</label>
+        <input type="text" id="USERNAME" required /><br />
+
+        <label for="PASSWORD">패스워드</label>
+        <input type="password" id="PASSWORD" required /><br />
+
+        <label for="ROLE">권한</label>
+        <select id="ROLE" required>
+          <option value="ROLE_SALE">영업사용자</option>
+          <option value="ROLE_LOGI">물류사용자</option>
+          <option value="ROLE_ACCT">재무사용자</option>
+          <option value="ROLE_ADMIN">관리자</option>
+        </select>
+
+        <button id="registerBtn">회원가입</button>
+
+        <div id="message"></div>
+      </div>
+
+      <!-- 로그인 페이지 -->
+      <div id="loginPage" class="form-container" style="display: none;">
+        <h2>로그인</h2>
+        <label for="loginUsername">아이디</label>
+        <input type="text" id="loginUsername" required /><br />
+
+        <label for="loginPassword">패스워드</label>
+        <input type="password" id="loginPassword" required /><br />
+
+        <button id="loginBtn">로그인</button>
+
+        <div id="loginMessage"></div>
+      </div>
+
+      <!-- 다른 페이지들 -->
+      <div id="allUsersPage" style="display: none;">
+        <h2>모든유저(비로그인 포함) 페이지</h2>
+        <div id="allUsersContent"></div>
+      </div>
+
+      <div id="loginUsersPage" style="display: none;">
+        <h2>로그인유저 페이지</h2>
+        <div id="loginUsersContent"></div>
+      </div>
+      
+      <div id="salesUsersPage" style="display: none;">
+        <h2>영업유저 페이지</h2>
+        <div id="salesUsersContent"></div>
+      </div>
+
+      <div id="financeUsersPage" style="display: none;">
+        <h2>재무유저 페이지</h2>
+        <div id="financeUsersContent"></div>
+      </div>
+
+      <div id="adminPage" style="display: none;">
+        <h2>관리자 페이지</h2>
+        <div id="adminContent"></div>
+      </div>
+    </div>
+    <script src="/html/index.js"></script>
+  </body>
+</html>

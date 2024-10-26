@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: security
+
+  # DB 설정
+  datasource:
+    url: jdbc:mysql://localhost:3306/sts4_samples?serverTimezone=UTC&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: user1
+    password: 1234     
+ 
+# MyBatis 설정
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: mappers/**/*.xml
+ 
+# jwt secret 설정 
+my:
+  jwt:
+    secret: zT7e!9LjI8y&kP12bN8$YkzQ3xF!pAeWzL0xG6uWrPb91MzNvL7@T%4GpR8a
+

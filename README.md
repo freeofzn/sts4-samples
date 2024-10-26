@@ -18,3 +18,4 @@
 | **hello-security**                 | spring security(session) JPA thymeleaf   | 24.05.01 |
 | **hello-file-upload-download**     | 파일 업로드/다운로드 샘플                | 24.05.10 |
 | **hello-security-jwt**             | spring security(jwt) REST 샘플(화면없음) | 24.05.20 |
+| **springboot-security-jwt-mybatis**| spring security(jwt) Mybatis 샘플(화면)  | 24.10.26 |
