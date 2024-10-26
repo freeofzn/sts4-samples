@@ -37,10 +37,8 @@ public class CorsFilter implements Filter {
         final HttpServletResponse response = (HttpServletResponse) res; // ServletResponse를 HttpServletResponse로 캐스팅
         
     	List<String> allowedOrigins = Arrays.asList(
-    	    "http://127.0.0.1:5500", 
-    	    "http://localhost:8080", 
-    	    "https://elespoglog.gabia.io", 
-    	    "http://elespoglog.gabia.io" // 모바일 사파리에서는 http 로 들어온다 !!! 이건 무슨 상황 ???
+    	    "http://localhost:8080",    // 로컬
+    	    "https://my.realserver.com" // 운영
     	);        
 
     	String origin = request.getHeader("Origin");
