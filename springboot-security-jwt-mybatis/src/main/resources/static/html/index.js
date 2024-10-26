@@ -1,8 +1,8 @@
 const getBaseURL = () => {
   if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
-    return "http://localhost:8080";
+    return "http://localhost:8080"; // 로컬 URL
   } else {
-    return "https://elespoglog.gabia.io";
+    return "https://my.realserver.com"; // 운영 URL
   }
 };
 
