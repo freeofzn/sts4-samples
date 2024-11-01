@@ -35,11 +35,12 @@ public class JWTFilter extends OncePerRequestFilter {
         String authorization = request.getHeader("Authorization");
         
         // 2. 인증이 필요 없는 경로 설정 (PERMIT_ALL_URLS에 포함된 경우 필터링 우회)
-        String requestURI = request.getRequestURI();
-        if (Arrays.asList(SecurityConstants.PERMIT_ALL_URLS).contains(requestURI)) {
-            filterChain.doFilter(request, response);
-            return;
-        }        
+// 불필요한 로직 제거(24.11.01)        
+//        String requestURI = request.getRequestURI();
+//        if (Arrays.asList(SecurityConstants.PERMIT_ALL_URLS).contains(requestURI)) {
+//            filterChain.doFilter(request, response);
+//            return;
+//        }        
 
         // 3. 헤더가 비어있거나 Bearer 형식이 아니면 필터 체인 계속 실행 후 종료
         if (authorization == null || !authorization.startsWith("Bearer ")) {
