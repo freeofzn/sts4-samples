@@ -34,7 +34,7 @@ public class RefreshTokenController {
         // 2. 서비스 호출하여 새 토큰 발급
         Map<String, String> tokens = refreshTokenService.reissueTokens(refreshToken);
         if (tokens == null) {
-            return new ResponseEntity<>("Invalid or expired refresh token", HttpStatus.UNAUTHORIZED);
+        	return new ResponseEntity<>("Invalid or expired refresh token", HttpStatus.UNAUTHORIZED);
         }
 
         // 3. Access Token을 헤더에 추가
@@ -66,7 +66,7 @@ public class RefreshTokenController {
     private ResponseCookie createResponseCookie(String key, String value) {
         return ResponseCookie.from(key, value)
                 .httpOnly(true)          // 자바스크립트 접근 차단
-                .maxAge(10 * 60)         // 쿠키 만료 시간: 10분 (600초)
+                .maxAge(60)         // 쿠키 만료 시간: 테스트를 위하여 만료시간을 짧게 설정 = 60초
                 .sameSite("None")        // SameSite 설정
                 .secure(true)            // HTTPS에서만 사용
                 .path("/")               // 경로 설정

@@ -69,7 +69,12 @@ async function fetchPageData(pageId, url, retryCount = 1) {
       document.getElementById(`${pageId}Content`).textContent = JSON.stringify(data);
     } else if (response.status === 401 && retryCount > 0) {
       // Access token이 만료된 경우, 401 상태 코드 확인
-      await reissueToken(); // refresh 토큰으로 access 토큰 재발급
+      const reissueResult = await reissueToken(); // refresh 토큰으로 access 토큰 재발급
+      if(!reissueResult){
+		// refresh 토큰 발급실패시 access 토큰 삭제 -> fetch simple 이 되도록 함!!!
+		console.log('fetchAuth: refresh 토큰 발급 실패하여 access 토큰 삭제');
+        localStorage.removeItem("access_token");
+	  }       
       await fetchPageData(pageId, url, retryCount - 1); // 새로운 토큰으로 재시도
     } else {
       throw new Error("네트워크 응답이 올바르지 않습니다.");
@@ -95,15 +100,20 @@ async function reissueToken() {
         const token = authHeader.split(" ")[1];
         localStorage.setItem("access_token", token); // 재발급 받은 access token 을 localstorage 저장
         console.log("refresh 토큰으로 access 토큰 재발급하여 로컬스토리에 저장완료!!!");
+        return true;
       } else {
         console.log("Authorization 헤더가 없음!!!");
+        return false;
       }
     } else {
       console.log("refresh 토큰으로 access token 발급실패!!!", response.status);
-      throw new Error("토큰 재발급에 실패했습니다.");
+      return false;
+      // throw new Error("토큰 재발급에 실패했습니다.");
     }
   } catch (error) {
-    throw new Error("토큰 재발급에 실패했습니다: " + error.message);
+    //throw new Error("토큰 재발급에 실패했습니다: " + error.message);
+    console.log("refresh 토큰으로 access token 발급실패!!!", response.status);
+    return false;
   }
 }
 

@@ -71,9 +71,9 @@ public class LoginFilter extends UsernamePasswordAuthenticationFilter {
         GrantedAuthority auth = iterator.next();
         String role = auth.getAuthority();
 
-        // 토큰 생성 (테스트를 위하여 만료시간을 짧게 설정 = access: 10초 / refresh: 10분)
+        // 토큰 생성 (테스트를 위하여 만료시간을 짧게 설정 = access: 10초 / refresh: 60초)
         String access = jwtUtil.createJwt("access", username, role, 10 * 1000L);
-        String refresh = jwtUtil.createJwt("refresh", username, role, 600 * 1000L);
+        String refresh = jwtUtil.createJwt("refresh", username, role, 60 * 1000L);
 
         // Refresh 토큰 DB 저장
         RefreshTokenDTO refreshTokenDTO = new RefreshTokenDTO();
@@ -102,7 +102,7 @@ public class LoginFilter extends UsernamePasswordAuthenticationFilter {
     private ResponseCookie createResponseCookie(String key, String value) {
         return ResponseCookie.from(key, value)
                 .httpOnly(true)          // 자바스크립트에서 쿠키 접근 차단 (XSS 방어)
-                .maxAge(10 * 60)         // 쿠키 만료 시간: 10분 (600초)
+                .maxAge(60)              // 쿠키 만료 시간: 테스트를 위하여 만료시간을 짧게 설정 = 60초
                 .sameSite("None")        // 크로스 사이트 요청에서도 쿠키 전송 가능
                 .secure(true)            // HTTPS에서만 사용 (HTTPS 환경에서만 쿠키 전송)
                 .path("/")               // 경로 설정: "/"로 설정하여 모든 경로에서 쿠키 전송
