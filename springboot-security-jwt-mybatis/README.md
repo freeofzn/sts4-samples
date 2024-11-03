@@ -3,8 +3,11 @@
 ## 개요
 
 Spring Boot Security 6 JWT Mybatis 
-- access token / refres token 
-- JPA 안쓰고 Mybatis 사용 
+- access token : 로컬 스토리지 저장
+- refesh token : 쿠키 와 DB 에 저장 
+- access 토큰 만료시 쿠키의 refresh 토큰으로 access/refresh 토큰 재발급
+- 로그아웃 클릭시 DB 의 refresh 토큰과 로컬스토리지의 access 토큰을 삭제
+- JPA 안쓰고 Mybatis 사용
 
 ## 개발환경
 
